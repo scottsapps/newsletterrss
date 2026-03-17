@@ -316,26 +316,23 @@ def text_to_html(text):
     text = re.sub(r"\s*\[\s*https?://\S+?\s*\]", "", text)
     text = strip_invisible_chars(text)
 
-    paragraphs = re.split(r"\n\n+", text.strip())
+    # Split on any newline boundary (handles both single-\n newsletters like
+    # Zeteo and double-\n newsletters like Substack — empty lines are filtered).
+    raw_lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
     html_parts = []
 
-    for para in paragraphs:
+    for para in raw_lines:
         para = strip_invisible_chars(para).strip()
         if not para:
             continue
 
-        lines = [ln.strip() for ln in para.split("\n") if ln.strip()]
-        if not lines:
-            continue
-
-        joined = " ".join(lines)
+        joined = para
 
         if re.match(r"^https?://\S+$", joined):
             continue
 
         is_heading = (
-            len(lines) == 1
-            and len(joined) < 80
+            len(joined) < 80
             and joined[-1] not in ".!?,;:)\"'"
             and not joined.lower().startswith("http")
         )
