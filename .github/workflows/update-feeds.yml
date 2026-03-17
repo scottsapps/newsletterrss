@@ -1,0 +1,46 @@
+name: Update RSS Feeds
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"   # Every 4 hours
+  workflow_dispatch:          # Allow manual trigger from GitHub Actions UI
+
+permissions:
+  contents: write             # Needed to commit updated feed files back to the repo
+
+jobs:
+  update-feeds:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Generate RSS feeds
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+        run: python scripts/fetch_and_generate.py
+
+      - name: Commit and push if feeds changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add feeds/
+          if git diff --staged --quiet; then
+            echo "No new emails — feeds unchanged."
+          else
+            git commit -m "chore: update RSS feeds [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push
+          fi
