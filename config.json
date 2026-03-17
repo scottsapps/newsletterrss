@@ -3,7 +3,7 @@
   "feeds": [
     {
       "name": "The Message Box",
-      "label": "Newsletters/Message Box",
+      "sender": "messagebox@substack.com",
       "author": "Dan Pfeiffer",
       "site_url": "https://www.messageboxnews.com/",
       "description": "Dan Pfeiffer's political analysis newsletter",
@@ -12,7 +12,7 @@
     },
     {
       "name": "One First",
-      "label": "Newsletters/One First",
+      "sender": "stevevladeck@substack.com",
       "author": "Steve Vladeck",
       "site_url": "https://www.stevevladeck.com/",
       "description": "Steve Vladeck's newsletter on the U.S. Supreme Court",
@@ -25,7 +25,7 @@
     },
     {
       "name": "Law Dork",
-      "label": "Newsletters/Law Dork",
+      "sender": "chrisgeidner@substack.com",
       "author": "Chris Geidner",
       "site_url": "https://www.lawdork.com/",
       "description": "Chris Geidner's newsletter on law, courts, and politics",

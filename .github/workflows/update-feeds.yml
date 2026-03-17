@@ -2,11 +2,18 @@ name: Update RSS Feeds
 
 on:
   schedule:
-    - cron: "0 */4 * * *"   # Every 4 hours
-  workflow_dispatch:          # Allow manual trigger from GitHub Actions UI
+    # All times UTC. Adjust the offset for your timezone:
+    #   Eastern (EDT UTC-4): add 4  |  Central (CDT UTC-5): add 5
+    #   Mountain (MDT UTC-6): add 6  |  Pacific (PDT UTC-7): add 7
+    #
+    # Schedule below is Eastern time: every hour 6am–10pm ET, plus 10pm check.
+    # 6am–10pm ET  = 10:00–02:00 UTC (wraps midnight)
+    - cron: "0 10-23 * * *"   # 6am–7pm ET (10:00–23:00 UTC)
+    - cron: "0 0-2 * * *"     # 8pm–10pm ET (00:00–02:00 UTC next day)
+  workflow_dispatch:            # Allow manual trigger from GitHub Actions UI
 
 permissions:
-  contents: write             # Needed to commit updated feed files back to the repo
+  contents: write               # Needed to commit updated feed/state files
 
 jobs:
   update-feeds:
@@ -33,13 +40,13 @@ jobs:
           GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
         run: python scripts/fetch_and_generate.py
 
-      - name: Commit and push if feeds changed
+      - name: Commit and push if anything changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add feeds/
+          git add feeds/ state/
           if git diff --staged --quiet; then
-            echo "No new emails — feeds unchanged."
+            echo "No new emails — nothing to commit."
           else
             git commit -m "chore: update RSS feeds [$(date -u '+%Y-%m-%d %H:%M UTC')]"
             git push

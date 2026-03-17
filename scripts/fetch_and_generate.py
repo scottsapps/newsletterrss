@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Fetch Gmail newsletter emails and generate RSS feeds.
 
-Reads config.json to determine which Gmail labels to fetch,
-then writes RSS 2.0 XML files to the feeds/ directory.
+Reads config.json to determine which senders to fetch, uses
+state/feeds.json to track already-processed message IDs (so only
+new messages are fetched on each run), and writes RSS 2.0 XML
+files to the feeds/ directory.
 """
 
 import base64
@@ -41,42 +43,68 @@ def build_gmail_service():
 
 
 # ---------------------------------------------------------------------------
+# State management
+# ---------------------------------------------------------------------------
+
+STATE_FILE = Path(__file__).parent.parent / "state" / "feeds.json"
+
+
+def load_state():
+    """Load persistent per-feed state from disk, or return empty state."""
+    if STATE_FILE.exists():
+        with open(STATE_FILE) as f:
+            return json.load(f)
+    return {}
+
+
+def save_state(state):
+    """Write updated state to disk."""
+    STATE_FILE.parent.mkdir(exist_ok=True)
+    with open(STATE_FILE, "w") as f:
+        json.dump(state, f, indent=2)
+
+
+# ---------------------------------------------------------------------------
 # Gmail fetching
 # ---------------------------------------------------------------------------
 
-def get_label_id(service, label_name):
-    """Return the Gmail label ID for a given label name.
+def fetch_new_message_ids(service, sender, seen_ids, max_new=50):
+    """Return Gmail message IDs from `sender` not already in `seen_ids`.
 
-    Supports nested labels like 'Newsletters/Message Box'.
+    Pages through results newest-first and stops as soon as a full page
+    consists entirely of already-seen messages, so old history is never
+    re-walked after the initial run.
     """
-    result = service.users().labels().list(userId="me").execute()
-    for label in result.get("labels", []):
-        if label["name"].lower() == label_name.lower():
-            return label["id"]
-    raise ValueError(f"Gmail label not found: '{label_name}'")
-
-
-def fetch_message_ids(service, label_id, max_items):
-    """Return a list of message ID dicts for all messages with the label."""
-    messages = []
+    seen_set = set(seen_ids)
+    new_ids = []
     page_token = None
 
-    while len(messages) < max_items:
+    while len(new_ids) < max_new:
         kwargs = {
             "userId": "me",
-            "labelIds": [label_id],
-            "maxResults": min(500, max_items - len(messages)),
+            "q": f"from:{sender}",
+            "maxResults": 100,
         }
         if page_token:
             kwargs["pageToken"] = page_token
 
         result = service.users().messages().list(**kwargs).execute()
-        messages.extend(result.get("messages", []))
-        page_token = result.get("nextPageToken")
-        if not page_token:
+        messages = result.get("messages", [])
+        if not messages:
             break
 
-    return messages[:max_items]
+        page_had_new = False
+        for msg in messages:
+            if msg["id"] not in seen_set:
+                new_ids.append(msg["id"])
+                page_had_new = True
+
+        page_token = result.get("nextPageToken")
+        # Stop paginating once we hit a page with no new messages
+        if not page_token or not page_had_new:
+            break
+
+    return new_ids[:max_new]
 
 
 def fetch_raw_message(service, msg_id):
@@ -140,7 +168,6 @@ def decode_substack_redirect(redirect_url):
     if not match:
         return ""
     token = match.group(1).split(".")[0]  # drop signature if present
-    # Add base64 padding
     token += "=" * (4 - len(token) % 4)
     try:
         payload = json.loads(base64.urlsafe_b64decode(token).decode("utf-8"))
@@ -157,19 +184,16 @@ def extract_article_url(msg, plain_text):
     2. 'View this post on the web at' line in plain text body
     3. First Substack redirect URL decoded from the plain text body
     """
-    # 1. List-Post header
     url = extract_url_from_list_post(msg.get("List-Post", ""))
     if url:
         return url
 
-    # 2. "View this post on the web at <url>" in the plain text
     match = re.search(
         r"view this post on the web at\s+(https?://\S+)", plain_text, re.IGNORECASE
     )
     if match:
         return match.group(1).rstrip("?")
 
-    # 3. Decode the first Substack redirect URL found anywhere in the body
     match = re.search(r"https?://substack\.com/redirect/\S+", plain_text)
     if match:
         url = decode_substack_redirect(match.group(0))
@@ -209,8 +233,6 @@ def is_preheader_paragraph(para):
     only a short sentence + URL.
     """
     cleaned = strip_invisible_chars(para).strip()
-    # If the paragraph shrinks to <120 chars after removing invisible chars,
-    # or contains "View in browser", treat it as boilerplate
     if len(cleaned) < 120:
         return True
     if re.search(r"view in browser", cleaned, re.IGNORECASE):
@@ -237,9 +259,7 @@ def strip_header_footer(body):
     if unsubscribe_match:
         text = text[: unsubscribe_match.start()].strip()
 
-    # Drop leading paragraphs that are Substack pre-header padding.
-    # These appear when the email client omits "View this post" but keeps
-    # the invisible-char spacer paragraph.
+    # Drop leading paragraphs that are Substack pre-header padding
     paragraphs = re.split(r"\n\n+", text)
     while paragraphs and is_preheader_paragraph(paragraphs[0]):
         paragraphs = paragraphs[1:]
@@ -277,9 +297,7 @@ def text_to_html(text):
       punctuation is treated as a section heading (<h3>).
     - Inline Substack redirect links [ https://... ] are stripped.
     """
-    # Strip inline [ url ] tracking links
     text = re.sub(r"\s*\[\s*https?://\S+?\s*\]", "", text)
-    # Strip any remaining invisible chars
     text = strip_invisible_chars(text)
 
     paragraphs = re.split(r"\n\n+", text.strip())
@@ -290,19 +308,15 @@ def text_to_html(text):
         if not para:
             continue
 
-        # Collapse soft-wrapped lines within a paragraph into a single line
         lines = [ln.strip() for ln in para.split("\n") if ln.strip()]
         if not lines:
             continue
 
         joined = " ".join(lines)
 
-        # Skip if the paragraph is just a URL (e.g. a stray "View in browser" link)
         if re.match(r"^https?://\S+$", joined):
             continue
 
-        # Heuristic: treat as a section heading if it's a single short line
-        # that doesn't end with sentence punctuation
         is_heading = (
             len(lines) == 1
             and len(joined) < 80
@@ -320,7 +334,6 @@ def text_to_html(text):
 
 def make_description(html_content, max_len=300):
     """Extract a plain-text excerpt from HTML content for the <description> field."""
-    # Strip tags
     text = re.sub(r"<[^>]+>", " ", html_content)
     text = re.sub(r"\s+", " ", text).strip()
     if len(text) > max_len:
@@ -342,7 +355,6 @@ def generate_rss_xml(feed_config, items, repo_base_url):
     feed_url = f"{repo_base_url}/feeds/{feed_config['hash']}.xml"
     now_rfc = format_rfc2822(datetime.now(timezone.utc))
 
-    # Sort newest-first, cap at max_items
     sorted_items = sorted(items, key=lambda x: x["pub_date"], reverse=True)
     sorted_items = sorted_items[: feed_config["max_items"]]
 
@@ -380,76 +392,106 @@ def generate_rss_xml(feed_config, items, repo_base_url):
 
 
 # ---------------------------------------------------------------------------
-# Main
+# Per-feed processing
 # ---------------------------------------------------------------------------
 
-def process_feed(service, feed_cfg, feeds_dir, repo_base_url):
-    """Fetch emails for one feed config entry and write the RSS XML file."""
-    print(f"\n{'='*60}")
-    print(f"Feed: {feed_cfg['name']}")
-    print(f"Label: {feed_cfg['label']}")
+def parse_message(service, msg_id, feed_cfg):
+    """Fetch and parse one Gmail message into an item dict."""
+    msg = fetch_raw_message(service, msg_id)
+
+    subject = decode_header_value(msg.get("Subject", "(no subject)"))
+    date_str = msg.get("Date", "")
+    from_str = decode_header_value(msg.get("From", ""))
 
     try:
-        label_id = get_label_id(service, feed_cfg["label"])
-    except ValueError as e:
-        print(f"ERROR: {e}", file=sys.stderr)
-        return
+        pub_date = parsedate_to_datetime(date_str)
+        if pub_date.tzinfo is None:
+            pub_date = pub_date.replace(tzinfo=timezone.utc)
+    except Exception:
+        pub_date = datetime.now(timezone.utc)
 
-    message_refs = fetch_message_ids(service, label_id, feed_cfg["max_items"])
-    print(f"Found {len(message_refs)} messages")
+    author = extract_author_name(from_str)
+    plain_text = extract_plain_text(msg)
+    url = extract_article_url(msg, plain_text)
+    clean_text = strip_header_footer(plain_text)
+    clean_text = strip_newsletter_intro(
+        clean_text, feed_cfg.get("strip_intro_containing", [])
+    )
+    html_content = text_to_html(clean_text)
+    description = make_description(html_content)
+    guid = url if url else f"gmail:{msg.get('Message-Id', msg_id)}"
 
-    items = []
-    for i, msg_ref in enumerate(message_refs):
-        print(f"  Parsing message {i + 1}/{len(message_refs)}...", end="\r")
+    return {
+        "gmail_id": msg_id,
+        "title": subject,
+        "url": url,
+        "pub_date": pub_date.isoformat(),
+        "author": author,
+        "content": html_content,
+        "description": description,
+        "guid": guid,
+    }
+
+
+def process_feed(service, feed_cfg, feeds_dir, repo_base_url, state):
+    """Fetch new emails for one feed, merge with history, write RSS XML.
+
+    Only messages not already recorded in `state` are fetched from Gmail.
+    """
+    name = feed_cfg["name"]
+    sender = feed_cfg["sender"]
+
+    print(f"\n{'='*60}")
+    print(f"Feed: {name}  (from:{sender})")
+
+    feed_state = state.get(name, {"seen_ids": [], "items": []})
+    seen_ids = feed_state.get("seen_ids", [])
+    existing_items = feed_state.get("items", [])
+
+    # Find messages we haven't processed yet
+    new_ids = fetch_new_message_ids(service, sender, seen_ids, feed_cfg["max_items"])
+    print(f"New messages: {len(new_ids)}  |  Previously seen: {len(seen_ids)}")
+
+    # Fetch and parse only the new ones
+    new_items = []
+    for i, msg_id in enumerate(new_ids):
+        print(f"  Parsing {i + 1}/{len(new_ids)}...", end="\r")
         try:
-            msg = fetch_raw_message(service, msg_ref["id"])
-
-            subject = decode_header_value(msg.get("Subject", "(no subject)"))
-            date_str = msg.get("Date", "")
-            from_str = decode_header_value(msg.get("From", ""))
-
-            try:
-                pub_date = parsedate_to_datetime(date_str)
-                if pub_date.tzinfo is None:
-                    pub_date = pub_date.replace(tzinfo=timezone.utc)
-            except Exception:
-                pub_date = datetime.now(timezone.utc)
-
-            author = extract_author_name(from_str)
-            plain_text = extract_plain_text(msg)
-            url = extract_article_url(msg, plain_text)
-            clean_text = strip_header_footer(plain_text)
-            clean_text = strip_newsletter_intro(
-                clean_text, feed_cfg.get("strip_intro_containing", [])
-            )
-            html_content = text_to_html(clean_text)
-            description = make_description(html_content)
-
-            # Use canonical URL as GUID; fall back to Message-Id
-            guid = url if url else f"gmail:{msg.get('Message-Id', msg_ref['id'])}"
-
-            items.append(
-                {
-                    "title": subject,
-                    "url": url,
-                    "pub_date": pub_date,
-                    "author": author,
-                    "content": html_content,
-                    "description": description,
-                    "guid": guid,
-                }
-            )
+            new_items.append(parse_message(service, msg_id, feed_cfg))
         except Exception as e:
-            print(f"\n  Warning: could not parse message {msg_ref['id']}: {e}")
+            print(f"\n  Warning: could not parse message {msg_id}: {e}")
 
-    print(f"\nParsed {len(items)} items successfully")
+    if new_ids:
+        print(f"\nParsed {len(new_items)} new items")
+    else:
+        print("No new messages — feed unchanged")
 
-    rss_xml = generate_rss_xml(feed_cfg, items, repo_base_url)
+    # Merge new + existing, sort newest-first, cap at max_items
+    all_items = new_items + existing_items
+    all_items.sort(key=lambda x: x["pub_date"], reverse=True)
+    all_items = all_items[: feed_cfg["max_items"]]
 
+    # Convert ISO date strings back to datetime objects for RSS formatting
+    rss_items = []
+    for item in all_items:
+        rss_item = dict(item)
+        if isinstance(rss_item["pub_date"], str):
+            rss_item["pub_date"] = datetime.fromisoformat(rss_item["pub_date"])
+        rss_items.append(rss_item)
+
+    rss_xml = generate_rss_xml(feed_cfg, rss_items, repo_base_url)
     output_path = feeds_dir / f"{feed_cfg['hash']}.xml"
     output_path.write_text(rss_xml, encoding="utf-8")
     print(f"Written → {output_path.name}")
 
+    # Persist updated state: union of all seen IDs + trimmed item list
+    all_seen = list(set(seen_ids) | set(new_ids))
+    state[name] = {"seen_ids": all_seen, "items": all_items}
+
+
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
 
 def main():
     config_path = Path(__file__).parent.parent / "config.json"
@@ -464,9 +506,12 @@ def main():
     service = build_gmail_service()
     print("Authenticated.")
 
-    for feed_cfg in config["feeds"]:
-        process_feed(service, feed_cfg, feeds_dir, repo_base_url)
+    state = load_state()
 
+    for feed_cfg in config["feeds"]:
+        process_feed(service, feed_cfg, feeds_dir, repo_base_url, state)
+
+    save_state(state)
     print(f"\n{'='*60}")
     print("All feeds updated.")
 
