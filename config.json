@@ -31,6 +31,15 @@
       "description": "Chris Geidner's newsletter on law, courts, and politics",
       "hash": "e3a7f1c8b5d92046",
       "max_items": 50
+    },
+    {
+      "name": "Zeteo",
+      "senders": ["zeteo@substack.com", "zeteo+first-draft@substack.com"],
+      "site_url": "https://zeteo.com/",
+      "description": "Mehdi Hasan's Zeteo — First Draft and news analysis",
+      "hash": "d4f9a1e7c2b38560",
+      "max_items": 50,
+      "skip_if_subject_contains": ["LIVE Q&A", "Watch:", "Tune in"]
     }
   ]
 }

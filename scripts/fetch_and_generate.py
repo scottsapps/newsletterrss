@@ -437,27 +437,37 @@ def process_feed(service, feed_cfg, feeds_dir, repo_base_url, state):
     """Fetch new emails for one feed, merge with history, write RSS XML.
 
     Only messages not already recorded in `state` are fetched from Gmail.
+    Supports both a single "sender" string and a "senders" array.
+    Emails whose subject matches any entry in "skip_if_subject_contains" are dropped.
     """
     name = feed_cfg["name"]
-    sender = feed_cfg["sender"]
+    senders = feed_cfg.get("senders") or [feed_cfg["sender"]]
+    skip_subjects = [s.lower() for s in feed_cfg.get("skip_if_subject_contains", [])]
 
     print(f"\n{'='*60}")
-    print(f"Feed: {name}  (from:{sender})")
+    print(f"Feed: {name}  (senders: {', '.join(senders)})")
 
     feed_state = state.get(name, {"seen_ids": [], "items": []})
     seen_ids = feed_state.get("seen_ids", [])
     existing_items = feed_state.get("items", [])
 
-    # Find messages we haven't processed yet
-    new_ids = fetch_new_message_ids(service, sender, seen_ids, feed_cfg["max_items"])
-    print(f"New messages: {len(new_ids)}  |  Previously seen: {len(seen_ids)}")
+    # Collect new IDs across all senders
+    all_new_ids = []
+    for sender in senders:
+        new_ids = fetch_new_message_ids(service, sender, seen_ids, feed_cfg["max_items"])
+        all_new_ids.extend(new_ids)
+    print(f"New messages: {len(all_new_ids)}  |  Previously seen: {len(seen_ids)}")
 
-    # Fetch and parse only the new ones
+    # Fetch and parse only the new ones, applying subject filters
     new_items = []
-    for i, msg_id in enumerate(new_ids):
-        print(f"  Parsing {i + 1}/{len(new_ids)}...", end="\r")
+    for i, msg_id in enumerate(all_new_ids):
+        print(f"  Parsing {i + 1}/{len(all_new_ids)}...", end="\r")
         try:
-            new_items.append(parse_message(service, msg_id, feed_cfg))
+            item = parse_message(service, msg_id, feed_cfg)
+            if skip_subjects and any(s in item["title"].lower() for s in skip_subjects):
+                print(f"\n  Skipping (filtered): {item['title']}")
+                continue
+            new_items.append(item)
         except Exception as e:
             print(f"\n  Warning: could not parse message {msg_id}: {e}")
 
@@ -485,7 +495,7 @@ def process_feed(service, feed_cfg, feeds_dir, repo_base_url, state):
     print(f"Written → {output_path.name}")
 
     # Persist updated state: union of all seen IDs + trimmed item list
-    all_seen = list(set(seen_ids) | set(new_ids))
+    all_seen = list(set(seen_ids) | set(all_new_ids))
     state[name] = {"seen_ids": all_seen, "items": all_items}
 
 
