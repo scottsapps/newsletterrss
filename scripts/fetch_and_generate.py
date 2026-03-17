@@ -248,6 +248,26 @@ def strip_header_footer(body):
     return text
 
 
+def strip_newsletter_intro(text, patterns):
+    """Strip leading paragraphs whose text contains any of the given strings.
+
+    Used for newsletters that open every issue with the same boilerplate
+    paragraphs (e.g. 'Welcome back to One First...').  Stripping continues
+    as long as the first remaining paragraph matches; the moment a paragraph
+    doesn't match, the rest of the content is kept untouched.
+    """
+    if not patterns:
+        return text
+    paragraphs = re.split(r"\n\n+", text.strip())
+    while paragraphs:
+        first_lower = paragraphs[0].lower()
+        if any(p.lower() in first_lower for p in patterns):
+            paragraphs.pop(0)
+        else:
+            break
+    return "\n\n".join(paragraphs).strip()
+
+
 def text_to_html(text):
     """Convert cleaned plain text to simple HTML suitable for an RSS reader.
 
@@ -399,6 +419,9 @@ def process_feed(service, feed_cfg, feeds_dir, repo_base_url):
             plain_text = extract_plain_text(msg)
             url = extract_article_url(msg, plain_text)
             clean_text = strip_header_footer(plain_text)
+            clean_text = strip_newsletter_intro(
+                clean_text, feed_cfg.get("strip_intro_containing", [])
+            )
             html_content = text_to_html(clean_text)
             description = make_description(html_content)
 
