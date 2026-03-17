@@ -84,7 +84,10 @@ def fetch_raw_message(service, msg_id):
     result = service.users().messages().get(
         userId="me", id=msg_id, format="raw"
     ).execute()
-    raw = base64.urlsafe_b64decode(result["raw"])
+    # Gmail API returns base64url without padding — add it before decoding
+    raw_b64 = result["raw"]
+    raw_b64 += "=" * (4 - len(raw_b64) % 4)
+    raw = base64.urlsafe_b64decode(raw_b64)
     return message_from_bytes(raw)
 
 
@@ -126,6 +129,56 @@ def extract_url_from_list_post(header_value):
     return match.group(1) if match else ""
 
 
+def decode_substack_redirect(redirect_url):
+    """Decode a Substack redirect URL to recover the canonical article URL.
+
+    Substack redirect URLs look like:
+      https://substack.com/redirect/2/<base64url_payload>.<signature>
+    The payload is a JSON object where the 'e' key holds the real URL.
+    """
+    match = re.search(r"substack\.com/redirect/\d+/([A-Za-z0-9_-]+)", redirect_url)
+    if not match:
+        return ""
+    token = match.group(1).split(".")[0]  # drop signature if present
+    # Add base64 padding
+    token += "=" * (4 - len(token) % 4)
+    try:
+        payload = json.loads(base64.urlsafe_b64decode(token).decode("utf-8"))
+        return payload.get("e", "")
+    except Exception:
+        return ""
+
+
+def extract_article_url(msg, plain_text):
+    """Try multiple sources to find the canonical article URL.
+
+    Priority:
+    1. List-Post email header (cleanest; may be stripped by some clients)
+    2. 'View this post on the web at' line in plain text body
+    3. First Substack redirect URL decoded from the plain text body
+    """
+    # 1. List-Post header
+    url = extract_url_from_list_post(msg.get("List-Post", ""))
+    if url:
+        return url
+
+    # 2. "View this post on the web at <url>" in the plain text
+    match = re.search(
+        r"view this post on the web at\s+(https?://\S+)", plain_text, re.IGNORECASE
+    )
+    if match:
+        return match.group(1).rstrip("?")
+
+    # 3. Decode the first Substack redirect URL found anywhere in the body
+    match = re.search(r"https?://substack\.com/redirect/\S+", plain_text)
+    if match:
+        url = decode_substack_redirect(match.group(0))
+        if url:
+            return url
+
+    return ""
+
+
 def extract_author_name(from_header):
     """Return just the display name from a From header, stripping the email address."""
     match = re.match(r"^([^<]+)", from_header)
@@ -135,6 +188,35 @@ def extract_author_name(from_header):
 # ---------------------------------------------------------------------------
 # Content cleaning
 # ---------------------------------------------------------------------------
+
+# Invisible Unicode chars used as email pre-header padding
+_INVISIBLE = re.compile(
+    r"[\u00ad\u034f\u200b\u200c\u200d\u2060\u2061\u2062\u2063\ufeff\u00a0]+"
+)
+
+
+def strip_invisible_chars(text):
+    """Remove invisible Unicode padding characters."""
+    return _INVISIBLE.sub("", text)
+
+
+def is_preheader_paragraph(para):
+    """Return True if this paragraph is Substack pre-header boilerplate.
+
+    Pre-headers are typically: a short teaser sentence followed by hundreds
+    of invisible padding characters, sometimes ending with a 'View in browser'
+    link. After stripping invisible chars they collapse to near-nothing or
+    only a short sentence + URL.
+    """
+    cleaned = strip_invisible_chars(para).strip()
+    # If the paragraph shrinks to <120 chars after removing invisible chars,
+    # or contains "View in browser", treat it as boilerplate
+    if len(cleaned) < 120:
+        return True
+    if re.search(r"view in browser", cleaned, re.IGNORECASE):
+        return True
+    return False
+
 
 def strip_header_footer(body):
     """Remove Substack boilerplate from the top and bottom of the plain text."""
@@ -155,6 +237,14 @@ def strip_header_footer(body):
     if unsubscribe_match:
         text = text[: unsubscribe_match.start()].strip()
 
+    # Drop leading paragraphs that are Substack pre-header padding.
+    # These appear when the email client omits "View this post" but keeps
+    # the invisible-char spacer paragraph.
+    paragraphs = re.split(r"\n\n+", text)
+    while paragraphs and is_preheader_paragraph(paragraphs[0]):
+        paragraphs = paragraphs[1:]
+    text = "\n\n".join(paragraphs).strip()
+
     return text
 
 
@@ -165,17 +255,18 @@ def text_to_html(text):
     - Double-newline boundaries become paragraph breaks.
     - A single-line paragraph that is short and ends without sentence-ending
       punctuation is treated as a section heading (<h3>).
-    - Inline Substack redirect links [ https://... ] are stripped (the
-      canonical article URL is already in the RSS <link> field).
+    - Inline Substack redirect links [ https://... ] are stripped.
     """
     # Strip inline [ url ] tracking links
     text = re.sub(r"\s*\[\s*https?://\S+?\s*\]", "", text)
+    # Strip any remaining invisible chars
+    text = strip_invisible_chars(text)
 
     paragraphs = re.split(r"\n\n+", text.strip())
     html_parts = []
 
     for para in paragraphs:
-        para = para.strip()
+        para = strip_invisible_chars(para).strip()
         if not para:
             continue
 
@@ -185,6 +276,10 @@ def text_to_html(text):
             continue
 
         joined = " ".join(lines)
+
+        # Skip if the paragraph is just a URL (e.g. a stray "View in browser" link)
+        if re.match(r"^https?://\S+$", joined):
+            continue
 
         # Heuristic: treat as a section heading if it's a single short line
         # that doesn't end with sentence punctuation
@@ -201,6 +296,16 @@ def text_to_html(text):
             html_parts.append(f"<p>{escape(joined)}</p>")
 
     return "\n".join(html_parts)
+
+
+def make_description(html_content, max_len=300):
+    """Extract a plain-text excerpt from HTML content for the <description> field."""
+    # Strip tags
+    text = re.sub(r"<[^>]+>", " ", html_content)
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) > max_len:
+        text = text[:max_len].rsplit(" ", 1)[0] + "…"
+    return text
 
 
 # ---------------------------------------------------------------------------
@@ -223,13 +328,15 @@ def generate_rss_xml(feed_config, items, repo_base_url):
 
     item_blocks = []
     for item in sorted_items:
+        is_permalink = item["url"].startswith("http")
         item_blocks.append(
             f"""    <item>
       <title>{escape(item['title'])}</title>
       <link>{escape(item['url'])}</link>
+      <description>{escape(item['description'])}</description>
       <pubDate>{format_rfc2822(item['pub_date'])}</pubDate>
       <author>{escape(item['author'])}</author>
-      <guid isPermaLink="true">{escape(item['guid'])}</guid>
+      <guid isPermaLink="{'true' if is_permalink else 'false'}">{escape(item['guid'])}</guid>
       <content:encoded><![CDATA[{item['content']}]]></content:encoded>
     </item>"""
         )
@@ -280,24 +387,22 @@ def process_feed(service, feed_cfg, feeds_dir, repo_base_url):
             subject = decode_header_value(msg.get("Subject", "(no subject)"))
             date_str = msg.get("Date", "")
             from_str = decode_header_value(msg.get("From", ""))
-            list_post = msg.get("List-Post", "")
-
-            url = extract_url_from_list_post(list_post)
-            author = extract_author_name(from_str)
 
             try:
                 pub_date = parsedate_to_datetime(date_str)
-                # Ensure timezone-aware
                 if pub_date.tzinfo is None:
                     pub_date = pub_date.replace(tzinfo=timezone.utc)
             except Exception:
                 pub_date = datetime.now(timezone.utc)
 
+            author = extract_author_name(from_str)
             plain_text = extract_plain_text(msg)
+            url = extract_article_url(msg, plain_text)
             clean_text = strip_header_footer(plain_text)
             html_content = text_to_html(clean_text)
+            description = make_description(html_content)
 
-            # Use URL as GUID; fall back to Message-Id
+            # Use canonical URL as GUID; fall back to Message-Id
             guid = url if url else f"gmail:{msg.get('Message-Id', msg_ref['id'])}"
 
             items.append(
@@ -307,6 +412,7 @@ def process_feed(service, feed_cfg, feeds_dir, repo_base_url):
                     "pub_date": pub_date,
                     "author": author,
                     "content": html_content,
+                    "description": description,
                     "guid": guid,
                 }
             )
