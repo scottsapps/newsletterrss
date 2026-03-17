@@ -49,5 +49,6 @@ jobs:
             echo "No new emails — nothing to commit."
           else
             git commit -m "chore: update RSS feeds [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git pull --rebase origin main
             git push
           fi
