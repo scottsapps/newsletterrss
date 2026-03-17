@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>One First</title>
+    <link>https://www.stevevladeck.com/</link>
+    <description>Steve Vladeck&#x27;s newsletter on the U.S. Supreme Court</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Mar 2026 17:01:13 +0000</lastBuildDate>
+    <atom:link href="https://scottsapps.github.io/newsletterrss/feeds/b2e5f8a3c9d14670.xml" rel="self" type="application/rss+xml"/>
+
+  </channel>
+</rss>
