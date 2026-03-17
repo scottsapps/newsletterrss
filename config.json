@@ -9,6 +9,28 @@
       "description": "Dan Pfeiffer's political analysis newsletter",
       "hash": "9c4f7a2e1b83d650",
       "max_items": 50
+    },
+    {
+      "name": "One First",
+      "label": "Newsletters/One First",
+      "author": "Steve Vladeck",
+      "site_url": "https://www.stevevladeck.com/",
+      "description": "Steve Vladeck's newsletter on the U.S. Supreme Court",
+      "hash": "b2e5f8a3c9d14670",
+      "max_items": 50,
+      "strip_intro_containing": [
+        "Welcome back to",
+        "Every Monday morning"
+      ]
+    },
+    {
+      "name": "Law Dork",
+      "label": "Newsletters/Law Dork",
+      "author": "Chris Geidner",
+      "site_url": "https://www.lawdork.com/",
+      "description": "Chris Geidner's newsletter on law, courts, and politics",
+      "hash": "e3a7f1c8b5d92046",
+      "max_items": 50
     }
   ]
 }
