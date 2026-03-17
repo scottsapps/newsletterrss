@@ -40,6 +40,23 @@
       "hash": "d4f9a1e7c2b38560",
       "max_items": 50,
       "skip_if_subject_contains": ["LIVE Q&A", "Watch:", "Tune in"]
+    },
+    {
+      "name": "This Modern World",
+      "sender": "tom@thismodernworld.com",
+      "site_url": "https://thismodernworld.com/",
+      "description": "Tom Tomorrow's weekly political comic",
+      "hash": "a5c8f3e2b7d14091",
+      "max_items": 50
+    },
+    {
+      "name": "Original Jurisdiction",
+      "senders": ["davidlat@substack.com", "davidlat+general-news@substack.com", "davidlat+judicial-notice@substack.com"],
+      "site_url": "https://davidlat.substack.com/",
+      "description": "David Lat's newsletter on law, courts, and legal culture",
+      "hash": "b9e4d7a1f2c63850",
+      "max_items": 50,
+      "skip_if_post_type": ["podcast"]
     }
   ]
 }

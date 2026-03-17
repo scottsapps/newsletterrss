@@ -183,6 +183,7 @@ def extract_article_url(msg, plain_text):
     1. List-Post email header (cleanest; may be stripped by some clients)
     2. 'View this post on the web at' line in plain text body
     3. First Substack redirect URL decoded from the plain text body
+    4. Mailchimp archive URL (mailchi.mp) for non-Substack newsletters
     """
     url = extract_url_from_list_post(msg.get("List-Post", ""))
     if url:
@@ -200,7 +201,22 @@ def extract_article_url(msg, plain_text):
         if url:
             return url
 
+    match = re.search(r"https://mailchi\.mp/[^\s?]+", plain_text)
+    if match:
+        return match.group(0)
+
     return ""
+
+
+def extract_post_type(msg):
+    """Return the post_type from the X-Mailgun-Variables header (e.g. 'podcast', 'newsletter')."""
+    variables_str = msg.get("X-Mailgun-Variables", "")
+    if not variables_str:
+        return ""
+    try:
+        return json.loads(variables_str).get("post_type", "")
+    except Exception:
+        return ""
 
 
 def extract_author_name(from_header):
@@ -413,6 +429,7 @@ def parse_message(service, msg_id, feed_cfg):
     author = extract_author_name(from_str)
     plain_text = extract_plain_text(msg)
     url = extract_article_url(msg, plain_text)
+    post_type = extract_post_type(msg)
     clean_text = strip_header_footer(plain_text)
     clean_text = strip_newsletter_intro(
         clean_text, feed_cfg.get("strip_intro_containing", [])
@@ -427,6 +444,7 @@ def parse_message(service, msg_id, feed_cfg):
         "url": url,
         "pub_date": pub_date.isoformat(),
         "author": author,
+        "post_type": post_type,
         "content": html_content,
         "description": description,
         "guid": guid,
@@ -443,6 +461,7 @@ def process_feed(service, feed_cfg, feeds_dir, repo_base_url, state):
     name = feed_cfg["name"]
     senders = feed_cfg.get("senders") or [feed_cfg["sender"]]
     skip_subjects = [s.lower() for s in feed_cfg.get("skip_if_subject_contains", [])]
+    skip_post_types = [t.lower() for t in feed_cfg.get("skip_if_post_type", [])]
 
     print(f"\n{'='*60}")
     print(f"Feed: {name}  (senders: {', '.join(senders)})")
@@ -465,7 +484,10 @@ def process_feed(service, feed_cfg, feeds_dir, repo_base_url, state):
         try:
             item = parse_message(service, msg_id, feed_cfg)
             if skip_subjects and any(s in item["title"].lower() for s in skip_subjects):
-                print(f"\n  Skipping (filtered): {item['title']}")
+                print(f"\n  Skipping (subject filter): {item['title']}")
+                continue
+            if skip_post_types and item.get("post_type", "").lower() in skip_post_types:
+                print(f"\n  Skipping (post_type={item['post_type']}): {item['title']}")
                 continue
             new_items.append(item)
         except Exception as e:
