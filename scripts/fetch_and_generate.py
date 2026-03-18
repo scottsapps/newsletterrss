@@ -19,6 +19,9 @@ from email.utils import parsedate_to_datetime
 from html import escape
 from pathlib import Path
 
+import trafilatura
+from trafilatura.metadata import extract_metadata as trafilatura_metadata
+
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
@@ -539,6 +542,156 @@ def process_feed(service, feed_cfg, feeds_dir, repo_base_url, state, mark_read=F
 
 
 # ---------------------------------------------------------------------------
+# Read Later helpers
+# ---------------------------------------------------------------------------
+
+def fetch_article(url):
+    """Fetch a URL and return (title, author, html_content) via trafilatura.
+
+    Returns (None, None, None) if the page cannot be fetched or parsed.
+    """
+    try:
+        downloaded = trafilatura.fetch_url(url)
+        if not downloaded:
+            return None, None, None
+
+        html_content = trafilatura.extract(
+            downloaded,
+            output_format="html",
+            include_formatting=True,
+            include_links=False,
+            no_fallback=False,
+        )
+
+        title = None
+        author = None
+        try:
+            meta = trafilatura_metadata(downloaded)
+            if meta:
+                title = meta.title or None
+                author = meta.author or None
+        except Exception:
+            pass
+
+        return title, author, html_content
+    except Exception as e:
+        print(f"  Warning: could not fetch article {url}: {e}")
+        return None, None, None
+
+
+def process_read_later_feed(service, feed_cfg, feeds_dir, repo_base_url, state,
+                            mark_read=False, archive=False):
+    """Process a read-later feed: emails contain URLs to fetch and save as RSS items."""
+    name = feed_cfg["name"]
+    senders = feed_cfg.get("senders") or [feed_cfg["sender"]]
+
+    print(f"\n{'='*60}")
+    print(f"Feed: {name}  (read-later, senders: {', '.join(senders)})")
+
+    feed_state = state.get(name, {"seen_ids": [], "items": []})
+    seen_ids = feed_state.get("seen_ids", [])
+    existing_items = feed_state.get("items", [])
+
+    all_new_ids = []
+    for sender in senders:
+        new_ids = fetch_new_message_ids(service, sender, seen_ids, feed_cfg["max_items"])
+        all_new_ids.extend(new_ids)
+    print(f"New messages: {len(all_new_ids)}  |  Previously seen: {len(seen_ids)}")
+
+    new_items = []
+    for i, msg_id in enumerate(all_new_ids):
+        print(f"  Processing {i + 1}/{len(all_new_ids)}...", end="\r")
+        try:
+            msg = fetch_raw_message(service, msg_id)
+            subject = decode_header_value(msg.get("Subject", ""))
+            date_str = msg.get("Date", "")
+
+            try:
+                pub_date = parsedate_to_datetime(date_str)
+                if pub_date.tzinfo is None:
+                    pub_date = pub_date.replace(tzinfo=timezone.utc)
+            except Exception:
+                pub_date = datetime.now(timezone.utc)
+
+            plain_text = extract_plain_text(msg)
+
+            # Find URL — body first, then subject
+            url_match = re.search(r"https?://\S+", plain_text)
+            if not url_match:
+                url_match = re.search(r"https?://\S+", subject)
+            if not url_match:
+                print(f"\n  Skipping (no URL found): {subject}")
+                continue
+
+            article_url = url_match.group(0).rstrip("?.,;)")
+
+            # Use email subject as title unless it looks like a bare URL
+            if subject and not re.match(r"^https?://", subject.strip()):
+                title = subject
+            else:
+                title = None  # will use trafilatura's extracted title
+
+            print(f"\n  Fetching: {article_url}")
+            fetched_title, author, html_content = fetch_article(article_url)
+
+            if not title:
+                title = fetched_title or article_url
+
+            # Any non-URL text in the body becomes a user annotation shown first
+            annotation = re.sub(r"https?://\S+", "", plain_text).strip()
+            annotation = re.sub(r"\s+", " ", annotation).strip()
+            if annotation:
+                html_content = f"<p><em>{escape(annotation)}</em></p>\n" + (html_content or "")
+
+            if not html_content:
+                html_content = f'<p><a href="{escape(article_url)}">{escape(article_url)}</a></p>'
+
+            description = make_description(html_content)
+
+            item = {
+                "gmail_id": msg_id,
+                "title": title,
+                "url": article_url,
+                "pub_date": pub_date.isoformat(),
+                "author": author or "Scott Angstreich",
+                "content": html_content,
+                "description": description,
+                "guid": article_url,
+            }
+            new_items.append(item)
+
+            if mark_read or archive:
+                try:
+                    mark_message_processed(service, msg_id, mark_read, archive)
+                except Exception as e:
+                    print(f"\n  Warning: could not mark message {msg_id}: {e}")
+
+        except Exception as e:
+            print(f"\n  Warning: could not process message {msg_id}: {e}")
+
+    print(f"\nParsed {len(new_items)} new items")
+
+    all_items = new_items + existing_items
+    all_items.sort(key=lambda x: x["pub_date"], reverse=True)
+    all_items = all_items[: feed_cfg["max_items"]]
+
+    rss_items = []
+    for item in all_items:
+        rss_item = dict(item)
+        if isinstance(rss_item["pub_date"], str):
+            rss_item["pub_date"] = datetime.fromisoformat(rss_item["pub_date"])
+        rss_items.append(rss_item)
+
+    rss_xml = generate_rss_xml(feed_cfg, rss_items, repo_base_url)
+    output_path = feeds_dir / f"{feed_cfg['hash']}.xml"
+    output_path.write_text(rss_xml, encoding="utf-8")
+    print(f"Written → {output_path.name}")
+
+    all_seen = list(set(seen_ids) | set(all_new_ids))
+    state[name] = {"seen_ids": all_seen, "items": all_items}
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -561,7 +714,10 @@ def main():
     archive = config.get("archive", False)
 
     for feed_cfg in config["feeds"]:
-        process_feed(service, feed_cfg, feeds_dir, repo_base_url, state, mark_read, archive)
+        if feed_cfg.get("type") == "read_later":
+            process_read_later_feed(service, feed_cfg, feeds_dir, repo_base_url, state, mark_read, archive)
+        else:
+            process_feed(service, feed_cfg, feeds_dir, repo_base_url, state, mark_read, archive)
 
     save_state(state)
     print(f"\n{'='*60}")

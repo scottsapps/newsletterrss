@@ -59,6 +59,15 @@
       "hash": "b9e4d7a1f2c63850",
       "max_items": 50,
       "skip_if_post_type": ["podcast"]
+    },
+    {
+      "name": "Scott's Read Later",
+      "type": "read_later",
+      "sender": "scott@angstreich.net",
+      "site_url": "https://scottsapps.github.io/newsletterrss",
+      "description": "Articles saved for later reading",
+      "hash": "c7e3a9f4b1d28560",
+      "max_items": 100
     }
   ]
 }
