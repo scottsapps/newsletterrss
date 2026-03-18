@@ -14,7 +14,7 @@ on:
 
 concurrency:
   group: update-feeds
-  cancel-in-progress: false     # Queue rather than cancel — no overlapping runs
+  cancel-in-progress: true      # Cancel stale queued runs; only latest matters
 
 permissions:
   contents: write               # Needed to commit updated feed/state files
@@ -28,6 +28,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main             # Always fetch latest code, not the stale trigger SHA
 
       - name: Set up Python
         uses: actions/setup-python@v5
