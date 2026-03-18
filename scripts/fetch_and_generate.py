@@ -36,7 +36,7 @@ def build_gmail_service():
         token_uri="https://oauth2.googleapis.com/token",
         client_id=os.environ["GMAIL_CLIENT_ID"],
         client_secret=os.environ["GMAIL_CLIENT_SECRET"],
-        scopes=["https://www.googleapis.com/auth/gmail.readonly"],
+        scopes=["https://www.googleapis.com/auth/gmail.modify"],
     )
     creds.refresh(Request())
     return build("gmail", "v1", credentials=creds)
@@ -67,6 +67,21 @@ def save_state(state):
 # ---------------------------------------------------------------------------
 # Gmail fetching
 # ---------------------------------------------------------------------------
+
+def mark_message_processed(service, msg_id, mark_read=True, archive=False):
+    """Remove UNREAD and/or INBOX labels from a message."""
+    labels_to_remove = []
+    if mark_read:
+        labels_to_remove.append("UNREAD")
+    if archive:
+        labels_to_remove.append("INBOX")
+    if labels_to_remove:
+        service.users().messages().modify(
+            userId="me",
+            id=msg_id,
+            body={"removeLabelIds": labels_to_remove},
+        ).execute()
+
 
 def fetch_new_message_ids(service, sender, seen_ids, max_new=50):
     """Return Gmail message IDs from `sender` not already in `seen_ids`.
@@ -448,7 +463,7 @@ def parse_message(service, msg_id, feed_cfg):
     }
 
 
-def process_feed(service, feed_cfg, feeds_dir, repo_base_url, state):
+def process_feed(service, feed_cfg, feeds_dir, repo_base_url, state, mark_read=False, archive=False):
     """Fetch new emails for one feed, merge with history, write RSS XML.
 
     Only messages not already recorded in `state` are fetched from Gmail.
@@ -487,6 +502,11 @@ def process_feed(service, feed_cfg, feeds_dir, repo_base_url, state):
                 print(f"\n  Skipping (post_type={item['post_type']}): {item['title']}")
                 continue
             new_items.append(item)
+            if mark_read or archive:
+                try:
+                    mark_message_processed(service, msg_id, mark_read, archive)
+                except Exception as e:
+                    print(f"\n  Warning: could not mark message {msg_id}: {e}")
         except Exception as e:
             print(f"\n  Warning: could not parse message {msg_id}: {e}")
 
@@ -537,8 +557,11 @@ def main():
 
     state = load_state()
 
+    mark_read = config.get("mark_read", False)
+    archive = config.get("archive", False)
+
     for feed_cfg in config["feeds"]:
-        process_feed(service, feed_cfg, feeds_dir, repo_base_url, state)
+        process_feed(service, feed_cfg, feeds_dir, repo_base_url, state, mark_read, archive)
 
     save_state(state)
     print(f"\n{'='*60}")

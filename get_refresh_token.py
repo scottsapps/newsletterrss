@@ -12,7 +12,7 @@ Usage:
 
 from google_auth_oauthlib.flow import InstalledAppFlow
 
-SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"]
+SCOPES = ["https://www.googleapis.com/auth/gmail.modify"]
 
 print("=" * 60)
 print("Gmail OAuth2 Refresh Token Helper")
@@ -27,7 +27,7 @@ client_secret = input("Client Secret: ").strip()
 
 print()
 print("A browser window will open. Sign in with scottsnewsletters1014@gmail.com")
-print("and grant read access. Come back here when done.")
+print("and grant read + modify access. Come back here when done.")
 print()
 
 client_config = {

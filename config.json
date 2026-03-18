@@ -1,5 +1,7 @@
 {
   "repo_base_url": "https://scottsapps.github.io/newsletterrss",
+  "mark_read": true,
+  "archive": true,
   "feeds": [
     {
       "name": "The Message Box",
