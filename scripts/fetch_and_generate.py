@@ -303,23 +303,26 @@ def strip_header_footer(body):
 
 
 def strip_newsletter_intro(text, patterns):
-    """Strip leading paragraphs whose text contains any of the given strings.
+    """Strip leading lines whose text contains any of the given strings.
 
-    Used for newsletters that open every issue with the same boilerplate
-    paragraphs (e.g. 'Welcome back to One First...').  Stripping continues
-    as long as the first remaining paragraph matches; the moment a paragraph
-    doesn't match, the rest of the content is kept untouched.
+    Walks line-by-line (skipping blank lines) so that a newsletter using
+    single-newline paragraph separators doesn't accidentally match a pattern
+    in the middle of the article and delete all remaining content.
+    Stripping stops the moment a non-empty line fails to match.
     """
     if not patterns:
         return text
-    paragraphs = re.split(r"\n\n+", text.strip())
-    while paragraphs:
-        first_lower = paragraphs[0].lower()
-        if any(p.lower() in first_lower for p in patterns):
-            paragraphs.pop(0)
+    lines = text.split("\n")
+    while lines:
+        stripped = lines[0].strip()
+        if not stripped:
+            lines.pop(0)
+            continue
+        if any(p.lower() in stripped.lower() for p in patterns):
+            lines.pop(0)
         else:
             break
-    return "\n\n".join(paragraphs).strip()
+    return "\n".join(lines).strip()
 
 
 def text_to_html(text):
