@@ -1,10 +1,10 @@
 {
   "The Message Box": {
     "seen_ids": [
-      "19d105f08a5bc27b",
-      "19cfb6b57a87ca29",
       "19d05c32b5674f83",
       "19cec52c7a956a0f",
+      "19cfb6b57a87ca29",
+      "19d105f08a5bc27b",
       "19cdc72df8dc7080"
     ],
     "items": [
@@ -82,8 +82,8 @@
   },
   "Law Dork": {
     "seen_ids": [
-      "19d0ee3de44c33c8",
-      "19d026a9c0a11e79"
+      "19d026a9c0a11e79",
+      "19d0ee3de44c33c8"
     ],
     "items": [
       {
@@ -112,18 +112,30 @@
   },
   "Zeteo": {
     "seen_ids": [
-      "19cfdf13253a85c0",
-      "19d03bdf6061b863",
-      "19cfe9e4b9d763bd",
-      "19cfd6ce4b7365a3",
       "19d05ed9379b6a20",
-      "19d00c1413bcf4fa",
+      "19d03bdf6061b863",
       "19d0d5181cc1057e",
       "19d077e0a1d5dfa1",
+      "19cfe9e4b9d763bd",
+      "19d0b135c4497e53",
+      "19cfdf13253a85c0",
+      "19d00c1413bcf4fa",
+      "19cfd6ce4b7365a3",
       "19d02327ec8b2605",
-      "19d0b135c4497e53"
+      "19d108600db2bb05"
     ],
     "items": [
+      {
+        "gmail_id": "19d108600db2bb05",
+        "title": "How US Imperialism Shaped the Iran We See Today",
+        "url": "https://zeteo.com/p/how-us-imperialism-shaped-the-iran",
+        "pub_date": "2026-03-21T13:02:04+00:00",
+        "author": "Zeteo",
+        "post_type": "podcast",
+        "content": "<p>On February 28, the political landscape of the Middle East shifted dramatically following a reported US airstrike that killed Ayatollah Khamenei. But 2026 is far from the first time the US has been involved in Iranian politics.</p>\n<p>Many of the sentiments and strategies we see today echo actions from over 70 years ago in 1953, when a democratically elected leader was overthrown after attempting to nationalize Iran\u2019s oil. For many Iranians, this moment feels like part of a much longer pattern of Western intervention shaping the country\u2019s trajectory. If you think you know the story, let\u2019s take a closer look at how the past and present are deeply connected.</p>\n<p>Check out more from Zeteo:</p>",
+        "description": "On February 28, the political landscape of the Middle East shifted dramatically following a reported US airstrike that killed Ayatollah Khamenei. But 2026 is far from the first time the US has been involved in Iranian politics. Many of the sentiments and strategies we see today echo actions from\u2026",
+        "guid": "https://zeteo.com/p/how-us-imperialism-shaped-the-iran"
+      },
       {
         "gmail_id": "19d0d5181cc1057e",
         "title": "Trump\u2019s White House Is Screaming at Me That Americans Love His Awful War",
@@ -281,8 +293,8 @@
   },
   "Scott's Read Later": {
     "seen_ids": [
-      "19d00e04344cb72f",
-      "19d0388645c273fe"
+      "19d0388645c273fe",
+      "19d00e04344cb72f"
     ],
     "items": [
       {
