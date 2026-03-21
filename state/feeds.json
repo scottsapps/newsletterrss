@@ -1,10 +1,10 @@
 {
   "The Message Box": {
     "seen_ids": [
-      "19cfb6b57a87ca29",
+      "19cdc72df8dc7080",
       "19d05c32b5674f83",
-      "19cec52c7a956a0f",
-      "19cdc72df8dc7080"
+      "19cfb6b57a87ca29",
+      "19cec52c7a956a0f"
     ],
     "items": [
       {
@@ -70,9 +70,21 @@
   },
   "Law Dork": {
     "seen_ids": [
+      "19d0ee3de44c33c8",
       "19d026a9c0a11e79"
     ],
     "items": [
+      {
+        "gmail_id": "19d0ee3de44c33c8",
+        "title": "Breaking: Federal judge slows Voice of America return-to-work order; 70 people\r\n due back each week",
+        "url": "https://www.lawdork.com/p/judge-slows-voice-of-america-return-to-work",
+        "pub_date": "2026-03-21T05:34:52+00:00",
+        "author": "Chris Geidner at Law Dork",
+        "post_type": "newsletter",
+        "content": "<p>On Friday night, a federal judge eliminated a Monday deadline for all employees of the U.S. Agency for Global Media who had been placed on administrative leave by the Trump administration, which includes Voice of America employees, to return to work \u2014 putting a \u201cphased, risk-managed approach\u201d to the return to work in its place.</p>\n<p>While technically denying the government\u2019s request to stay his ruling, U.S. District Judge Rocye Lamberth \u2014 crediting a government declaration filed on March 19 that noted the claimed difficulties of bringing back all of the employees by Monday \u2014 eliminated the Monday return-to-work deadline that he had ordered on March 17.</p>\n<p>Instead, Lamberth, a Reagan appointee, noted that David Kotz, the chief management officer at USAGM, stated in the declaration that \u201c[USAGM] has the capacity to onboard approximately 70 employees per week\u201d and used that to plan a path forward.</p>\n<p>As such, Lamberth denied the Justice Department\u2019s March 19 request to stay his ruling (which the plaintiffs opposed on Friday) but also vacated the March 23 deadline and then set an approach to bring employees back in accordance with statements in Kotz\u2019s declaration.</p>\n<p>Lamberth ordered that the government file the \u201cReconstitution Plan\u201d on the docket by April 1 that Kotz referenced would be used to accomplish full reinstatement of employees in accordance with the agency\u2019s capacity to do so. Additionally, Lamberth ordered the government file a status report on April 1 and every 14 days after that detailing progress toward bringing everyone back to work.</p>\n<p>This doesn\u2019t mean the case is over \u2014 not at all.</p>\n<p>In addition to the stay request filed before Lamberth, DOJ filed a notice on March 19 that it was appealing Lamberth\u2019s March 17 ruling. Early Friday afternoon, DOJ also filed a request at the U.S. Court of Appeals for the D.C. Circuit for a stay pending appeal and immediate administrative stay.</p>\n<p>It was not immediately clear what would happen next, but Lamberth\u2019s move to vacate the Monday deadline lessens the necessity for the appeals court even to consider over the weekend whether to issue an immediate administrative stay. In any event, there will likely be additional filings over the weekend at the appeals court in light of Lamberth\u2019s Friday order.</p>\n<p>None of that, however, likely changes DOJ\u2019s bottom-line effort to get Lamberth\u2019s ruling stayed pending appeal \u2014 stopping the USAGM workers from coming back \u2014 and ultimately overturned on appeal.</p>\n<p>Although the original reports \u2014 based on earlier data \u2014 stated that more than 1,000 employees would be affected by Lamberth\u2019s order, Kotz\u2019s declaration detailed the current scope of what that return-to-work move would actually look like, number-wise:</p>\n<p>Although his declaration doesn\u2019t explain further, it is likely \u2014 during the extended time that people have been on leave \u2014 that a number of employees have left the agency for other work.</p>\n<p>This is a breaking news report. Check back at Law Dork for the latest.</p>\n<p>Law Dork brings you independent, in-depth legal and political journalism that seeks to hold government and other public officials accountable. Support Chris Geidner\u2019s reporting by becoming a paid or free subscriber today.</p>",
+        "description": "On Friday night, a federal judge eliminated a Monday deadline for all employees of the U.S. Agency for Global Media who had been placed on administrative leave by the Trump administration, which includes Voice of America employees, to return to work \u2014 putting a \u201cphased, risk-managed approach\u201d to\u2026",
+        "guid": "https://www.lawdork.com/p/judge-slows-voice-of-america-return-to-work"
+      },
       {
         "gmail_id": "19d026a9c0a11e79",
         "title": "Appeals court set to review a key, harsh Trump administration deportation\r\n policy this spring",
@@ -90,14 +102,14 @@
     "seen_ids": [
       "19d00c1413bcf4fa",
       "19cfdf13253a85c0",
-      "19d0b135c4497e53",
-      "19cfd6ce4b7365a3",
       "19d0d5181cc1057e",
+      "19d05ed9379b6a20",
+      "19cfe9e4b9d763bd",
+      "19cfd6ce4b7365a3",
       "19d02327ec8b2605",
       "19d03bdf6061b863",
-      "19cfe9e4b9d763bd",
-      "19d077e0a1d5dfa1",
-      "19d05ed9379b6a20"
+      "19d0b135c4497e53",
+      "19d077e0a1d5dfa1"
     ],
     "items": [
       {
@@ -257,8 +269,8 @@
   },
   "Scott's Read Later": {
     "seen_ids": [
-      "19d0388645c273fe",
-      "19d00e04344cb72f"
+      "19d00e04344cb72f",
+      "19d0388645c273fe"
     ],
     "items": [
       {
