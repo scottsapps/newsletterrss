@@ -354,8 +354,11 @@ def text_to_html(text):
 
         is_heading = (
             len(joined) < 80
-            and joined[-1] not in ".!?,;:)\"'"
             and not joined.lower().startswith("http")
+            and (
+                joined[-1] not in ".!?,"   # short line, no sentence-final punct
+                or ":" in joined            # OR label-colon format: "Section: Content."
+            )
         )
 
         if is_heading:
