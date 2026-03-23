@@ -1,12 +1,12 @@
 {
   "The Message Box": {
     "seen_ids": [
-      "19d05c32b5674f83",
-      "19d1a77d55d49eba",
-      "19cfb6b57a87ca29",
-      "19cdc72df8dc7080",
       "19d105f08a5bc27b",
-      "19cec52c7a956a0f"
+      "19cec52c7a956a0f",
+      "19d1a77d55d49eba",
+      "19cdc72df8dc7080",
+      "19d05c32b5674f83",
+      "19cfb6b57a87ca29"
     ],
     "items": [
       {
@@ -76,8 +76,8 @@
   },
   "One First": {
     "seen_ids": [
-      "19d05d9ad5767edf",
-      "19d1a6f0eb422929"
+      "19d1a6f0eb422929",
+      "19d05d9ad5767edf"
     ],
     "items": [
       {
@@ -106,11 +106,23 @@
   },
   "Law Dork": {
     "seen_ids": [
-      "19d12b8f4a80969a",
       "19d0ee3de44c33c8",
+      "19d12b8f4a80969a",
+      "19d1c9b76737fa71",
       "19d026a9c0a11e79"
     ],
     "items": [
+      {
+        "gmail_id": "19d1c9b76737fa71",
+        "title": "SCOTUS right imagines ways to fight a Mississippi law that allows more people\r\n to vote",
+        "url": "https://www.lawdork.com/p/scotus-right-imagines-ways-to-fight",
+        "pub_date": "2026-03-23T21:29:49+00:00",
+        "author": "Chris Geidner at Law Dork",
+        "post_type": "newsletter",
+        "content": "<p>The U.S. Supreme Court on Monday morning took a much more serious look at the Republican National Committee\u2019s request to upend state election rules that allow ballots mailed by Election Day but received after the fact to be counted than many expected.</p>\n<p>A decision in the RNC\u2019s favor could block similar election laws in upwards of a majority of states, depending on the way the case is decided \u2014 which likely will come down to how Chief Justice John Roberts and Justice Amy Coney Barrett decide they would like to resolve the case.</p>\n<p>\u201cThis is ultimately a federalism case,\u201c Mississippi Solicitor General Scott Stewart reminded the justices at the end of the more than two hours of arguments, and a broad decision against Mississippi would almost certainly have consequences outside of Monday\u2019s case.</p>\n<p>The Supreme Court granted certiorari to review a decision from three far-right Trump appointees on the U.S.Court of Appeals for the Fifth Circuit tossing out Mississippi\u2019s law allowing for ballots mailed or sent by common carrier and postmarked by Election Day but received within five days after then to be counted. The extreme decision seemed ripe for reversal given the long history of states allowing for similar actions, the vast differences in state election rules, and the narrow question before the justices.</p>\n<p>The simple case, however, came up against the MAGA-infused era of 2026, and that made everything much more complicated than it should have been \u2014 with several of the Republican appointees focused much more on outlier hypotheticals and the related policy choices at issue in setting election laws than on the actual narrow question Monday\u2019s arguments were supposed to resolve.</p>\n<p>As Justice Ketanji Brown Jackson reminded everyone after the first round of questions to Stewart, \u201cWe\u2019re in a preemption dynamic.\u201c</p>\n<p>What she meant is: Monday was supposed to be about preemption. As Mississippi put it in their cert petition: \u201cThe question presented is whether the federal election-day statutes preempt a state law that allows ballots that are cast by federal election day to be received by election officials after that day.\u201d</p>\n<p>Simple laws with simple language \u2014 2 U.S.C. 7, 2 U.S.C. 1, and 3 U.S.C. 1 \u2014 should have led to a simple case.</p>\n<p>That was not what happened.</p>\n<p>Right out of the gate, Justice Clarence Thomas was focused on whether states could set a rule such that your vote would be counted so long as you got it to your neighbor by Election Day.</p>\n<p>When Stewart said that the standard should be when the voters have \u201cmade an irrevocable decision by casting ballots,\u201d Thomas insisted, \u201cI made a final choice when I handed it to my neighbor.\u201c</p>\n<p>Justice Neil Gorsuch followed up with a dizzying array of hypothetical voting processes \u2014 none of which were before the justices:</p>\n<p>What if \u201ca notary, that\u2019s official, that\u2019s recognized, certified that you cast your ballot on Election Day\u201d?</p>\n<p>\u201c[H]ow about a justice of the United States Supreme Court\u201c notarizing your ballot?</p>\n<h3>\u201cHow about a time-stamped video showing that I voted on Election Day?\u201d</h3>\n<p>Never one to be left out in such a moment, Justice Sam Alito later piped up, asking, \u201cWhat if the state designates in an official of the Republican Party or the Democratic Party who receives these ballots, collects ballots, and fills out an affidavit saying, \u2018I received all these and I will faithfully deliver them\u201d? Would that be okay?\u201d</p>\n<p>Gorsuch came back, asking Stewart if his position is that, \u201cby any means and by any date up until the next Congress meets, a state can receive ballots?\u201c</p>\n<p>When Stewart responded that, for congressional races, the answer is \u201cpotentially, yes, your honor,\u201c that was when Jackson intervened to remind everyone what the case was actually supposed to be about.</p>\n<p>\u201cI was just going to say, isn\u2019t your point that the line-drawing issues that have been raised are only problems to the extent that Congress thought they were problems?\u201d she asked. \u201cWe\u2019re in a preemption dynamic, and so the question I think really is, what did Congress intend with its statement about Election Day? Did it mean to cabin the states so that they did not have the discretion to make these kinds of decisions?\u201c</p>\n<p>Pointing to earlier comments from Justice Sonia Sotomayor \u2014asking why Stewart was bothering fighting the premise of one of Gorsuch\u2019s hypotheticals when there is \u201cno federal law that says that\u2019s not okay\u201c \u2014 Jackson continued:</p>\n<p>[I]n addition to what Justice Sotomayor has said, which is we have no federal statute that precludes this, I think we have several federal statutes that suggest that Congress was aware of post-Election Day ballot deadlines, that the states had enacted and, in fact, incorporated those in several circumstances.</p>\n<p>That, one could have imagined, would be the end of it. There\u2019s no preemption, and there\u2019s evidence Congress agrees that there is no preemption.</p>\n<p>But, on Monday, that was Gorsuch\u2019s signal to go into hyperdrive, presenting a monster hypo that took over a disproportionate part of the rest of the morning:</p>\n<p>Let\u2019s say you have a state where a large portion of the electorate mails in their ballots on or close to Election Day. Not far-fetched. Many states are like that. Then the day after the election, a story breaks that one of the lead candidates engaged in an inappropriate sexual escapade or perhaps is colluding with a foreign power. Again, not far-fetched, I think. And the competing candidate immediately goes on the airwaves and urges voters to recall their ballots and to tell the common carriers not to deliver them. And many common carriers will do that with anything that you send through them. FedEx, you just call them up and say I want it back.</p>\n<p>In that hypothetical, did the election happen on Election Day? Oh, by the way, it swings the election.</p>\n<p>The word \u201crecall\u201d was then used 40 more times in the course of the arguments.</p>\n<p>Importantly, the \u201crecall\u201c issue garnered attention from Barrett, who referencing the recall issue, posed a middle-ground question of sorts, asking whether it was possible \u201cfor a portion of Mississippi\u2019s statute to be unlawful \u2026 insofar as it potentially permits recall\u201d aside from \u201cwhether Mississippi\u2019s statute was unlawful insofar as it allowed ballot receipt after Election Day.\u201d</p>\n<p>Stewart responded yes, adding that the court could, in essence, tell the state, \u201c[Y]ou need a more unambiguous finality here and you need to foreclose recall, period, full stop.\u201c</p>\n<p>Justice Brett Kavanaugh didn\u2019t engage much with the law at all, let alone the preemption question actually before the court, instead focused almost exclusively on policy debates when questioning Stewart.</p>\n<p>Kavanaugh spent his time asking about fraud and \u2014 brushing aside Stewart\u2019s statement that there \u201chas not been much of a showing about actual fraud\u201d \u2014 \u201cthe appearance of fraud.\u201c</p>\n<p>After Stewart conceded that it would not be \u201cdisenfranchisement\u201d for a state not to allow the counting of mail ballots received after Election Day \u2014 a point, for Stewart, about the lack of any preemptive rule from Congress on this point \u2014 Kavanaugh worked mightily to turn it into something else.</p>\n<p>When Stewart noted that this wasn\u2019t the motivating issue of Congress in passing these Election Day laws, Kavanaugh followed further down the path:</p>\n<p>[I]f you have to have a deadline, which you acknowledged, and if having a deadline of November 3rd rather than November 10th for receipt, doesn\u2019t disenfranchise anyone, why wouldn\u2019t it make more sense to take account in some respect of that concern as we think about how the text and history fit together?</p>\n<p>After some back and forth, Stewart returned to the fact that the answer really is the preemption question: \u201cThe question is, did Congress wall off states from debating these policy points? I think the answer is no.\u201c</p>\n<p>For his part, Roberts asked Stewart and, later, Solicitor General John Sauer \u2014 representing the United States and siding with the RNC \u2014 questions about the impact of the case on early voting.</p>\n<p>In between them, Paul Clement, representing the RNC \u2014 in a far less sure-footed appearance than usual \u2014 had raised more questions than he answered on the topic.</p>\n<p>A fundamental issue in the case is that, in 1845, when the first of these Election Day laws was passed, all voting was done in person, on Election Day, and a voter\u2019s qualifications were confirmed at that time. The issue then is why \u2014 and how \u2014 the RNC can argue that states are preempted from legislating as to only one aspect of one of those rules.</p>\n<p>The response to this from the right \u2014 as Sotomayor noted earlier in the arguments \u2014 had morphed into an \u201cattempt by some of the amici here to Bruenize this inquiry and say that history tells us how elections must be held\u201d \u2014 a reference to the court\u2019s 2022 Second Amendment \u201chistorical tradition\u201c decision that the court has already had to pull back once and is still struggling with this term.</p>\n<p>Ultimately, Clement talked around it as to early voting, pointing to \u201cthe distinct history of early voting,\u201c but his real answer was that the RNC is only changing this one rule now. Other challenges to other practices could follow, as he told Barrett at one point about post-Election Day adjudication of a voter\u2019s eligibility.</p>\n<p>In an answer about early voting, he explicitly left that door open. When Justice Elena Kagan asked him about the \u201cperiod\u201d of voting discussed in a 2022 election law passed by Congress, Clement said, \u201cI would think that the most the period of voting would refer to is the practice of early voting, which we\u2019re not taking issue with here \u2026.\u201c</p>\n<p>Here.</p>\n<p>When Sauer got up, Thomas asked him directly: \u201cWhat effect would your approach have on early voting?\u201c</p>\n<p>Sauer tried to claim that Mississippi, the RNC, and the U.S. have the same position \u201cthat early voting is still acceptable,\u201c noting that \u201cearly voting has two things in favor of it\u201c \u2014 a \u201cdistinct historical pedigree\u201c and more recent appellate decisions.</p>\n<h3>Then, Roberts spoke up, pushing back on that, saying:</h3>\n<p>I\u2019m not sure I understand exactly how that answer is responsive to the point that if the Election Day is the voting and taking, that has to be that day. So maybe I just missed it. But it seems to me maybe you\u2019re not saying anything other than, \u201cWell, that\u2019s different.\u201d</p>\n<p>This simple case, to return to the start, could end up quickly getting very complicated depending on where Roberts and Barrett (and, Rick Hasen suggested, \u201cmaybe Kavanaugh\u201d) land and how a majority crafts its decision.</p>\n<p>If the RNC wins, however, not only will this one practice be upended for the upcoming elections but Clement and others will quickly look at how the opinion can be used to challenge other state practices that make voting more accessible than it was in the past.</p>\n<p>Law Dork covers the Supreme Court in depth. Consider becoming a free or paid subscriber.</p>",
+        "description": "The U.S. Supreme Court on Monday morning took a much more serious look at the Republican National Committee\u2019s request to upend state election rules that allow ballots mailed by Election Day but received after the fact to be counted than many expected. A decision in the RNC\u2019s favor could block\u2026",
+        "guid": "https://www.lawdork.com/p/scotus-right-imagines-ways-to-fight"
+      },
       {
         "gmail_id": "19d12b8f4a80969a",
         "title": "DOJ Civil Rights Division hire resigned from Alabama firm over Facebook post\r\n following George Floyd's murder",
@@ -148,22 +160,22 @@
   },
   "Zeteo": {
     "seen_ids": [
-      "19d108600db2bb05",
-      "19d16585951b289e",
-      "19d077e0a1d5dfa1",
-      "19d1799ef8fa7d28",
       "19d1c6cc02638148",
-      "19d03bdf6061b863",
+      "19d1799ef8fa7d28",
       "19cfd6ce4b7365a3",
-      "19d02327ec8b2605",
+      "19d108600db2bb05",
       "19d0d5181cc1057e",
+      "19d077e0a1d5dfa1",
       "19d1a8fb8fbccc0e",
       "19cfe9e4b9d763bd",
-      "19d00c1413bcf4fa",
-      "19d0b135c4497e53",
+      "19d02327ec8b2605",
       "19d11cbd889a4077",
+      "19cfdf13253a85c0",
       "19d05ed9379b6a20",
-      "19cfdf13253a85c0"
+      "19d0b135c4497e53",
+      "19d03bdf6061b863",
+      "19d16585951b289e",
+      "19d00c1413bcf4fa"
     ],
     "items": [
       {
@@ -397,8 +409,8 @@
   },
   "Original Jurisdiction": {
     "seen_ids": [
-      "19d1a8e36f56b145",
-      "19d015d7c7fb65c4"
+      "19d015d7c7fb65c4",
+      "19d1a8e36f56b145"
     ],
     "items": [
       {
@@ -427,9 +439,9 @@
   },
   "Scott's Read Later": {
     "seen_ids": [
-      "19d00e04344cb72f",
       "19d0388645c273fe",
-      "19d1ac0b34c0f50f"
+      "19d1ac0b34c0f50f",
+      "19d00e04344cb72f"
     ],
     "items": [
       {
