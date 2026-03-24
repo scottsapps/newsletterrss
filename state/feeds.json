@@ -3,10 +3,10 @@
     "seen_ids": [
       "19cdc72df8dc7080",
       "19d1a77d55d49eba",
-      "19d05c32b5674f83",
+      "19d105f08a5bc27b",
       "19cec52c7a956a0f",
-      "19cfb6b57a87ca29",
-      "19d105f08a5bc27b"
+      "19d05c32b5674f83",
+      "19cfb6b57a87ca29"
     ],
     "items": [
       {
@@ -106,11 +106,11 @@
   },
   "Law Dork": {
     "seen_ids": [
+      "19d1e0ba13675c07",
       "19d026a9c0a11e79",
       "19d12b8f4a80969a",
-      "19d0ee3de44c33c8",
-      "19d1e0ba13675c07",
-      "19d1c9b76737fa71"
+      "19d1c9b76737fa71",
+      "19d0ee3de44c33c8"
     ],
     "items": [
       {
@@ -172,26 +172,26 @@
   },
   "Zeteo": {
     "seen_ids": [
-      "19d00c1413bcf4fa",
-      "19cfdf13253a85c0",
-      "19d1d2a60fd08df0",
-      "19d1799ef8fa7d28",
-      "19d03bdf6061b863",
-      "19d1a8fb8fbccc0e",
-      "19d11cbd889a4077",
-      "19d02327ec8b2605",
-      "19d1fa4b15ade5d9",
-      "19d077e0a1d5dfa1",
-      "19d0d5181cc1057e",
-      "19d16585951b289e",
-      "19d21dd98140f5f0",
       "19d108600db2bb05",
-      "19d208dd9c3d3ecd",
-      "19cfe9e4b9d763bd",
-      "19d0b135c4497e53",
-      "19d05ed9379b6a20",
       "19cfd6ce4b7365a3",
-      "19d1c6cc02638148"
+      "19d1d2a60fd08df0",
+      "19d208dd9c3d3ecd",
+      "19d1c6cc02638148",
+      "19d0b135c4497e53",
+      "19cfe9e4b9d763bd",
+      "19d0d5181cc1057e",
+      "19d00c1413bcf4fa",
+      "19d1fa4b15ade5d9",
+      "19d05ed9379b6a20",
+      "19d03bdf6061b863",
+      "19d16585951b289e",
+      "19d1799ef8fa7d28",
+      "19d077e0a1d5dfa1",
+      "19d11cbd889a4077",
+      "19d1a8fb8fbccc0e",
+      "19d21dd98140f5f0",
+      "19cfdf13253a85c0",
+      "19d02327ec8b2605"
     ],
     "items": [
       {
@@ -510,9 +510,9 @@
   },
   "Scott's Read Later": {
     "seen_ids": [
+      "19d0388645c273fe",
       "19d00e04344cb72f",
-      "19d1ac0b34c0f50f",
-      "19d0388645c273fe"
+      "19d1ac0b34c0f50f"
     ],
     "items": [
       {
