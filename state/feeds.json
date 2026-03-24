@@ -1,12 +1,12 @@
 {
   "The Message Box": {
     "seen_ids": [
-      "19cdc72df8dc7080",
-      "19d105f08a5bc27b",
+      "19cfb6b57a87ca29",
+      "19d05c32b5674f83",
       "19d1a77d55d49eba",
       "19cec52c7a956a0f",
-      "19d05c32b5674f83",
-      "19cfb6b57a87ca29"
+      "19d105f08a5bc27b",
+      "19cdc72df8dc7080"
     ],
     "items": [
       {
@@ -106,11 +106,11 @@
   },
   "Law Dork": {
     "seen_ids": [
-      "19d12b8f4a80969a",
-      "19d1c9b76737fa71",
-      "19d1e0ba13675c07",
       "19d0ee3de44c33c8",
-      "19d026a9c0a11e79"
+      "19d1c9b76737fa71",
+      "19d026a9c0a11e79",
+      "19d12b8f4a80969a",
+      "19d1e0ba13675c07"
     ],
     "items": [
       {
@@ -172,26 +172,38 @@
   },
   "Zeteo": {
     "seen_ids": [
-      "19d02327ec8b2605",
-      "19d1fa4b15ade5d9",
-      "19d00c1413bcf4fa",
-      "19cfd6ce4b7365a3",
-      "19d1a8fb8fbccc0e",
       "19d1d2a60fd08df0",
-      "19d16585951b289e",
-      "19d108600db2bb05",
-      "19d1799ef8fa7d28",
-      "19d03bdf6061b863",
-      "19d0d5181cc1057e",
-      "19d077e0a1d5dfa1",
       "19cfdf13253a85c0",
-      "19cfe9e4b9d763bd",
+      "19cfd6ce4b7365a3",
+      "19d0d5181cc1057e",
+      "19d00c1413bcf4fa",
+      "19d16585951b289e",
       "19d0b135c4497e53",
+      "19cfe9e4b9d763bd",
       "19d1c6cc02638148",
+      "19d1799ef8fa7d28",
+      "19d208dd9c3d3ecd",
+      "19d077e0a1d5dfa1",
+      "19d02327ec8b2605",
+      "19d03bdf6061b863",
+      "19d108600db2bb05",
+      "19d1a8fb8fbccc0e",
+      "19d1fa4b15ade5d9",
       "19d11cbd889a4077",
       "19d05ed9379b6a20"
     ],
     "items": [
+      {
+        "gmail_id": "19d208dd9c3d3ecd",
+        "title": "US Troops Are Being Told to \u2018Get Ready\u2019 to Invade Iran",
+        "url": "https://zeteo.com/p/trump-troops-iran-get-ready-invade",
+        "pub_date": "2026-03-24T15:48:47+00:00",
+        "author": "Zeteo",
+        "post_type": "podcast",
+        "content": "<p>Donald Trump\u2019s administration is moving thousands of US service members to the Middle East East, amid the disastrous US-Israeli war on Iran. And, just as with the historic public opposition to the war, there is unprecedented dissent brewing inside the military \u2013 with some troops currently on their way to the Middle East seeking to refuse fighting.</p>\n<p>Mike Prysner of the Center on Conscience and War joins Prem to discuss the remarkable levels of dissent inside the military, the fear and intimidation US service members are facing, and how the Trump administration and Israel are to blame for US troops now aiming to leave their posts.</p>\n<p>Apparently, soldiers are being told to prepare for the worst. Prysner said directives coming from command to the rank-and-file are stark: \u201cThey\u2019re saying a ground war is inevitable, like this is happening, you better get ready.\u201d</p>\n<p>High-profile alleged war crimes, including the strike on the Minab girls\u2019 school, as well as the US attack of the Iranian Naval ship returning from an Indian training exercise, have disturbed many US soldiers, Prysner said. He told Prem his organization has seen a \u201c1,000% increase\u201d in new conscientious-objector clients since the start of the war in Iran.</p>\n<p>Watch the interview above to hear more details about the dissent brewing inside the military, the rank-and-file disrespect of Trump and Pete Hegseth, and how many more troops may join the \u201cdozens\u201d who already left because of the genocide on Gaza.</p>\n<p>The media is either loudly banging the drum for war, or completely disregarding the historic public and military dissent to it. We at Zeteo are reporting on the war like it is. Please subscribe to support us in our mission to build a media fit for the moment.</p>\n<p>We are giving you a 5-minute preview of this interview. Become a paid subscriber to watch the whole conversation \u2013 and to make sure you have full access to all our content. Thank you!</p>\n<p>If you have any tips or information on the war, you can text Prem on Signal @ premthakker.35. You can remain anonymous.</p>\n<h3>Check out more from Zeteo:</h3>",
+        "description": "Donald Trump\u2019s administration is moving thousands of US service members to the Middle East East, amid the disastrous US-Israeli war on Iran. And, just as with the historic public opposition to the war, there is unprecedented dissent brewing inside the military \u2013 with some troops currently on their\u2026",
+        "guid": "https://zeteo.com/p/trump-troops-iran-get-ready-invade"
+      },
       {
         "gmail_id": "19d1fa4b15ade5d9",
         "title": "So Now WE Are Using Human Shields?",
@@ -456,8 +468,8 @@
   },
   "Original Jurisdiction": {
     "seen_ids": [
-      "19d1a8e36f56b145",
-      "19d015d7c7fb65c4"
+      "19d015d7c7fb65c4",
+      "19d1a8e36f56b145"
     ],
     "items": [
       {
@@ -486,9 +498,9 @@
   },
   "Scott's Read Later": {
     "seen_ids": [
-      "19d00e04344cb72f",
+      "19d1ac0b34c0f50f",
       "19d0388645c273fe",
-      "19d1ac0b34c0f50f"
+      "19d00e04344cb72f"
     ],
     "items": [
       {
