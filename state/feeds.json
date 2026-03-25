@@ -1,11 +1,11 @@
 {
   "The Message Box": {
     "seen_ids": [
-      "19cdc72df8dc7080",
       "19d1a77d55d49eba",
       "19d105f08a5bc27b",
-      "19cec52c7a956a0f",
       "19d05c32b5674f83",
+      "19cec52c7a956a0f",
+      "19cdc72df8dc7080",
       "19cfb6b57a87ca29"
     ],
     "items": [
@@ -106,10 +106,10 @@
   },
   "Law Dork": {
     "seen_ids": [
-      "19d1e0ba13675c07",
-      "19d026a9c0a11e79",
       "19d12b8f4a80969a",
+      "19d026a9c0a11e79",
       "19d1c9b76737fa71",
+      "19d1e0ba13675c07",
       "19d0ee3de44c33c8"
     ],
     "items": [
@@ -172,28 +172,40 @@
   },
   "Zeteo": {
     "seen_ids": [
-      "19d108600db2bb05",
-      "19cfd6ce4b7365a3",
-      "19d1d2a60fd08df0",
-      "19d208dd9c3d3ecd",
+      "19d11cbd889a4077",
       "19d1c6cc02638148",
-      "19d0b135c4497e53",
-      "19cfe9e4b9d763bd",
-      "19d0d5181cc1057e",
-      "19d00c1413bcf4fa",
+      "19d1d2a60fd08df0",
+      "19cfd6ce4b7365a3",
+      "19d077e0a1d5dfa1",
+      "19d1a8fb8fbccc0e",
       "19d1fa4b15ade5d9",
-      "19d05ed9379b6a20",
-      "19d03bdf6061b863",
+      "19d108600db2bb05",
+      "19d21dd98140f5f0",
+      "19d0b135c4497e53",
+      "19d0d5181cc1057e",
       "19d16585951b289e",
       "19d1799ef8fa7d28",
-      "19d077e0a1d5dfa1",
-      "19d11cbd889a4077",
-      "19d1a8fb8fbccc0e",
-      "19d21dd98140f5f0",
       "19cfdf13253a85c0",
-      "19d02327ec8b2605"
+      "19d03bdf6061b863",
+      "19cfe9e4b9d763bd",
+      "19d208dd9c3d3ecd",
+      "19d227ce438bd05f",
+      "19d02327ec8b2605",
+      "19d00c1413bcf4fa",
+      "19d05ed9379b6a20"
     ],
     "items": [
+      {
+        "gmail_id": "19d227ce438bd05f",
+        "title": "He Worked For US Intelligence. Now He\u2019s Writing for Zeteo",
+        "url": "https://zeteo.com/p/he-worked-for-us-intelligence-now",
+        "pub_date": "2026-03-25T00:46:07+00:00",
+        "author": "Zeteo",
+        "post_type": "newsletter",
+        "content": "<p>Dear Friends,</p>\n<p>At a moment when war is being sold and marketed as inevitable and unavoidable - and when much of the mainstream media is falling into familiar patterns of deference, distortion, or outright silence in the face of numerous Israeli and American war crimes, I am pleased to announce that we\u2019re expanding Zeteo\u2019s Iran coverage with voices that cut through all of the noise.</p>\n<p>We are proud to have teamed up with the Egab platform so as to be able to bring you voices from freelance journalists working inside of Iran, on the ground, as well as to announce Harrison Mann as Zeteo\u2019s newest contributor.</p>\n<p>Mann isn\u2019t just another pundit parachuting into war commentary. He spent over a decade inside the US military and intelligence system, including at the Defense Intelligence Agency, working directly on Middle East policy. He later made the rare - and consequential - decision to resign from the Biden administration in protest over US policy on Gaza, citing what he described as a profound moral and strategic failure at the highest levels of government.</p>\n<p>Since then, he has emerged as one of the clearest voices on US foreign policy and national security - particularly when it comes to this escalating war with Iran, and is currently the Associate Director for Campaigns and Policy at Win Without War. His writing cuts through official narratives to expose how wars are sold, how intelligence is shaped, and how the public is misled. Check out his viral piece for Zeteo - from earlier this month.</p>\n<p>At Zeteo, he\u2019ll be writing regularly on the war in Iran and the consequences for the wider region, breaking down military strategy, interrogating the claims coming out of Washington and Tel Aviv, and helping readers understand what\u2019s actually happening behind the scenes.</p>\n<p>And, via Egab, we hope to also amplify local Iranian voices and bring you more original reporting from the ground in Iran too.</p>\n<p>Because if there\u2019s one thing we know, truth is the first casualty of every war - and Zeteo is committed to bringing you truth, facts, the real story.</p>\n<p>So, I want to ask again for your support - if you\u2019re a free subscriber, please consider becoming a paid subscriber today.</p>\n<p>And if you\u2019re already a paid subscriber, thank you so much for your immense support. If you\u2019d like to help Zeteo even further, and have the means to do so, you can upgradeto become a Founding member and you can also donate to Zeteo.</p>\n<p>I appreciate you all. Let\u2019s keep fighting the good fight together!</p>\n<p>Best,</p>\n<h3>Mehdi</h3>\n<h3>Founder, CEO and editor-in-chief of Zeteo</h3>",
+        "description": "Dear Friends, At a moment when war is being sold and marketed as inevitable and unavoidable - and when much of the mainstream media is falling into familiar patterns of deference, distortion, or outright silence in the face of numerous Israeli and American war crimes, I am pleased to announce that\u2026",
+        "guid": "https://zeteo.com/p/he-worked-for-us-intelligence-now"
+      },
       {
         "gmail_id": "19d21dd98140f5f0",
         "title": "The 5 Most Islamophobic Tweets From Republicans Since the Iran War Began",
@@ -480,8 +492,8 @@
   },
   "Original Jurisdiction": {
     "seen_ids": [
-      "19d015d7c7fb65c4",
-      "19d1a8e36f56b145"
+      "19d1a8e36f56b145",
+      "19d015d7c7fb65c4"
     ],
     "items": [
       {
@@ -510,9 +522,9 @@
   },
   "Scott's Read Later": {
     "seen_ids": [
-      "19d0388645c273fe",
       "19d00e04344cb72f",
-      "19d1ac0b34c0f50f"
+      "19d1ac0b34c0f50f",
+      "19d0388645c273fe"
     ],
     "items": [
       {
