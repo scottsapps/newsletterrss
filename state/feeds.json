@@ -1,14 +1,14 @@
 {
   "The Message Box": {
     "seen_ids": [
-      "19d2494b198a7efc",
       "19d34702be549348",
-      "19cdc72df8dc7080",
       "19d1a77d55d49eba",
-      "19d05c32b5674f83",
-      "19d29d8bd6a7ee6e",
       "19cfb6b57a87ca29",
       "19cec52c7a956a0f",
+      "19d29d8bd6a7ee6e",
+      "19d05c32b5674f83",
+      "19d2494b198a7efc",
+      "19cdc72df8dc7080",
       "19d105f08a5bc27b"
     ],
     "items": [
@@ -112,9 +112,9 @@
   },
   "One First": {
     "seen_ids": [
+      "19d29e4c3aabe552",
       "19d05d9ad5767edf",
-      "19d1a6f0eb422929",
-      "19d29e4c3aabe552"
+      "19d1a6f0eb422929"
     ],
     "items": [
       {
@@ -154,14 +154,14 @@
   },
   "Law Dork": {
     "seen_ids": [
-      "19d1c9b76737fa71",
       "19d026a9c0a11e79",
+      "19d230dcd0a9cbc1",
+      "19d31dfddaeefdb2",
+      "19d1c9b76737fa71",
       "19d0ee3de44c33c8",
       "19d12b8f4a80969a",
       "19d1e0ba13675c07",
-      "19d2747fcc602931",
-      "19d31dfddaeefdb2",
-      "19d230dcd0a9cbc1"
+      "19d2747fcc602931"
     ],
     "items": [
       {
@@ -256,46 +256,58 @@
   },
   "Zeteo": {
     "seen_ids": [
-      "19d2a84caf9cb676",
-      "19d03bdf6061b863",
-      "19d2bc21c95acf47",
-      "19d1d2a60fd08df0",
-      "19d26c23dca0be46",
-      "19d315897ffb65e1",
-      "19d35379c9041892",
-      "19cfdf13253a85c0",
-      "19d16585951b289e",
-      "19d11cbd889a4077",
-      "19d108600db2bb05",
-      "19d25f6b0c364e01",
-      "19d3050f32267f1a",
-      "19cfe9e4b9d763bd",
-      "19d39fe366552ca0",
-      "19d0b135c4497e53",
-      "19d208dd9c3d3ecd",
-      "19d3a74bb3eeb021",
-      "19d00c1413bcf4fa",
-      "19cfd6ce4b7365a3",
-      "19d1fa4b15ade5d9",
-      "19d21dd98140f5f0",
-      "19d0d5181cc1057e",
-      "19d1c6cc02638148",
-      "19d24bf5e1961e34",
-      "19d077e0a1d5dfa1",
-      "19d2f03ab5e8c9ca",
-      "19d25d638596823d",
-      "19d02327ec8b2605",
-      "19d27b062a28af0a",
-      "19d227ce438bd05f",
-      "19d1799ef8fa7d28",
-      "19d2c9efb640c87e",
-      "19d1a8fb8fbccc0e",
-      "19d05ed9379b6a20",
       "19d29e68798a2fa1",
+      "19d0b135c4497e53",
+      "19d39fe366552ca0",
+      "19d00c1413bcf4fa",
+      "19d27b062a28af0a",
+      "19d11cbd889a4077",
+      "19d2c9efb640c87e",
+      "19d3b3526ede41d6",
+      "19d208dd9c3d3ecd",
+      "19d2f03ab5e8c9ca",
+      "19d315897ffb65e1",
+      "19d25f6b0c364e01",
+      "19d02327ec8b2605",
+      "19d1fa4b15ade5d9",
+      "19d26c23dca0be46",
+      "19d1d2a60fd08df0",
+      "19d2bc21c95acf47",
+      "19d1a8fb8fbccc0e",
+      "19d03bdf6061b863",
+      "19d2a84caf9cb676",
+      "19cfe9e4b9d763bd",
+      "19d25d638596823d",
+      "19cfd6ce4b7365a3",
+      "19d16585951b289e",
+      "19d077e0a1d5dfa1",
+      "19d227ce438bd05f",
+      "19d24bf5e1961e34",
+      "19d1799ef8fa7d28",
+      "19d0d5181cc1057e",
+      "19cfdf13253a85c0",
+      "19d21dd98140f5f0",
+      "19d3a74bb3eeb021",
+      "19d35379c9041892",
+      "19d1c6cc02638148",
+      "19d108600db2bb05",
       "19d2fa7594673900",
-      "19d3765726a4172a"
+      "19d05ed9379b6a20",
+      "19d3765726a4172a",
+      "19d3050f32267f1a"
     ],
     "items": [
+      {
+        "gmail_id": "19d3b3526ede41d6",
+        "title": "The Palestinian Question Is Still the Core of the Middle East Conflict",
+        "url": "https://zeteo.com/p/palestinian-israeli-conflict-middle-east-solution-ayman-odeh",
+        "pub_date": "2026-03-29T20:01:20+00:00",
+        "author": "Zeteo",
+        "post_type": "newsletter",
+        "content": "<p>At the start of every parliamentary session, Benjamin Netanyahu would give his customary speech. He would parade his achievements, while his servants in parliament rose to applaud him at every pause, and he would ignore his failures. But there was always one topic he reserved for after a long, deliberate pause \u2013 his way of signaling its importance. By now, we knew exactly what was coming.</p>\n<p>He would smile and declare with confidence something along the lines of: \u2018They used to say the Palestinian issue is the root of the conflict. But the real root is the refusal to recognize Israel. The Abraham Accords show that peace with the Palestinians does not guarantee peace with the Arab world.\u2019 He would add, \u2018The true challenge is achieving peace between Israel and the Arab states.\u2019</p>\n<p>We knew this argument contradicted both reality and reason. Yet, in recent years, the Palestinian issue has been at a difficult turning point. Several Arab states were normalizing relations with Israel, one after another, with strong encouragement from Donald Trump. At the time, we warned clearly that the Israeli occupation of the Palestinians would not end unless it became truly costly for Israel.</p>\n<p>Now everyone understands that the occupation has indeed become unbearably costly.</p>\n<p>The latest war began in Gaza, and after two and a half years of staggering loss \u2013both in lives and resources \u2013its consequences have rippled across the entire region.</p>\n<p>What began in Gaza has now escalated into a wider confrontation between the United States and Israel on one side and Iran (with support from Russia and China) on the other \u2013a conflict with ripple effects stretching far beyond the battlefields. In this expanding crisis, Tehran\u2019s network of regional actors has been engaged to varying degrees, with some militias intensifying attacks even as others hold back from full\u2011scale war.</p>\n<p>As a member of the Knesset, I sit in many parliamentary committee meetings \u2013and there is not a single committee untouched by the occupation, whether directly or indirectly. The Foreign Affairs and Defense Committee is an obvious example. The Finance Committee debates a budget that dramatically strengthens the occupation and the settlements, all at the expense of social and economic needs. The Interior Committee grapples with crime in the Arab community, which the government refuses to address seriously, seeing Palestinian citizens as part of a people it treats as an enemy. And the Constitution Committee, led by the settler Simcha Rothman, pushes a judicial overhaul designed to allow the seizure of privately owned Palestinian land in Area C without interference from the Supreme Court.</p>\n<p>And so it goes across the entire Knesset.</p>\n<p>Yet those who suffer most inside Israel are the country\u2019s Palestinian citizens, who make up roughly 20% of the population. Their reality is like that of a tightrope walker in a circus: lean too far toward their national identity, and they risk losing their citizenship; lean too far toward citizenship, and they risk losing their national identity. Since October 7, even this fragile rope has begun to fray.</p>\n<p>History has lessons.</p>\n<p>Thucydides wrote that \u201cwar is a violent teacher,\u201d revealing harsh truths about power, fear, and human limits. His lesson is evident today: the war in Gaza has violently exposed the limits of force. At first glance, it seemed to offer the Israeli right every possible advantage: the most right-wing, ideologically cohesive government in Israel\u2019s history; October 7 as justification to pursue its full political agenda; a war backed by more than 90% of Jewish Israeli citizens; the longest and most intense conflict since 1948; and two American administrations more supportive than ever.</p>\n<p>Yet despite all this, when the war ends, there will still be roughly 7.5 million Palestinians and 7.5 million Israelis living between the Jordan River and the Mediterranean Sea. That reality has not changed \u2013and it will not.</p>\n<p>After the wars of 1948 and 1967, the vast majority of Israeli Jews felt triumph, while Palestinians endured the humiliation of defeat. This war is different. Ask Israelis and Palestinians today whether they would return to October 6, 2023, and most would likely say yes. That alone reflects a profound transformation in the region\u2019s political and human landscape.</p>\n<p>The war with Iran \u2013yet another consequence of the unresolved Palestinian question \u2013has revealed something else: the United States and Israel are unlikely to achieve their stated goal of regime change.</p>\n<p>Everything that has unfolded over the past two years shows that the Middle East will remain a region prone to repeated eruptions of violence. At the center of that instability is the unresolved Palestinian question.</p>\n<p>But there is a solution.</p>\n<p>This is certainly not the solution proposed by the Israeli right, which has repeatedly failed. Just a year ago, it claimed Hezbollah had been neutralized \u2013yet the group remains a powerful and determined fighting force. The same has happened with Hamas, and the same has happened with other Palestinian leaders who were eliminated in the past.</p>\n<p>The founding event of the Zionist left over the past 30 years is the Oslo Accords. The founding event of the Israeli right is October 7, and this war.</p>\n<p>After Oslo, the right attacked the Zionist left, claiming that the peaceful approach brought neither a solution nor security.</p>\n<p>Now all of us can attack the Israeli right by arguing that the military approach has also brought neither a solution nor security.</p>\n<p>Both peoples must not choose death separately, but rather life together, or separately. They must recognize one another and choose life.</p>\n<p>You cannot defeat an idea with military force alone. Ideas can only be challenged with better ideas. The only truly convincing idea is one that recognizes the national rights of both peoples \u2013 Jewish and Palestinian \u2013and guarantees self-determination for each.</p>\n<p>I believe the 2002 Arab Peace Initiative, first launched by Saudi Arabia, offers a realistic and achievable framework. Its core principle is simple: Israel recognizes a Palestinian state, and in return, it secures peace and normalization with the entire Arab and Muslim world.</p>\n<p>Some groups or states may still oppose such an agreement. But if the Palestinians themselves \u2013 the people whose rights are directly at stake, including the Palestinian Liberation Organization and the Palestinian Authority, which support it \u2013accept it, there would be no practical basis left to reject it.</p>\n<p>After two and a half grueling years, what we need most is an ethical and courageous choice: the choice of peace rooted in the rights of both peoples.</p>\n<p>On October 7, the Palestinians struck the Israelis more than at any time since the beginning of the conflict 100 years ago. But the result is that the State of Israel still exists.</p>\n<p>After October 7, the Israelis struck the Palestinians more than at any time since the beginning of the conflict. But the result is that the Palestinian people remain.</p>\n<p>Both peoples must not choose death separately, but rather life together, or separately. They must recognize one another and choose life.</p>\n<p>Ayman Odeh is a Palestinian citizen of Israel and the chair of the Hadash\u2013Ta\u2019al List in the Knesset.</p>\n<p>The views expressed in this article are the author\u2019s own and do not necessarily reflect those of Zeteo.</p>\n<h3>Check out more from Zeteo:</h3>",
+        "description": "At the start of every parliamentary session, Benjamin Netanyahu would give his customary speech. He would parade his achievements, while his servants in parliament rose to applaud him at every pause, and he would ignore his failures. But there was always one topic he reserved for after a long,\u2026",
+        "guid": "https://zeteo.com/p/palestinian-israeli-conflict-middle-east-solution-ayman-odeh"
+      },
       {
         "gmail_id": "19d3a74bb3eeb021",
         "title": "Mehdi Debates Right-Wing Podcasters on Iran, Israel and Immigration",
@@ -773,8 +785,8 @@
   },
   "This Modern World": {
     "seen_ids": [
-      "19d1627557baee08",
-      "19d3a52f42f666c7"
+      "19d3a52f42f666c7",
+      "19d1627557baee08"
     ],
     "items": [
       {
@@ -803,8 +815,8 @@
   },
   "Original Jurisdiction": {
     "seen_ids": [
-      "19d015d7c7fb65c4",
-      "19d1a8e36f56b145"
+      "19d1a8e36f56b145",
+      "19d015d7c7fb65c4"
     ],
     "items": [
       {
@@ -833,9 +845,9 @@
   },
   "Scott's Read Later": {
     "seen_ids": [
+      "19d00e04344cb72f",
       "19d0388645c273fe",
-      "19d1ac0b34c0f50f",
-      "19d00e04344cb72f"
+      "19d1ac0b34c0f50f"
     ],
     "items": [
       {
