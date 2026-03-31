@@ -1,16 +1,16 @@
 {
   "The Message Box": {
     "seen_ids": [
-      "19d438c43320a10d",
+      "19d34702be549348",
+      "19d29d8bd6a7ee6e",
       "19cdc72df8dc7080",
       "19cec52c7a956a0f",
-      "19d2494b198a7efc",
-      "19d29d8bd6a7ee6e",
-      "19d105f08a5bc27b",
-      "19d34702be549348",
-      "19cfb6b57a87ca29",
       "19d1a77d55d49eba",
-      "19d05c32b5674f83"
+      "19cfb6b57a87ca29",
+      "19d438c43320a10d",
+      "19d2494b198a7efc",
+      "19d05c32b5674f83",
+      "19d105f08a5bc27b"
     ],
     "items": [
       {
@@ -124,9 +124,9 @@
   },
   "One First": {
     "seen_ids": [
-      "19d1a6f0eb422929",
-      "19d3e78a766795d3",
       "19d05d9ad5767edf",
+      "19d3e78a766795d3",
+      "19d1a6f0eb422929",
       "19d29e4c3aabe552"
     ],
     "items": [
@@ -178,18 +178,30 @@
   },
   "Law Dork": {
     "seen_ids": [
-      "19d444500373b55c",
-      "19d2747fcc602931",
-      "19d31dfddaeefdb2",
       "19d12b8f4a80969a",
       "19d026a9c0a11e79",
-      "19d3bb4cde7a13ab",
-      "19d1c9b76737fa71",
-      "19d1e0ba13675c07",
       "19d230dcd0a9cbc1",
+      "19d444500373b55c",
+      "19d45c41f63b8e7c",
+      "19d1c9b76737fa71",
+      "19d3bb4cde7a13ab",
+      "19d1e0ba13675c07",
+      "19d2747fcc602931",
+      "19d31dfddaeefdb2",
       "19d0ee3de44c33c8"
     ],
     "items": [
+      {
+        "gmail_id": "19d45c41f63b8e7c",
+        "title": "Supreme Court holds that Colorado's conversion therapy ban \"censors\" speech\r\n therapists",
+        "url": "https://www.lawdork.com/p/supreme-court-colorado-conversion-therapy-ban-ruling",
+        "pub_date": "2026-03-31T21:19:19+00:00",
+        "author": "Chris Geidner at Law Dork",
+        "post_type": "newsletter",
+        "content": "<p>The U.S. Supreme Court on Tuesday held, on an 8-1 vote, that Colorado\u2019s law banning therapists from engaging in conversion therapy with minor patients is presumptively unconstitutional as to talk therapy, deeming the law \u201can egregious form\u201c of speech regulation that almost always violates the First Amendment.</p>\n<p>Only Justice Ketanji Brown Jackson dissented from the court\u2019s decision \u2014 warning that the court might have made talk therapy \u201ceffectively unregulatable\u201d and that the \u201cfallout could be catastrophic.\u201c Taking the rare step of announcing her dissent from the bench, Jackson declared that the majority got it \u201cwrong as a matter of precedent, first principles, and history.\u201d</p>\n<p>Justice Neil Gorsuch wrote the court\u2019s majority opinion, holding that lower courts had applied the wrong standard for addressing Kaley Chiles\u2019s First Amendment challenge to the state\u2019s ban on conversion therapy \u2014 efforts to change a patient\u2019s sexual orientation or gender identity.</p>\n<p>As with his opinion in the wedding website case in 2023, 303 Creative v. Elenis, Gorsuch waved broadly at his purpose being to protect free speech and to stop, as he wrote on Tuesday, \u201ccensorious governments.\u201c</p>\n<p>The proper standard to be applied in Chiles\u2019s case, the court held, is a particularly skeptical form of strict scrutiny because the law is a content-based regulation and, further, includes \u201cviewpoint restrictions\u201d by banning efforts to change a person\u2019s sexual orientation or gender identity and allowing efforts to affirm a patient\u2019s sexual orientation or gender identity. Gorsuch wrote that Chiles\u2019s challenge would likely succeed when the case goes back to the lower courts because \u201cMs. Chiles seeks to engage only in speech, and as applied to her the law regulates what she may say.\u201c</p>\n<p>Colorado\u2019s effort to justify the law as a traditional licensing law, Gorsuch wrote, doesn\u2019t work. \u201c[W]hatever traditional interest a State may have in ensuring a professional possesses a particular set of qualifications, that interest does not automatically entail a right to dictate a professional\u2019s point of view,\u201d he concluded for the court.</p>\n<p>Colorado\u2019s law, he stated of Chiles\u2019s case, \u201ccensors speech based on viewpoint.\u201c</p>\n<p>The problem with that, Jackson countered, is that \u201cregulation of the practice of medicine is pervasively and unavoidably viewpoint based. \u2026 When a State establishes a standard of care, or punishes a doctor for providing care outside of that standard, it necessarily limits what medical professionals can say and do on the basis of viewpoint.\u201d</p>\n<p>The court, she wrote, is upending that well-established basis for state regulation of medical standards of care \u2014 something previously understood to be a basic part of state enforcement of its historic and fundamental police powers.</p>\n<p>\u201cToday, the Court turns its back on that tradition. And, to be completely frank, no one knows what will happen now,\u201c she wrote. \u201cCertainly not the majority. It appears to have made this momentous decision without adequately grappling with the potential long-term and disastrous implications of this ruling.\u201c</p>\n<p>Noting that \u201c[m]any regulations\u201d beyond talk therapy \u201cimpact the speech of medical professionals in the context of their provision of healthcare to patients,\u201c Jackson highlighted rules that \u201crequire that medical professionals \u2018make every reasonable effort to promote the welfare, autonomy and best interests of\u2019 the client\u201c and a Kansas rule that \u201cprohibit[s] medical professionals from treating a patient \u2018in a cruel manner\u2019\u201d \u2014 concluding that \u201cthe Court could be ushering in an era of unprofessional and unsafe medical care administered by effectively unsupervised healthcare providers.\u201c</p>\n<h3>Diving into the opinion</h3>\n<p>A significant part of the lopsided dispute on Tuesday came down to a debate that was prominent during the oral arguments in October over what Justice Clarence Thomas\u2019s 2018 opinion in National Institute of Family and Life Advocates v. Becerra meant when it held that one of the \u201ctwo circumstances\u201d where the court has given \u201cless protection for professional speech\u201d was regulation of \u201cprofessional conduct, even though that conduct incidentally involves speech.\u201d</p>\n<p>In NIFLA, the court held that California\u2019s effort to require \u201ccrisis pregnancy centers\u201d to provide certain information to people who came to the centers was a regulation of \u201cspeech as speech,\u201c and not protected by the exception.</p>\n<p>The majority on Tuesday described that as a rule that \u201claws regulating conduct in ways that incidentally sweep in speech may also generally avoid strict scrutiny,\u201d then detailing how \u201cColorado and the dissent try to shoehorn the State\u2019s statute into\u201c that exception.</p>\n<p>Jackson, however, pointed back to the earlier underlying decision in Planned Parenthood of Southeastern Pennsylvania v. Casey upholding an abortion-related informed-consent law to explain why Tuesday\u2019s majority, applying NIFLA, got it wrong. Jackson wrote:</p>\n<p>California\u2019s notice was \u201cnot tied to a procedure at all. It applie[d] to all interactions between a covered facility and its clients, regardless of whether a medical procedure [was] ever sought, offered, or performed.\u201d Ibid. (emphasis added). So, we reasoned, unlike Pennsylvania\u2019s informed-consent requirement in Casey, California\u2019s notice mandate warranted heightened scrutiny because it \u201cregulate[d] speech as speech.\u201d</p>\n<p>The rule, then, she continued is properly understood as such: \u201cThus, the key distinction, as the NIFLA Court saw it, was whether the challenged law was a regulation of speech as such or a regulation of \u2018professional conduct that incidentally burden[ed] speech.\u2019\u201c</p>\n<p>Although the difference sounds minimal, it\u2019s important. The majority held that NIFLA\u2019s \u201cincidental\u201d is referring to a conduct regulation that \u201cincidentally sweep[s] in speech.\u201c It\u2019s almost a scope argument and, arguably, requires a regulatory focus on \u201cconduct.\u201d Jackson, on the other hand, pressed that NIFLA\u2019s \u201cincidental\u201d is referring to the intent. If the purpose is of the provision is to regulate \u201cprofessional conduct,\u201d then &quot;incidentally burden[ing] speech\u201d should not prompt strict scrutiny.</p>\n<p>What about the other Democratic appointees?</p>\n<p>Justices Elena Kagan and Sonia Sotomayor joined Gorsuch\u2019s majority opinion on Tuesday, although Kagan also wrote an opinion for the pair explaining, in part, their independent thoughts about the case.</p>\n<p>But, join Gorsuch\u2019s opinion they did.</p>\n<p>\u201cThe Court today decides that the Colorado law challenged here, as applied to talk therapy, conflicts with core First Amendment principles because it regulates speech based on viewpoint,\u201d Kagan wrote. \u201cI agree.\u201d</p>\n<p>She explained how the viewpoint-based aspect of the law was, to her, key to the decision, noting, \u201c[I]f Colorado had instead enacted a content-based but viewpoint-neutral law, it would raise a different and more difficult question.\u201c</p>\n<p>To that, Jackson responded by calling the prospect \u201ca mirage\u201d because \u201d[s]tandards-based regulations exist in the medical context precisely because the State has a view about safety or efficacy.\u201d</p>\n<p>As to Kagan\u2019s concerns with the viewpoint-based aspect of the law, and echoing a point made by Gorsuch, she wrote for her and Sotomayor that \u201cit does not matter what the State\u2019s preferred side is\u201c \u2014 warning of \u201ca hypothetical law that is the mirror image of Colorado\u2019s\u201c law:</p>\n<p>Instead of barring talk therapy designed to change a minor\u2019s sexual orientation or gender identity, this law bars therapy affirming those things. As Ms. Chiles readily acknowledges, the First Amendment would apply in the identical way. See Tr. of Oral Arg. 25\u201326; see also id., at 37\u201338 (United States as amicus curiae agreeing). Once again, because the State has suppressed one side of a debate, while aiding the other, the constitutional issue is straightforward.</p>\n<p>In other words, this decision also prevents a hypothetical Texas or Florida law banning affirming sexual orientation and gender identity talk therapy.</p>\n<p>For his part, Gorsuch highlighted a time, \u201c[n]ot so long ago,\u201d when medical organizations \u201cconsidered homosexuality a mental disorder,\u201c and warned:</p>\n<p>So what if that kind of reflexive deference to currently prevailing professional views may not always end well? Cf. Buck v. Bell, 274 U. S. 200, 205\u2013207 (1927).</p>\n<p>Buck v. Bell is one of many infamous Supreme Court cases. It is that case in which the Supreme Court 99 years ago upheld a law allowing compulsory sterilization of those deemed unfit and in which Justice Oliver Wendell Holmes did so by proclaiming, \u201cThree generations of imbeciles are enough.\u201c (The decision was 8-1.)</p>\n<p>It was an odd cite for Gorsuch to make \u2014 highlighting as it did how the court can get cases very wrong, even on a lopsided vote \u2014 and seemingly was aimed more at providing a \u201cgotcha\u201d moment than anything else.</p>\n<h3>As Jackson noted in a footnote responding to this point:</h3>\n<p>[T]he majority points to shameful parts of this country\u2019s past to show the dangers that can come from regulation that relies on outdated medical practices. Ibid. (citing Buck v. Bell, 274 U.S. 200, 205\u2013207 (1927)). But the majority does not mention that, if the standard of care does change, the state legislature has the power to change the law in response to that evidence.</p>\n<p>Not taking his bait, she instead concluded that \u201cuncertainties\u2014which have always existed\u2014are no reason to abandon medical standards or to alter how the law has traditionally accommodated scientific discoveries.\u201c</p>\n<p>Whether such standards have been abandoned with Tuesday\u2019s decision remains to be seen, but Jackson certainly made a strong case that the majority, at the least, made such abandonment possible \u2014 and laid out a path to watch as the law moves forward and new challenges pop up.</p>\n<h3>Stepping back</h3>\n<p>The Chiles v. Salazar decision is obviously an important decision on its own, but, before I close, I do want to note how it fits in two larger contexts as well \u2014 one long-term pattern and one of a more recent pedigree.</p>\n<p>As I covered at Law Dork this past July, the current Supreme Court is increasingly protecting anti-LGBTQ views in law while rejecting \u2014 or outright ignoring \u2014 claims brought by or on behalf of LGBTQ people.</p>\n<p>This trend has continued this term, was furthered on Tuesday, and is not likely done for the term.</p>\n<p>Relatedly, as to the long-term pattern, the Supreme Court for more than 30 years has regularly sided with anti-LGBTQ figures or against LGBTQ people in free-speech cases.</p>\n<p>In Gorusch\u2019s paean to the First Amendment that started that section of Tuesday\u2019s opinion, for example, all of the first three cases cited were either a loss for queer people \u2014 or, in the third case, a win for the \u201cGod Hates Fags\u201c church.</p>\n<p>Law Dork covers the Supreme Court and LGBTQ legal developments in depth. Consider becoming a free or paid subscriber.</p>",
+        "description": "The U.S. Supreme Court on Tuesday held, on an 8-1 vote, that Colorado\u2019s law banning therapists from engaging in conversion therapy with minor patients is presumptively unconstitutional as to talk therapy, deeming the law \u201can egregious form\u201c of speech regulation that almost always violates the First\u2026",
+        "guid": "https://www.lawdork.com/p/supreme-court-colorado-conversion-therapy-ban-ruling"
+      },
       {
         "gmail_id": "19d444500373b55c",
         "title": "\ud83d\udcac New thread from Chris Geidner",
@@ -304,52 +316,64 @@
   },
   "Zeteo": {
     "seen_ids": [
-      "19d02327ec8b2605",
+      "19d11cbd889a4077",
+      "19d3050f32267f1a",
       "19d3e8299f2ad8ca",
-      "19d35379c9041892",
-      "19d208dd9c3d3ecd",
-      "19cfe9e4b9d763bd",
+      "19d2a84caf9cb676",
+      "19d1a8fb8fbccc0e",
+      "19d39fe366552ca0",
+      "19d25f6b0c364e01",
+      "19d00c1413bcf4fa",
+      "19d2fa7594673900",
+      "19d315897ffb65e1",
       "19cfdf13253a85c0",
-      "19d1c6cc02638148",
+      "19d43b900e9471e1",
+      "19d25d638596823d",
+      "19d29e68798a2fa1",
       "19d26c23dca0be46",
       "19d1799ef8fa7d28",
-      "19d2fa7594673900",
-      "19d2f03ab5e8c9ca",
-      "19d108600db2bb05",
-      "19d4022264c62310",
-      "19d3c41de05ebb31",
-      "19d0b135c4497e53",
-      "19d2c9efb640c87e",
-      "19d1d2a60fd08df0",
+      "19d21dd98140f5f0",
       "19d3765726a4172a",
       "19d1fa4b15ade5d9",
-      "19d16585951b289e",
-      "19d4075fba1d1bf1",
-      "19d2a84caf9cb676",
-      "19d3b3526ede41d6",
-      "19d21dd98140f5f0",
-      "19d27b062a28af0a",
-      "19d077e0a1d5dfa1",
-      "19d3050f32267f1a",
-      "19cfd6ce4b7365a3",
       "19d24bf5e1961e34",
-      "19d11cbd889a4077",
-      "19d227ce438bd05f",
+      "19cfd6ce4b7365a3",
+      "19d2bc21c95acf47",
+      "19d4022264c62310",
+      "19d1d2a60fd08df0",
       "19d03bdf6061b863",
-      "19d39fe366552ca0",
-      "19d0d5181cc1057e",
-      "19d25d638596823d",
       "19d05ed9379b6a20",
-      "19d1a8fb8fbccc0e",
-      "19d43b900e9471e1",
-      "19d25f6b0c364e01",
-      "19d29e68798a2fa1",
-      "19d00c1413bcf4fa",
+      "19d45ab2d4f73973",
+      "19d27b062a28af0a",
       "19d3a74bb3eeb021",
-      "19d315897ffb65e1",
-      "19d2bc21c95acf47"
+      "19d3b3526ede41d6",
+      "19d077e0a1d5dfa1",
+      "19d208dd9c3d3ecd",
+      "19d4075fba1d1bf1",
+      "19cfe9e4b9d763bd",
+      "19d35379c9041892",
+      "19d2c9efb640c87e",
+      "19d3c41de05ebb31",
+      "19d108600db2bb05",
+      "19d2f03ab5e8c9ca",
+      "19d227ce438bd05f",
+      "19d0d5181cc1057e",
+      "19d0b135c4497e53",
+      "19d1c6cc02638148",
+      "19d02327ec8b2605",
+      "19d16585951b289e"
     ],
     "items": [
+      {
+        "gmail_id": "19d45ab2d4f73973",
+        "title": "7 Ways Israel Is Turning Lebanon Into Gaza",
+        "url": "https://zeteo.com/p/7-ways-israel-uses-gaza-playbook-lebanon",
+        "pub_date": "2026-03-31T20:46:55+00:00",
+        "author": "Zeteo",
+        "post_type": "newsletter",
+        "content": "<p>Israel isn\u2019t hiding it. In the last month, its far-right government has been explicitly clear that it plans to do to southern Lebanon and parts of Beirut what it did to Gaza.</p>\n<p>Finance Minister Bezalel Smotrich has warned that Beirut\u2019s southern suburbs of Dahiyeh will soon look \u201clike Khan Younis,\u201d a city in Gaza that Israel has left almost completely uninhabitable.</p>\n<p>Defense Minister Israel Katz has said he and Prime Minister Benjamin Netanyahu instructed the Israeli military to destroy the infrastructure near Lebanon\u2019s border as it did in Rafah and Beit Hanoun, two cities in Gaza that Israel completely decimated.</p>\n<p>We\u2019re already seeing exactly how Israel\u2019s plan is playing out. With the death toll already at more than 1,260, here are seven ways Israel is using its genocidal Gaza playbook to kill, decimate communities, and take over parts of Lebanon while flaunting international law in the process.</p>\n<h3>1. Killing Journalists</h3>\n<p>Over the weekend, Israel killed three Lebanese journalists \u2013 Fatima Ftouni, her brother Mohammed Ftouni, and Ali Shuaib \u2013  in targeted strikes on their vehicle, which was reportedly clearly marked as press. As it\u2019s done in Gaza, where it\u2019s killed over 250 Palestinian journalists, Israel attempted to justify its attack by claiming one of the reporters, Shuaib, was a militant.</p>\n<p>But also, as it\u2019s done after killing journalists in Gaza, Israel offered no tangible proof. Hezbollah rejected Israel\u2019s claim that the journalist was part of its elite Rawdan Force. In an extremely rare admission, Israel told Fox it had photoshopped a photo showing Shuaib in a military uniform. \u201cUnfortunately there isn\u2019t really a picture of it, it was photoshopped,\u201d the Israeli military said.</p>\n<p>Israel, of course, said nothing of Fatima and Mohammed Ftouni.</p>\n<h3>2. Targeting Health Workers and Infrastructure</h3>\n<p>Since Oct. 7, Israel has killed more than 1,700 health workers across Gaza in what UN experts have labeled a \u201cmedicide.\u201d We\u2019re now witnessing another medicide take place in Lebanon.</p>\n<p>Lebanese officials say that in just the last four weeks, Israel has killed more than 50 healthcare workers, targeted scores of ambulances and emergency service workers, and forced five hospitals to close, including, as the UN points out, four with maternity wards. One hospital in the southern city of Tyre has been hit at least five times, according to Al Jazeera. Nine hospitals have been damaged, and more than 50 primary healthcare centers have been forced to close, per the UN.</p>\n<p>Israel uses the same types of allegations it uses in Gaza to attempt to justify its actions. It claims Hezbollah is using ambulances and medical facilities for military purposes. Of course, as we know from Gaza, these claims are baseless (remember the \u201cHamas headquarters\u201d Israel insisted was under Al-Shifa hospital in Gaza?)</p>\n<p>Regardless, targeting healthcare facilities unless there\u2019s definitive proof that they\u2019re being used for military purposes renders such infrastructure protected under international law, experts say.</p>\n<h3>3. Genocidal Language</h3>\n<p>Just as we saw in the opening days of Israel\u2019s war on Gaza, Israeli politicians and commentators are making zero effort to mask their genocidal rhetoric when it comes to Israel\u2019s assault on Lebanon.</p>\n<p>\u201cThe current war in Lebanon must end with a radical change, beyond the vanquishing of the terror group Hezbollah,\u201d Smotrich has said, per Israeli media. \u201cThe Litani must be our new border with the state of Lebanon.\u201d</p>\n<p>Leaflets dropped by the Israeli military in Beirut said, \u201cIn light of the resounding success in Gaza, the New Reality Newspaper arrives in Lebanon,\u201d in what experts have labeled a form of psychological warfare.</p>\n<p>Former Israeli Defense Minister Yoav Gallant, who infamously called Palestinians \u201canimals\u201d at the start of the Gaza war, urged Israel to \u201cstrike and eliminate everything that\u2019s in Dahiyah, Baalbek, Tyre, Sidon, Nabatieh, everywhere,\u201d referring to cities in Lebanon.</p>\n<h3>4. Forced \u2018Evacuations\u2019 and \u2018Buffer Zones\u2019</h3>\n<p>Since the start of its escalation in Lebanon in early March, Israel has issued so-called evacuation orders to more than 1.2 million people in Lebanon, including the entire area south of the Litani River. Like in Gaza, these orders effectively amount to \u2018leave or risk being killed\u2019 orders.</p>\n<p>To be clear, Israel has a long history of invading southern Lebanon, forcing residents from their villages, and occupying large swaths of land. But as we know from the Gaza playbook, residents will not be allowed to return to their homes (or what exists of them), likely indefinitely.</p>\n<p>In fact, Israeli Defense Minister Israel Katz made quite clear this week that Israel plans to occupy the area south of the Litani River, which is about 19 miles north of the Israeli-Lebanese border, even after the latest escalation ends.</p>\n<p>Israel likes to call these areas \u201cbuffer zones\u201d necessary for Israel\u2019s security, but what the government is effectively doing is redrawing its country\u2019s borders in its quest for \u2018Greater Israel.\u2019</p>\n<h3>5. Cutting Off Access to Water and Humanitarian Aid</h3>\n<p>Israel\u2019s invasion and targeting of bridges over the Litani River connecting the south to the north is isolating nearly a tenth of Lebanese territory from the rest of the country \u2013 keeping anyone who fled from reaching their homes, but also cutting off access to necessary humanitarian aid for anyone who stayed, aid groups warn.</p>\n<p>As we saw in Gaza, Israel is also targeting water and energy supplies. In some cases, such civilian infrastructure has been directly hit, and in other cases, it\u2019s inaccessible due to Israeli forces\u2019 presence in the area.</p>\n<p>In the regions of Bekaa and Baalbek, air raids have compromised essential water reservoirs and pumping stations, eliminating access to clean water to residents in the \u201ctens of thousands,\u201d UNICEF said. Meanwhile, damage to roads and bridges also threatens medical access to citizens in outlying regions.</p>\n<h3>6. Human Shields</h3>\n<p>Israel\u2019s favorite go-to phrase in an attempt to divert blame for killing scores of civilians is \u201chuman shields.\u201d In the densely populated Gaza Strip, Hamas, Israel repeatedly claims, is using civilian infrastructure and forcing residents to ignore \u201cevacuation\u201d orders. These claims have been repeatedly debunked, and report after report has shown it\u2019s actually Israel who uses Palestinians as human shields.</p>\n<p>Still, Israel, as it always does, is attempting to justify the rising death toll and the mass destruction of civilian infrastructure in Lebanon by accusing Hezbollah of using civilians as human shields.</p>\n<p>It\u2019s worth noting that Israel itself has often embedded in communities or set up operations near villages along its border with Lebanon, putting civilians in harm\u2019s way.</p>\n<h3>7. White Phosphorus</h3>\n<p>Like it\u2019s done in Gaza and previously in Lebanon, Israel is \u201cunlawfully\u201d using \u201cartillery-fired white phosphorus munitions\u201d over homes in southern Lebanon, Human Rights Watch said in early March, citing eight verified photos showing the substance being used over the town of Yohmor.</p>\n<p>\u201cWhite phosphorus is a chemical substance dispersed in artillery shells, bombs, and rockets that ignites when exposed to oxygen. It can set homes, agricultural areas, and other civilian objects on fire,\u201d HRW wrote.</p>\n<h3>***</h3>\n<p>There are, of course, significant differences between Lebanon and Gaza: for one, Israel doesn\u2019t control all of Lebanon\u2019s borders, meaning it can\u2019t fully control what goes in or out, including aid, people, and information (Beirut has been a popular base for foreign journalists for decades).</p>\n<p>But like in Gaza, Israel has been clear about what it plans to do in Lebanon \u2013 and like with Gaza, Western nations have largely turned a blind eye as it does it.</p>\n<h3>Check out more from Zeteo:</h3>",
+        "description": "Israel isn\u2019t hiding it. In the last month, its far-right government has been explicitly clear that it plans to do to southern Lebanon and parts of Beirut what it did to Gaza. Finance Minister Bezalel Smotrich has warned that Beirut\u2019s southern suburbs of Dahiyeh will soon look \u201clike Khan Younis,\u201d a\u2026",
+        "guid": "https://zeteo.com/p/7-ways-israel-uses-gaza-playbook-lebanon"
+      },
       {
         "gmail_id": "19d43b900e9471e1",
         "title": "Meet the Pro-Israel Coder Accused of Plotting to Kill a Palestinian-American\r\n Activist",
@@ -888,24 +912,13 @@
         "content": "<p>A note from our Editor-in-Chief:</p>\n<p>This isn\u2019t a voice you normally see on Zeteo. Alireza Nader is a former fellow at the neoconservative, hawkishly pro-Israel Foundation for the Defense of Democracies (FDD) and an Iranian who supports regime change in Iran. He was also once friendly with Reza Pahlavi, but he now believes the son of the last shah of Iran is fronting a dangerous, anti-democratic movement. While Zeteo does not share all of the views expressed in this article, we believe this is a rarely-reported perspective on Pahlavi and his supporters and, therefore, this is an important piece.</p>\n<h3>-Mehdi</h3>\n<p>It was in 2017 that I first met Reza Pahlavi, the son of the late shah of Iran, at an Italian restaurant in Potomac, Maryland, near where he lived. Our meeting took place right after the mass protests that year began in Iran and after I had left my job at the RAND Corporation, freeing me to advocate for democracy in Iran. I had been particularly impressed with Pahlavi\u2019s passionate defense of the protesters during an interview on Al Jazeera. I had never been a fan of the monarchy in Iran, but I wanted to meet him.</p>\n<p>He was an affable and down-to-earth man who genuinely seemed to care about Iran. We spoke at length about democracy and freedom for all Iranians. I believed in Pahlavi\u2019s talk of democracy because it was backed by action at the time. A broad coalition of liberal democrats and even progressives had gathered around him, in addition to the usual constitutional monarchists who had always been the core of his support base.</p>\n<p>But Pahlavi\u2019s movement morphed into something much darker and more dangerous over the years, especially after he effectively dropped out of a coalition formed by eight prominent Iranian opposition members at Georgetown University in 2023 and declared himself the sole leader of the Iranian opposition. A few months later, I had lost all faith in the former crown prince and his movement, especially after I observed his staffers plot against other opponents of the regime and treat even their allies with contempt and derision.</p>\n<p>To understand how extremist and increasingly violent the Pahlavist movement has become, look no further than the recent murder of Canadian-Iranian democracy activist Masood Masjoody in British Columbia.</p>\n<p>Masjoody, a former supporter of Pahlavi, had become a fierce critic of him and his movement. The two people who have been charged with Masjoody\u2019s murder, authorities say, were known to him. Before his death, Masjoody claimed that the two suspects were Pahlavist fanatics who were plotting to kill him using a substance such as poison.</p>\n<p>At the time of his death, Masjoody was involved in active litigation in a Vancouver court against Pahlavi and his supporters, including his accused murderers. While the motive for the killing remains a matter of intense public speculation and ongoing police investigation (there\u2019s no evidence at this point that Pahlavi or his advisers were in any way involved), Masjoody\u2019s public profile as a vocal critic of the Pahlavist movement has made the case a focal point for those concerned about the safety of Iranian dissidents, especially after death threats and even physical attacks against Pahlavi critics.</p>\n<h3>The Pahlavist Threat</h3>\n<p>Pahlavi attempts to portray himself as a democrat and as a \u201ctransitional\u201d leader in a post-regime Iran, but the movement he \u201cleads\u201d has exhibitedalarming behavior.</p>\n<p>Pahlavi and his inner circle had been accused by dissidents such as Masjoody of conducting a campaign of intimidation and threats against the rest of the Iranian opposition to silence dissent and position Pahlavi as the only alternative to the current regime.</p>\n<p>The Pahlavists are closely supported by elements linked to the Israeli government and Persian-language broadcasts such as Iran International, which has promoted him heavily during the current war and even conducted a defection campaign for him in which potential regime defectors were told to scan a QR Code broadcast by Iran International in order to register their defection in a Google document. Pahlavi later stated that up to 100,000 regime supporters had defected, although no evidence of this claim has emerged.</p>\n<p>The cooperation between Pahlavi and the Israeli government appears to have grown stronger since Pahlavi left the Georgetown coalition, and as his movement has taken on the characteristics of illiberal and far-right movements in Israel and across the world.</p>\n<p>The Pahlavist movement\u2019s shift toward more rigid, exclusionary rhetoric has been closely associated with advisers such as Amir Etemadi and Saeed Ghasseminejad, the latter of whom is a senior adviser at the Foundation for the Defense of Democracies (FDD). While they are presented as advisers, their behavior is often more akin to handlers who direct the movement\u2019s strategic and ideological path.</p>\n<p>Both Etemadi and Ghasseminejad have consistently attacked other members of the opposition, claiming that whoever opposes Pahlavi is an \u201cethnic separatist\u201d or a \u201cleftist.\u201d Etemadi has even called Iranian journalists at Iran International \u201cterrorists\u201d (before the broadcast became heavily pro-Pahlavi) and attacked dissident Ruhollah Zam, who was eventually lured to Iran and executed by the regime.</p>\n<p>Ghasseminejad has stated that \u201cyou\u2019re either with Prince Reza Pahlavi or the Islamic Republic,\u201dhas written about \u201cthe tree branches and lamp posts on Pahlavi Avenue (in Tehran) that have been barren for years,\u201d and has advocated that Israel adopt the death penalty for Palestinians, possibly mimicking such figures as the Israeli far-right Minister Itamar Ben-Gvir.</p>\n<p>Much of the harassment and threats are conducted over social media, including on X, but as Masjoody\u2019s case demonstrates, the threats against Pahlavi\u2019s critics are very real.</p>\n<p>Masjoody had belonged to an opposition group led by Etemadi called Iran Revival, and was alarmed by the group\u2019s activities.</p>\n<p>Masjoody also claimedthat his former associates at Iran Revival were connected to the Revolutionary Guards, a widespread rumor within the Iranian diaspora. Pahlavi\u2019s claims that he had significant support within the regime have only fueled the rumors.</p>\n<p>What is more troubling than rumor is the political model reflected in Pahlavi\u2019s published transition plan, which critics, including me, view as overly centralized and weak on independent oversight. The plan, drafted with Ghasseminejad as a lead author and implementer, provides Pahlavi with substantial power rather than building clear checks and balances through credible institutions.</p>\n<p>An earlier version also drew criticism for proposing a council whose membership was not publicly disclosed, raising concerns about transparency and accountability. Although that provision was later removed after public backlash, the broader concern remains that the framework did not convincingly answer how power would be restrained during a transition.</p>\n<p>Moreover, Ghasseminejad\u2019s employment at FDD and his role in implementing the transition plan are clearly a conflict of interest, as FDD\u2019s mission is not to protect the interests of the Iranian people.</p>\n<h3>A Useful Israeli Instrument</h3>\n<p>The war between Israel and Iran demonstrates the utility of Pahlavi for the current Israeli government, which seeks to achieve Israel\u2019s primary national interests, the destruction of Iran\u2019s nuclear and military capabilities, rather than the overthrow of the regime. The Netanyahu government is smart enough to know that Pahlavi is unlikely to become the shah or even the leader of the opposition. Rather, Pahlavi is a useful Israeli instrument in its war against the regime.</p>\n<p>For example, Pahlavi called on his supporters to go out into the streets and take over regime institutions in January 2026 after peaceful protests and strikes had broken out in Iran\u2019s bazaars independently of him. The Netanyahu government, more interested in destroying Iran\u2019s military and nuclear capabilities, is likely to have viewed peaceful protests and strikes as an ineffectual strategy. The Israeli government also reportedly knew that any attempt to take over government buildings by unarmed Iranians would lead to a massacre by the regime, though Pahlavi and Iran International urged Iranians to do so anyhow.</p>\n<p>The regime reacted to Pahlavi\u2019s calls for a mass uprising by massacring thousands of unarmed Iranian protesters on Jan. 8 and 9, even as Pahlavi and Iran International called for more people to go into the streets on Jan. 11!</p>\n<p>Pahlavi has again called for his \u201cImmortal Guard\u201d to take to the streets as the US and Israel bomb military and civilian targets across the country. Hopefully, fewer Iranians will listen to him this time.</p>\n<h3>A Movement that Cannot Be Rescued</h3>\n<p>So, what is the solution to the Pahlavist dilemma? The movement has irreparably morphed into a rigid and dogmatic cult of personality. It cannot be rescued. Pahlavi is a hostage of his own inner circle and has become a tool of the Netanyahu government. But he also deserves full blame for his own actions, which have divided the Iranian opposition and induced an atmosphere of fear among the diaspora, even in Washington, DC.</p>\n<p>Pahlavi has been repeatedly warned to cease his political activities by friends and associates, but he is likely to continue on his disastrous path as long as he remains the center of attention and applause.</p>\n<p>Masjoody was one of the few people in the diaspora who was openly critical of Pahlavi and wanted Iranians to know the truth about his fanatical cult.</p>\n<p>I was in contact with him before his murder; he even used my research on monarchists in his court testimony against Pahlavi.</p>\n<p>Pahlavi continues to present himself to global audiences as Iran\u2019s savior. Masjoody knew better and tried very hard to make everyone see the truth. When will the world see what he saw?</p>\n<p>Alireza Nader is an independent scholar of Iran and the Middle East based in Washington, DC.</p>\n<p>The views expressed in this article are the author\u2019s own and do not necessarily reflect those of Zeteo.</p>\n<p>Check out more from Zeteo:</p>",
         "description": "A note from our Editor-in-Chief: This isn\u2019t a voice you normally see on Zeteo. Alireza Nader is a former fellow at the neoconservative, hawkishly pro-Israel Foundation for the Defense of Democracies (FDD) and an Iranian who supports regime change in Iran. He was also once friendly with Reza\u2026",
         "guid": "https://zeteo.com/p/iran-reza-pahlavi-dangerous-movement"
-      },
-      {
-        "gmail_id": "19cfdf13253a85c0",
-        "title": "Corporate Media \u201cHappily Manufacturing Consent\u201d for Iran War- So What Are You Going to Do About It?",
-        "url": "https://zeteo.com/p/corporate-media-happily-manufacturing",
-        "pub_date": "2026-03-17T22:30:31+00:00",
-        "author": "Zeteo",
-        "post_type": "podcast",
-        "content": "<p>We saw it with Gaza and we\u2019re seeing it again in Iran. Legacy media is failing us when it comes to holding power to account for the devastating US-Israeli war in Iran. From softball CBS interviews, to the New York Times burying the attack on a girls school on page 11, Mehdi says leading media outlets are \u201chappily manufacturing consent for this devastating and illegal war.\u201d</p>\n<p>But at Zeteo, we\u2019re leading with the \u201cblunt honesty and moral clarity\u201d you\u2019re searching for. Listen to Mehdi play out exactly how Zeteo is pushing back against corporate media and why more than ever your subscriber support matters.</p>",
-        "description": "We saw it with Gaza and we\u2019re seeing it again in Iran. Legacy media is failing us when it comes to holding power to account for the devastating US-Israeli war in Iran. From softball CBS interviews, to the New York Times burying the attack on a girls school on page 11, Mehdi says leading media\u2026",
-        "guid": "https://zeteo.com/p/corporate-media-happily-manufacturing"
       }
     ]
   },
   "This Modern World": {
     "seen_ids": [
-      "19d3a52f42f666c7",
-      "19d1627557baee08"
+      "19d1627557baee08",
+      "19d3a52f42f666c7"
     ],
     "items": [
       {
@@ -934,8 +947,8 @@
   },
   "Original Jurisdiction": {
     "seen_ids": [
-      "19d1a8e36f56b145",
       "19d015d7c7fb65c4",
+      "19d1a8e36f56b145",
       "19d3c45a5e71d93c"
     ],
     "items": [
@@ -987,9 +1000,9 @@
   },
   "Scott's Read Later": {
     "seen_ids": [
+      "19d0388645c273fe",
       "19d00e04344cb72f",
-      "19d1ac0b34c0f50f",
-      "19d0388645c273fe"
+      "19d1ac0b34c0f50f"
     ],
     "items": [
       {
