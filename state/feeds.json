@@ -1,17 +1,17 @@
 {
   "The Message Box": {
     "seen_ids": [
-      "19cdc72df8dc7080",
-      "19d29d8bd6a7ee6e",
-      "19d438c43320a10d",
-      "19cec52c7a956a0f",
-      "19d1a77d55d49eba",
-      "19d05c32b5674f83",
-      "19d34702be549348",
       "19cfb6b57a87ca29",
+      "19cdc72df8dc7080",
+      "19cec52c7a956a0f",
+      "19d29d8bd6a7ee6e",
+      "19d34702be549348",
       "19d2494b198a7efc",
+      "19d1a77d55d49eba",
       "19d4e846f22009c6",
-      "19d105f08a5bc27b"
+      "19d105f08a5bc27b",
+      "19d438c43320a10d",
+      "19d05c32b5674f83"
     ],
     "items": [
       {
@@ -136,11 +136,11 @@
   },
   "One First": {
     "seen_ids": [
-      "19d3e78a766795d3",
-      "19d1a6f0eb422929",
-      "19d05d9ad5767edf",
       "19d29e4c3aabe552",
-      "19d4def7ac561e53"
+      "19d05d9ad5767edf",
+      "19d4def7ac561e53",
+      "19d1a6f0eb422929",
+      "19d3e78a766795d3"
     ],
     "items": [
       {
@@ -202,18 +202,18 @@
   },
   "Law Dork": {
     "seen_ids": [
-      "19d026a9c0a11e79",
-      "19d12b8f4a80969a",
-      "19d444500373b55c",
-      "19d1c9b76737fa71",
-      "19d4ade73286d276",
+      "19d3bb4cde7a13ab",
       "19d31dfddaeefdb2",
+      "19d444500373b55c",
+      "19d1e0ba13675c07",
+      "19d4ade73286d276",
       "19d0ee3de44c33c8",
+      "19d1c9b76737fa71",
+      "19d026a9c0a11e79",
       "19d45c41f63b8e7c",
       "19d230dcd0a9cbc1",
-      "19d2747fcc602931",
-      "19d3bb4cde7a13ab",
-      "19d1e0ba13675c07"
+      "19d12b8f4a80969a",
+      "19d2747fcc602931"
     ],
     "items": [
       {
@@ -352,60 +352,72 @@
   },
   "Zeteo": {
     "seen_ids": [
-      "19d4075fba1d1bf1",
-      "19d11cbd889a4077",
-      "19d05ed9379b6a20",
-      "19d2bc21c95acf47",
-      "19d2f03ab5e8c9ca",
-      "19d2a84caf9cb676",
-      "19d3c41de05ebb31",
-      "19d3e8299f2ad8ca",
-      "19cfe9e4b9d763bd",
-      "19d2fa7594673900",
-      "19d1799ef8fa7d28",
-      "19d02327ec8b2605",
-      "19d315897ffb65e1",
-      "19d3765726a4172a",
-      "19d25f6b0c364e01",
-      "19d227ce438bd05f",
-      "19d4b69313a94007",
-      "19d1c6cc02638148",
-      "19d16585951b289e",
-      "19d4694a840dd5d1",
-      "19d45ab2d4f73973",
-      "19d35379c9041892",
-      "19d0d5181cc1057e",
-      "19d077e0a1d5dfa1",
+      "19d3050f32267f1a",
       "19d29e68798a2fa1",
-      "19d24bf5e1961e34",
-      "19d0b135c4497e53",
-      "19d2c9efb640c87e",
-      "19d4ddbbf11500a4",
-      "19d208dd9c3d3ecd",
-      "19cfdf13253a85c0",
-      "19d43b900e9471e1",
-      "19d1a8fb8fbccc0e",
-      "19d21dd98140f5f0",
-      "19d4e89ccd964a3d",
-      "19d39fe366552ca0",
-      "19d1fa4b15ade5d9",
-      "19d1d2a60fd08df0",
-      "19d3a74bb3eeb021",
-      "19d00c1413bcf4fa",
-      "19d03bdf6061b863",
-      "19d27b062a28af0a",
-      "19d26c23dca0be46",
-      "19cfd6ce4b7365a3",
-      "19d48c4544d599a0",
-      "19d4a4f13278a907",
+      "19d077e0a1d5dfa1",
+      "19cfe9e4b9d763bd",
       "19d3b3526ede41d6",
-      "19d25d638596823d",
+      "19d227ce438bd05f",
+      "19d4694a840dd5d1",
+      "19d1fa4b15ade5d9",
+      "19d1799ef8fa7d28",
+      "19d35379c9041892",
       "19d108600db2bb05",
-      "19d496473faf8047",
+      "19d4a4f13278a907",
+      "19d2c9efb640c87e",
+      "19d00c1413bcf4fa",
+      "19d2bc21c95acf47",
+      "19d25f6b0c364e01",
+      "19cfdf13253a85c0",
+      "19d3e8299f2ad8ca",
+      "19d16585951b289e",
+      "19d43b900e9471e1",
+      "19d3765726a4172a",
+      "19d0d5181cc1057e",
+      "19d208dd9c3d3ecd",
+      "19d48c4544d599a0",
+      "19d4075fba1d1bf1",
+      "19d03bdf6061b863",
+      "19d3a74bb3eeb021",
+      "19d24bf5e1961e34",
+      "19d2f03ab5e8c9ca",
+      "19d3c41de05ebb31",
+      "19d1d2a60fd08df0",
+      "19d05ed9379b6a20",
+      "19d02327ec8b2605",
+      "19d4ddbbf11500a4",
+      "19d315897ffb65e1",
+      "19d26c23dca0be46",
+      "19d0b135c4497e53",
+      "19d11cbd889a4077",
+      "19d21dd98140f5f0",
+      "19d1a8fb8fbccc0e",
+      "19d1c6cc02638148",
       "19d4022264c62310",
-      "19d3050f32267f1a"
+      "19d45ab2d4f73973",
+      "19d2fa7594673900",
+      "19d39fe366552ca0",
+      "19d27b062a28af0a",
+      "19cfd6ce4b7365a3",
+      "19d25d638596823d",
+      "19d4f68f29652f7a",
+      "19d4b69313a94007",
+      "19d2a84caf9cb676",
+      "19d496473faf8047",
+      "19d4e89ccd964a3d"
     ],
     "items": [
+      {
+        "gmail_id": "19d4f68f29652f7a",
+        "title": "BREAKING: Trump Fires Pam Bondi\u2026 for Not Being Corrupt Enough",
+        "url": "https://zeteo.com/p/trump-fires-pam-bondi-justice-department",
+        "pub_date": "2026-04-02T18:10:29+00:00",
+        "author": "\"Zeteo | U.S. Politics\"",
+        "post_type": "newsletter",
+        "content": "<p>Donald Trump fired Attorney General Pam Bondi on Thursday for, among other things, failing to put his enemies in jail.</p>\n<p>Bondi is the second Cabinet member that Trump has ousted, after he fired former Homeland Security Secretary Kristi Noem last month.</p>\n<p>In the days leading up to this latest sacking, sources with direct knowledge of the situation told Zeteo that President Trump had been privately trashing Bondi\u2019s job performance behind her back for weeks, if not months. Complaints were multi-faceted, and included griping about her handling of the Jeffrey Epstein files debacle, which continues to haunt the White House to this day.</p>\n<p>However, another recurring grievance of Trump\u2019s, these sources recount, is that he believes she did a \u201cvery subpar\u201d job (in the words of a person who speaks to Trump often) leading the Justice Department\u2019s baseless criminal investigations into and prosecutions of his political enemies. In recent months, the president has repeatedly vented to confidants that the Bondi-era DOJ isn\u2019t prosecuting his many foes swiftly or ferociously enough, and that the now-former AG was at risk of letting his political foes, in Trump\u2019s phrasing, \u201cget away with it.\u201d</p>\n<p>Sources in and close to the administration also add that Trump has at times fumed that Bondi and the Justice Department have not investigated the 2020 presidential election results as aggressively as he\u2019d like; Trump of course lost that election to Joe Biden but for years has worked to turn his anti-democratic lies and conspiracy theories into Republican dogma.</p>\n<p>In other words: one of the key reasons that President Trump is getting rid of Attorney General Bondi \u2013 who went all-in on Trump\u2019s cult of personality, and has overseen a Department of Justice that has indeed corruptly gone after Trump\u2019s vindictively selected targets \u2013 because she is not corrupt or authoritarian enough.</p>\n<p>In typical Trump fashion, he announced Bondi\u2019s ouster on Truth Social while calling her a \u201cGreat American Patriot and loyal friend.\u201d He also claimed she will be taking a job in the private sector, and said her deputy, Todd Blanche, will step in as acting attorney general in the interim.</p>\n<p>Several outlets have reported, and Zeteo can confirm, that Trump is considering EPA administrator Lee Zeldin for Bondi\u2019s replacement, a staunch Trump ally who as a congressman voted against certifying the election results when Joe Biden won in 2020.</p>\n<p>Bondi\u2019s firing comes just 12 days ahead of her scheduled deposition over how the Justice Department has handled the release of its files relating to pedophile and former Trump friend Jeffrey Epstein. The House Oversight Committee voted to subpoena Bondi last month to compel her testimony on the matter.</p>\n<p>A previous congressional hearing over the Epstein investigation in February devolved into a shouting match when Bondi \u2013 who faced the impossible task of defending the indefensible  \u2013 resorted to insults and bizarre diversions. At one point, she pivoted to the stock market to avoid answering questions about her failures on the investigation and apparent coverup of her boss\u2019s alleged ties to Epstein.</p>\n<p>\u201cThe Dow is over 50,000 right now. The S&amp;P [is] at almost 7,000 and the Nasdaq [is] smashing records. Americans\u2019 401k and retirement savings are booming right now,\u201d Bondi said as Epstein survivors seated behind her looked on. \u201cThat\u2019s what we should be talking about.\u201d</p>\n<p>Her performance on Capitol Hill was just one example of her servitude to Trump, which in the end, was still not enough to stay in his good graces.</p>\n<p>At a Cabinet meeting last summer, Bondi lavished completely nonsensical praise on Trump \u2013 an enduring theme of her short, rocky tenure as the president\u2019s yes-man in court.</p>\n<p>\u201cMr. President, your first 100 days has far exceeded that of any other presidency in this country ever \u2026 ever,\u201d she said. \u201cNever seen anything like it. Thank you. Your directive to me was very simple: Make America safe. And, despite that, we\u2019ve still been defending over 200 civil lawsuits filed against you.\u201d</p>\n<p>Bondi then read some numbers on Trump\u2019s supposed fentanyl seizures, then said, \u201cwhich saved \u2013 are you ready for this media?\u201d She turned to the camera and said \u201c258 million lives\u201d \u2013 or about 75% of the nation.</p>\n<p>And off-camera, she faced Trump\u2019s scolding push \u2013 sometimes publicly \u2013 to weaponize the Justice Department to prosecute his perceived enemies.</p>\n<p>In a September Truth Social post that read more like a berating text, Trump ordered Pam to hire his former personal lawyer, Lindsey Halligan, as US attorney, and to prosecute high-ranking Democrats that had dared to stand up to him, including New York Attorney General Letitita James, former FBI director James Comey, and Senator Adam Schiff.</p>\n<p>Bondi\u2019s Justice Department did attempt several prosecutions, including of James and Comey but they\u2019ve all failed in court \u2013 and Halligan completely embarrassed herself.</p>\n<p>No matter how upset Trump was with Bondi\u2019s job performance, numerous Trump officials privately say that the president himself has made it harder for them to charge his political enemies, given how obvious and public he is about ordering up selective and vindictive prosecutions of people who pissed him off.</p>\n<p>As AG, Bondi turned the Justice Department\u2019s mission into serving the personal and political interests of the president. A recent ProPublica analysis found that the Justice Department had quietly abandoned over 23,000 criminal cases in just the first six months of Trump\u2019s second term \u2013 including hundreds of investigations into terrorism, white-collar crime and drugs \u2013 all to shift resources to his anti-immigration efforts.</p>\n<p>Bondi even explicitly instructed employees of the Justice Department to serve the interests of the president, even though the agency is meant to be independent.</p>\n<p>\u201cWhen Department of Justice attorneys, for example, refuse to advance good-faith arguments by declining to appear in court or sign briefs, it undermines the constitutional order and deprives the president of the benefit of his lawyers,\u201d Bondi wrote in a memo dated Feb 5. 2025.</p>\n<p>But Bondi\u2019s fierce allegiance to Trump \u2013 even over her sworn obligation to the rule of law \u2013 still fell short for the Mad King.</p>\n<h3>Check out more from Zeteo:</h3>",
+        "description": "Donald Trump fired Attorney General Pam Bondi on Thursday for, among other things, failing to put his enemies in jail. Bondi is the second Cabinet member that Trump has ousted, after he fired former Homeland Security Secretary Kristi Noem last month. In the days leading up to this latest sacking,\u2026",
+        "guid": "https://zeteo.com/p/trump-fires-pam-bondi-justice-department"
+      },
       {
         "gmail_id": "19d4e89ccd964a3d",
         "title": "Shouldn\u2019t Democrats Be Able to Condemn Genocide?",
@@ -944,17 +956,6 @@
         "content": "<p>Here at Zeteo, we thought we could perhaps get through one work week without Donald Trump\u2019s White House \u2013 once again! \u2013 calling me a \u201cmoron\u201d for publicly stating objectively true things.</p>\n<p>We were wrong. What was my crime this time?</p>\n<p>On Thursday, Trump\u2019s press secretary, Karoline Leavitt, took to social media to claim that \u201cAmericans Agree that Operation Epic Fury Is an Overwhelming Success\u201d \u2013 meaning the president\u2019s disastrous war in Iran.</p>\n<p>I pointed out that the senior Trump apparatchik was lying, and had in fact shared \u201can article showing only MAGA Republicans support the war.\u201d</p>\n<p>In response to this, \u201c@RapidResponse47,\u201d a Trump White House propaganda account on Twitter blasted me as a \u201cmoron\u201d and suggested I was \u201ctrembling too much at the idea that Americans support killing terrorists.\u201d</p>\n<p>Of course, that\u2019s not what\u2019s happening \u2013 civilians are suffering as a result of Trump\u2019s regional bloodbath, and poll after poll shows this war is uniquely unpopular at home.</p>\n<p>And the White House made clear how unpopular the war is with its own press release. In it, the administration pointed people to a relatively rosy Washington Post article that still notes more people \u201cwould prefer that the strikes stop than continue,\u201d and that the paper\u2019s average of recent polls show \u201cAmericans opposing US strikes 50% to 38%.\u201d</p>\n<p>Not exactly a ringing endorsement!</p>\n<p>The Iran war \u2013 started by Trump and Israeli Prime Minister Benjamin Netanyahu \u2013 is now entering its fourth week. It has been an unmitigated disaster from the beginning, and it\u2019s strangling the global economy. The president appears to be preparing to deploy US ground troops to Iran, for a mission that looks like sheer suicide.</p>\n<p>As we\u2019ve reported at Zeteo, the war is starting to tear apart the MAGA elite, and is already a political catastrophe at home for Trump and the Republican Party \u2013 and they know it. And America\u2019s allies have decided not to join us on this so-called \u201cexcursion.\u201d</p>\n<p>The president and his party want to silence anyone in the media willing to admit what a colossal shitshow this all is. We refuse to be silent.</p>\n<p>In recent months, the Trump White House has called Zeteo \u201ca fake news blogsite run by left-wing hacks that no one should take seriously.\u201d</p>\n<p>The White House issued a statement calling one of our political correspondents \u201ca deranged hack who couldn\u2019t even hold a job at Rolling Stone and is now writing for a Greta Thunberg blog.\u201d</p>\n<p>And the Trump administration routinely comes after me, and tries to smear me as a terrorist-loving \u201cmoron.\u201d</p>\n<p>Clearly, Zeteo is getting under their skin.</p>\n<p>But the only way we can fight back is together.</p>\n<p>So if you\u2019re able, please consider becoming apaid subscriber to Zeteo today to support us and help grow independent media. If you\u2019re already a paid subscriber (thank you kindly!), you can also consider making a donation to Zeteo.</p>\n<p>Every paid subscription, every donation, every financial contribution, big or small, sends a message to this authoritarian, warmongering administration and this country\u2019s ruling party and its enablers that we won\u2019t be bullied, we won\u2019t be silenced, and we won\u2019t stop telling the truth about fascism, genocide, illegal wars, and other moral and literal atrocities.</p>\n<p>The Trump administration wants to wear out everyone \u2013 in the media, in the opposition, in the electorate. They aren\u2019t getting tired yet. Neither are we.</p>\n<p>Thank you for standing with Zeteo.</p>\n<p>Check out more from Zeteo:</p>",
         "description": "Here at Zeteo, we thought we could perhaps get through one work week without Donald Trump\u2019s White House \u2013 once again! \u2013 calling me a \u201cmoron\u201d for publicly stating objectively true things. We were wrong. What was my crime this time? On Thursday, Trump\u2019s press secretary, Karoline Leavitt, took to\u2026",
         "guid": "https://zeteo.com/p/trump-white-house-attack-zeteo-iran-war"
-      },
-      {
-        "gmail_id": "19d0b135c4497e53",
-        "title": "American Idiot Holds World Hostage",
-        "url": "https://zeteo.com/p/american-idiot-holds-world-hostage",
-        "pub_date": "2026-03-20T11:42:25+00:00",
-        "author": "First Draft | Zeteo",
-        "post_type": "newsletter",
-        "content": "<p>On this day in 2003, the Bush administration launched a ground invasion of Iraq. The US is supposed to finally fully withdraw from Iraq later this year, over two decades later, which might make you wonder: Why would Donald Trump launch a war in Iran?</p>\n<p>Good morning! Andrew here to discuss what was a pretty normal day in Donald Trump\u2019s second term: The president of the United States joked about Pearl Harbor with Japan\u2019s prime minister and also made a not-so-subtle nuke threat, as his illegal war in Iran inches closer and closer to spiraling fully out of control.</p>\n<p>In today\u2019s \u2018First Draft,\u2019 Trump embarrasses the US again, as his war gets more expensive for everyone; the Department of Homeland Security keeps trying to steal employees from the Pentagon; and muted Eid and Nowruz celebrations are held across the Middle East as the US-Israeli war on Iran rages.</p>\n<h3>Our Mad King, Global Edition</h3>\n<p>\u201cWhy didn\u2019t you tell US allies in Europe and Asia, like Japan, about the war before attacking Iran?\u201d a reporter asked Donald Trump on Thursday, as the president sat in the Oval Office with Japan\u2019s prime minister.</p>\n<p>Trump, the man with no filters, no restraint, no sense of decorum, responded by joking about\u2026 wait for it\u2026 Pearl Harbor. \u201cWe didn\u2019t tell anybody about it because we wanted surprise,\u201d he said. \u201cWho knows better about surprise than Japan? Why didn\u2019t you tell me about Pearl Harbor? \u2026 You believe in surprise, I think much more so than us.\u201d</p>\n<p>The comments made Japan\u2019s right-wing leader, Sanae Takaichi, visibly uncomfortable \u2013 while also confirming that Trump\u2019s administration didn\u2019t inform our allies before launching his illegal war in Iran, a conflict with disastrous implications for the global economy.</p>\n<p>Moments like this, in the Oval Office, have become routine under America\u2019s first Mad King. Last summer, Trump joked to Germany\u2019s new chancellor, Friedrich Merz, that D-Day was \u201cnot a pleasant day for you.\u201d Merz quickly corrected him, explaining: \u201cIn the long run, Mr. President, this was the liberation of my country from Nazi dictatorship.\u201d</p>\n<p>But Trump isn\u2019t just embarrassing the US on the global stage, or mocking key allies on camera. He\u2019s spent the past 14 months attacking, threatening, and alienating them with his tariffs.</p>\n<p>And with the US-Israeli attack on Iran, Trump has taken our allies along for the ride as he wages what is already the worst-run war in US history, and as the conflict generates blowback of all kinds, both around the Middle East and throughout the world.</p>\n<p>And the blowback was entirely predictable.</p>\n<p>Trump claimed this week that \u201cnobody\u201d knew Iran would respond to his war by attacking other countries in the Gulf. Citing \u201cthe greatest experts,\u201d Trump said none of them thought Iran would target what he described as \u201cneutral\u201d countries nearby.</p>\n<p>But just days before Trump attacked Iran, Nate Swanson, a former National Security Council official who served on Trump\u2019s Iran negotiating team last year, published a piece in Foreign Affairs warning of this exact scenario. \u201cIf conflict with the United States deepens, Iran may seriously consider targeting the Gulf Arab states\u2019 energy infrastructure directly,\u201d he wrote.</p>\n<p>Similarly, the US always knew that if it launched major attacks on Iran, the country would likely retaliate by targeting ships in the Strait of Hormuz to shut down the crucial waterway, choke off the flow of oil, and send energy prices skyrocketing. Trump was briefed on this likelihood before launching the war \u2013 but he ignored and downplayed the warnings.</p>\n<p>The president and his team have spent much of the past week publicly begging our allies to team up with him on a dangerous mission to reopen the Strait of Hormuz. By and large, they all said no thanks. Trump finally got a few countries to issue a joint statement indicating their interest in ensuring \u201csafe passage through the strait\u201d \u2013 but no commitments to send ships or the minesweepers he actively demanded.</p>\n<p>On Wednesday, Israel escalated the economic situation by striking Iran\u2019s South Pars gas field \u2013 the largest in the world. Iran responded by attacking Qatar\u2019s gas facilities \u2013 taking out 17% of Qatar\u2019s liquefied natural gas export capacity \u2013 and also launched missiles at Saudi Arabia.</p>\n<p>Trump claimed in a social media post that the United States \u201cknew nothing about this particular attack\u201d beforehand. Several media outlets quickly reported that this was a lie. Nevertheless, Trump also threatened to \u201cmassively blow up the entirety of the South Pars Gas Field\u201d if Iran continued to attack Qatar.</p>\n<p>Trump\u2019s illegal war on Iran has already sent gasoline prices soaring in the US and around the world. This latest phase, in which countries exchange attacks on nations\u2019 essential energy infrastructure, could cause long-term economic damage: Prices are likely to spike and remain high for years after the conflict ultimately ends. Oil and gas infrastructure can\u2019t be easily or rapidly rebuilt.</p>\n<p>And there\u2019s no sign the conflict will end soon, as Trump seems as eager as ever to escalate. On Thursday, he issued a vague, ominous threat that doesn\u2019t necessarily require a genius to parse: \u201cThe military equipment, the power of some of this weaponry, is unthinkable,\u201d he said. \u201cYou don\u2019t even want to know about it. You could end this thing in two seconds if you wanted to.\u201d</p>\n<p>So\u2026 nukes?</p>\n<p>Trump\u2019s catastrophic war \u2013 which began with a shocking massacre of Iranian schoolchildren \u2013 is only going to get worse and more costly for everyone, regardless of their involvement or which side they are on.</p>\n<p>Donald Trump might be America\u2019s Mad King, but he is now the whole world\u2019s problem.</p>\n<h3>\ud83c\uddee\ud83c\uddf7 Iran War Updates</h3>\n<p>Death tolls:</p>\n<p>Iran: Iranian officials said last week that at least 1,444 people have been killed and nearly 20,000 injured in the US-Israeli strikes \u2013 the latest updated figures from the country. The US-based Human Rights Activists News Agency put the death toll at more than 3,000, including over 1,394 civilian deaths.</p>\n<p>Lebanon: Israel has killed at least 1,001 people, including more than 115 children, in Lebanon, according toyesterday\u2019s figures from the country\u2019s Health Ministry.</p>\n<p>US troops: At least 13 US troops have died in incidents related to the war.</p>\n<p>Israel: At least 17, including two soldiers, have been killed and thousands of others injured in Iranian and Hezbollah attacks in Israel.</p>\n<p>West Bank: At least four Palestinian women were killed in an Iranian missile attack.</p>\n<p>Elsewhere in the region: Dozens of others have been killed.</p>\n<h3>And in more Iran war news\u2026</h3>\n<p>IRGC spokesperson killed: An Israeli strike killed Islamic Revolutionary Guard Corps (IRGC) spokesperson General Ali Mohammad Naeini, Iranian and Israeli officials confirmed.</p>\n<p>US plane hit: An F-35 jet on a combat mission was forced to make an emergency landing after it was apparently hit by enemy fire, sources told CNN. If confirmed, it would be the first case of a US plane being damaged by Iranian air defenses.</p>\n<p>No way to reopen Strait: European powers do not see a way to reopen the Strait of Hormuz, the key waterway to commercial shipping, without ending the war, Bloomberg reported.</p>\n<p>US eyes Iranian oil: Treasury Secretary Scott Bessent told Fox the US might \u201cunsanction the Iranian oil that\u2019s on the water,\u201d adding that \u201cabout 140 million barrels\u201d could be made available.</p>\n<p>Israeli strike targets reporter: RT correspondent Steve Sweeney narrowly survived an Israeli strike in southern Lebanon \u2013 in an attack caught on camera. Sweeney, who, along with his crew, was wounded, said he had \u201cabsolutely no doubt that this was deliberate,\u201d adding: \u201cAs we have seen in Gaza, they want to silence journalists who document and report their war crimes.\u201d Russia summoned the Israeli ambassador over the strike.</p>\n<p>Muted Eid al-Fitr and Nowruz celebrations: In the Gulf, several countries suspended large outdoor gatherings typically held, restricting prayers to mosques. In Palestine, Israel blocked Muslim worshippers from the Al-Aqsa Mosque compound, which has been closed since the early days of the war. In Iran, celebrations for both Eid and the Persian New Year, Nowruz, came amid US-Israeli bombs.</p>\n<h3>DHS Raids the Pentagon</h3>\n<p>Amid Trump\u2019s illegal and costly war in Iran, the Pentagon sent out an email Thursday to civilian employees, encouraging them to volunteer for jobs at the Department of Homeland Security in service of Trump\u2019s war at home.</p>\n<p>\u201cMany of our dedicated civil servants have already answered the call to defend the homeland; 900 have submitted applications to answer President Trump\u2019s call for support to immigration enforcement activities that enhance public safety,\u201d Pentagon official Timothy Dill wrote in the email, which was obtained by Zeteo.</p>\n<p>Dill promised that employees who make the jump to DHS will \u201cleave work each day knowing you have made your country safer.\u201d</p>\n<p>Let me be the first to say it: No, you won\u2019t.</p>\n<h3>\ud83d\uddde\ufe0f What You Need to Know</h3>\n<p>WTF Fetterman?! The Senate is set to vote on the confirmation of GOP Senator Markwayne Mullin as DHS secretary. It is all but certain to pass, following a fiery two-day committee hearing that ended in GOP Senator Rand Paul and Democrats voting against the nomination. Mullin squeezed through because Senator John Fetterman abandoned fellow Democrats to vote in his favor.</p>\n<p>Inhumane ICE: 19-year old Royer Perez-Jimenez died at an ICE detention center in Miami that has a record of medical neglect, with ICE claiming the cause of his death was \u201cpresumed suicide.\u201d Perez-Jimenez is the youngest known fatality in ICE custody as the death toll in detention centers reaches a two-decade high under the Trump administration.</p>\n<p>\u2018Political retribution\u2019: FBI Director Kash Patel was sued for allegedly firing two former FBI agents, in violation of their First and Fifth Amendment rights, because they investigated Trump\u2019s efforts to overturn the 2020 election. At a congressional hearing, Patel, pressed on his termination of agents who investigated Trump, claimed they violated \u201cethical obligations.\u201d</p>\n<p>Illegal deportations: An ICE officer revealed that DHS has deported more than 100 asylum seekers who were supposed to be protected by a court-ordered settlement. It\u2019s the latest development in a legal battle over Trump\u2019s administration illegally deporting an individual to El Salvador\u2019s notorious megaprison CECOT.</p>\n<p>Warren backs Platner: Senator Elizabeth Warren threw her support behind progressive oyster farmer and veteran Graham Platner in the Maine Senate Democratic primary, as tensions heighten between him and his opponent, Governor Janet Mills.</p>\n<p>\ud83e\udde0 Pop Quiz!</p>\n<p>IMEU Policy Project, Demand Progress, and Data For Progress conducted a poll to gauge US voters\u2019 latest opinions on the war with Iran. What percentage of voters said they believe that the war benefits Israel more?</p>\n<p>Keep your eyes out for the answer below!</p>\n<h3>\ud83c\udf0f Anywhere But America</h3>\n<p>\ud83c\uddf5\ud83c\uddf8 Don\u2019t forget Gaza: Israel allowed only eight injured Palestinians and 17 of their family members to leave Gaza through the Rafah border crossing yesterday after reopening it for the first time in weeks.</p>\n<p>\ud83c\uddf9\ud83c\uddf3 Activist jailed: Saadia Mosbah, a prominent Tunisian migrant rights and anti-racist activist detained since May 2024, was sentenced to eight years in prison on charges of money laundering and illicit enrichment. Her lawyer said she was a scapegoat for \u201cthe state\u2019s failure to address\u201d the issue of African migrants seeking to reach Europe.</p>\n<p>\ud83c\uddf8\ud83c\udde9 Sudan-Chad border tensions escalate: The president of Chad, Idris Mahamat D\u00e9by, ordered military retaliation against future attacks from Sudan, after at least 17 people were killed in a drone attack on a funeral. The Sudanese government accuses Chad of supporting Rapid Support Forces, a paramilitary group that has fought Sudan\u2019s military since April 2023.</p>\n<p>\ud83d\ude2c WTF?!</p>\n<p>The scolds at the centrist think tank Third Way are now arguing it\u2019s antisemitic to say the phrase \u201cEpstein class\u201d \u2013 claiming the term, though a recent invention, pushes \u201cage-old tropes about Jewish wealth and influence.\u201d</p>\n<p>Good luck getting anyone to buy this one!</p>\n<p>\ud83e\udde0 Trivia answer: 56%.</p>\n<h3>\ud83d\udcd6 Weekend Reads</h3>\n<h3>JD Vance Is Having Kamala Harris Problems</h3>\n<p>It\u2019s a political tale that has become familiar in modern politics \u2013 a vice president sidelined in crucial decisions, presidential ambitions curbed by an aging boss. In this New York magazine piece, Ross Barkan breaks down how JD Vance\u2019s vice presidency is being marred by the same kind of power struggles Kamala Harris faced in Joe Biden\u2019s White House.</p>\n<p>Grieving Parents in Iran Spend Every Night at the Graves of Their Children, Killed by US Strike</p>\n<p>In this sobering Drop Site News piece, Mahmoud Aslan shares the stories of the Iranian parents whose children were killed in the US strike on an elementary school in Minab, Iran, with one parent saying, \u201cRamadan this year arrived carrying a grief I have never known before.\u201d</p>\n<p>Transportation Lobbyists Have Donated Thousands to Sean Duffy\u2019s Son-in-Law as He Runs for Congress</p>\n<p>Why would someone advocating for a tunnel between New Jersey and Manhattan want anything to do with a Wisconsin congressional race? Well, maybe there\u2019s a candidate who knows a guy (in the White House, conveniently). In this ProPublica investigation, Megan O\u2019Matz reveals the lobbyists trying to get Trump\u2019s transportation secretary\u2019s attention through his son-in-law\u2019s congressional campaign.</p>\n<h3>Jury Finds Afroman Songs Mocking Cops Too Funny to Be Illegal</h3>\n<p>Rapper Afroman took the internet by storm this week as he confronted a defamation lawsuit posed by local cops over rap videos calling them out for raiding his home. Read Jay Willis\u2019s Balls and Strikes piece detailing the events that led to Afroman\u2019s fight in court and why the legal battle has folks celebrating him as a free speech hero.</p>\n<h3>ICYMI From Zeteo</h3>\n<p>Zeteo\u2019s Martin Pengelly, Akshay Gokul, and Lara Strydom contributed to this newsletter.</p>\n<p>Still want to get Zeteo content, but not this newsletter? You can unsubscribe directly from \u2018First Draft\u2019 by going to \u2018manage subscription\u2019 in Substack, scrolling down, and toggling the button for \u2018First Draft\u2019 off.</p>",
-        "description": "On this day in 2003, the Bush administration launched a ground invasion of Iraq. The US is supposed to finally fully withdraw from Iraq later this year, over two decades later, which might make you wonder: Why would Donald Trump launch a war in Iran? Good morning! Andrew here to discuss what was a\u2026",
-        "guid": "https://zeteo.com/p/american-idiot-holds-world-hostage"
       }
     ]
   },
@@ -990,10 +991,10 @@
   },
   "Original Jurisdiction": {
     "seen_ids": [
+      "19d3c45a5e71d93c",
       "19d4aec7e4ddccf4",
       "19d015d7c7fb65c4",
-      "19d1a8e36f56b145",
-      "19d3c45a5e71d93c"
+      "19d1a8e36f56b145"
     ],
     "items": [
       {
@@ -1066,9 +1067,9 @@
   },
   "Scott's Read Later": {
     "seen_ids": [
+      "19d0388645c273fe",
       "19d00e04344cb72f",
-      "19d1ac0b34c0f50f",
-      "19d0388645c273fe"
+      "19d1ac0b34c0f50f"
     ],
     "items": [
       {
