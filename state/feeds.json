@@ -2,16 +2,16 @@
   "The Message Box": {
     "seen_ids": [
       "19d105f08a5bc27b",
-      "19d05c32b5674f83",
       "19d438c43320a10d",
-      "19d1a77d55d49eba",
-      "19cdc72df8dc7080",
       "19d29d8bd6a7ee6e",
-      "19cec52c7a956a0f",
       "19d4e846f22009c6",
-      "19d34702be549348",
       "19cfb6b57a87ca29",
-      "19d2494b198a7efc"
+      "19d2494b198a7efc",
+      "19d34702be549348",
+      "19cec52c7a956a0f",
+      "19cdc72df8dc7080",
+      "19d1a77d55d49eba",
+      "19d05c32b5674f83"
     ],
     "items": [
       {
@@ -136,11 +136,11 @@
   },
   "One First": {
     "seen_ids": [
-      "19d1a6f0eb422929",
-      "19d4def7ac561e53",
       "19d3e78a766795d3",
       "19d29e4c3aabe552",
-      "19d05d9ad5767edf"
+      "19d1a6f0eb422929",
+      "19d05d9ad5767edf",
+      "19d4def7ac561e53"
     ],
     "items": [
       {
@@ -202,19 +202,19 @@
   },
   "Law Dork": {
     "seen_ids": [
-      "19d1e0ba13675c07",
-      "19d0ee3de44c33c8",
       "19d12b8f4a80969a",
-      "19d444500373b55c",
       "19d2747fcc602931",
-      "19d026a9c0a11e79",
-      "19d4ade73286d276",
-      "19d230dcd0a9cbc1",
-      "19d517e9487793d3",
-      "19d1c9b76737fa71",
-      "19d45c41f63b8e7c",
+      "19d31dfddaeefdb2",
       "19d3bb4cde7a13ab",
-      "19d31dfddaeefdb2"
+      "19d0ee3de44c33c8",
+      "19d517e9487793d3",
+      "19d444500373b55c",
+      "19d45c41f63b8e7c",
+      "19d4ade73286d276",
+      "19d1e0ba13675c07",
+      "19d230dcd0a9cbc1",
+      "19d1c9b76737fa71",
+      "19d026a9c0a11e79"
     ],
     "items": [
       {
@@ -364,65 +364,77 @@
   },
   "Zeteo": {
     "seen_ids": [
-      "19d50eeecb12ad3d",
-      "19d4e89ccd964a3d",
-      "19d3c41de05ebb31",
-      "19d48c4544d599a0",
-      "19d25d638596823d",
-      "19d25f6b0c364e01",
-      "19d1799ef8fa7d28",
-      "19d4022264c62310",
-      "19d2f03ab5e8c9ca",
-      "19d1c6cc02638148",
-      "19d45ab2d4f73973",
-      "19d53e2cef327e9e",
-      "19d2fa7594673900",
-      "19d3050f32267f1a",
-      "19d496473faf8047",
-      "19d27b062a28af0a",
-      "19d53209e0e66ffd",
-      "19d0d5181cc1057e",
-      "19d227ce438bd05f",
-      "19d35379c9041892",
-      "19d05ed9379b6a20",
-      "19d03bdf6061b863",
-      "19d16585951b289e",
-      "19d4b69313a94007",
-      "19d02327ec8b2605",
       "19d00c1413bcf4fa",
-      "19cfd6ce4b7365a3",
-      "19d208dd9c3d3ecd",
-      "19d39fe366552ca0",
-      "19d0b135c4497e53",
-      "19d3b3526ede41d6",
-      "19d077e0a1d5dfa1",
-      "19d2bc21c95acf47",
-      "19d21dd98140f5f0",
-      "19d43b900e9471e1",
-      "19d108600db2bb05",
-      "19d3765726a4172a",
-      "19d1a8fb8fbccc0e",
-      "19d4ddbbf11500a4",
-      "19d4a4f13278a907",
-      "19d4694a840dd5d1",
-      "19d3a74bb3eeb021",
-      "19d4075fba1d1bf1",
-      "19cfdf13253a85c0",
-      "19d5010e2f2843ee",
       "19d24bf5e1961e34",
-      "19d4f68f29652f7a",
+      "19d108600db2bb05",
+      "19d2c9efb640c87e",
+      "19d2f03ab5e8c9ca",
       "19d315897ffb65e1",
+      "19d4b69313a94007",
+      "19d2fa7594673900",
+      "19d02327ec8b2605",
       "19d2a84caf9cb676",
+      "19d48c4544d599a0",
+      "19d1fa4b15ade5d9",
+      "19d4075fba1d1bf1",
+      "19d05ed9379b6a20",
+      "19d2bc21c95acf47",
+      "19d4a4f13278a907",
+      "19d53209e0e66ffd",
+      "19d11cbd889a4077",
+      "19d16585951b289e",
+      "19cfdf13253a85c0",
+      "19d1799ef8fa7d28",
+      "19d45ab2d4f73973",
+      "19d25d638596823d",
+      "19d496473faf8047",
+      "19d0d5181cc1057e",
+      "19d4022264c62310",
+      "19d208dd9c3d3ecd",
+      "19d1a8fb8fbccc0e",
+      "19d25f6b0c364e01",
+      "19cfd6ce4b7365a3",
+      "19d4f68f29652f7a",
       "19d29e68798a2fa1",
       "19d3e8299f2ad8ca",
-      "19d1fa4b15ade5d9",
       "19d1d2a60fd08df0",
+      "19d58f1082718adb",
+      "19d3a74bb3eeb021",
+      "19d227ce438bd05f",
       "19d26c23dca0be46",
+      "19d53e2cef327e9e",
+      "19d39fe366552ca0",
+      "19d4694a840dd5d1",
       "19cfe9e4b9d763bd",
-      "19d11cbd889a4077",
-      "19d2c9efb640c87e"
+      "19d1c6cc02638148",
+      "19d077e0a1d5dfa1",
+      "19d50eeecb12ad3d",
+      "19d3765726a4172a",
+      "19d4e89ccd964a3d",
+      "19d5010e2f2843ee",
+      "19d3b3526ede41d6",
+      "19d21dd98140f5f0",
+      "19d3050f32267f1a",
+      "19d35379c9041892",
+      "19d4ddbbf11500a4",
+      "19d03bdf6061b863",
+      "19d0b135c4497e53",
+      "19d27b062a28af0a",
+      "19d43b900e9471e1",
+      "19d3c41de05ebb31"
     ],
     "items": [
+      {
+        "gmail_id": "19d58f1082718adb",
+        "title": "\u2018I Feel More In Danger Than Ever Before\u2019: Palestinian Activist Speaks Out After Foiled Murder Plot",
+        "url": "https://zeteo.com/p/nerdeen-kiswani-assassination-plot-palestinian-american-activist",
+        "pub_date": "2026-04-04T14:35:51+00:00",
+        "author": "Zeteo",
+        "post_type": "podcast",
+        "content": "<p>A 26-year-old man\u2019s alleged assasination attempt against Palestinian-American activist Nerdeen Kiswani was foiled. But, she tells Prem, she is still facing threats as we speak.</p>\n<p>Kiswani, co-founder of the organization Within Our Lifetime, has been active in Palestinian human rights advocacy for years and has been the target of increased harassment over the past two-and-a-half years during Israel\u2019s genocide in Gaza. It\u2019s led to her suing Betar USA, one of several anti-speech organizations that have directed threats toward people in the United States \u2013 especially Palestinians \u2013 for speaking out against Israel\u2019s genocide. The threats culminated in last week\u2019s attempt to firebomb her home.</p>\n<p>Though the plot was foiled, she tells Prem, \u201cI actually feel more in danger than I ever have before.\u201d</p>\n<p>Her alleged would-be assailant, Alexander Heifler, was a member of an offshoot of the violent Jewish Defense League organization. His group boasted of working with Betar. Kiswani says groups like Betar have attached \u201cbounties\u201d to her, encouraging people to give her \u201cbeepers\u201d (in reference to Israel\u2019s terrorist attack on Lebanon in 2024, using pagers).</p>\n<p>Kiswani says threats have continued since the attack. \u201cTons of Zionist organizations are saying \u2018better luck next time,\u201d she says. \u201cIt feels like they\u2019re still getting support from lawmakers, government officials, emboldening people to really take the next step and finish the job without getting caught next time.\u201d</p>\n<p>Watch Kiswani talk about the plot against her and her family, how she felt about New York Mayor Zohran Mamdani\u2019s response to it, and what she makes of racist Republican Rep. Randy Fine\u2019s vicious campaign against her.</p>\n<p>We are removing the paywall so you can watch this interview in full. Please subscribeto avoid paywalls in the future \u2013 and to help us do more of this work, and to enable as many people as possible to read and watch it all, too.</p>\n<h3>Check out more from Zeteo:</h3>",
+        "description": "A 26-year-old man\u2019s alleged assasination attempt against Palestinian-American activist Nerdeen Kiswani was foiled. But, she tells Prem, she is still facing threats as we speak. Kiswani, co-founder of the organization Within Our Lifetime, has been active in Palestinian human rights advocacy for\u2026",
+        "guid": "https://zeteo.com/p/nerdeen-kiswani-assassination-plot-palestinian-american-activist"
+      },
       {
         "gmail_id": "19d53e2cef327e9e",
         "title": "BREAKING: US Fighter Jet Shot Down, Iran Says",
@@ -961,17 +973,6 @@
         "content": "<p>On this day in 2022, US Secretary of State Antony Blinken formally declared that members of Russia\u2019s armed forces had committed war crimes in Ukraine. Four years on, Donald Trump initially said Iran had until Monday evening to reopen the Strait of Hormuz, or he would \u201cobliterate\u201d power plants \u2013 an act generally considered a war crime itself. He said this morning he was postponing any strikes on Iran\u2019s power plants for five days.</p>\n<p>Good morning! Swin and Andrew here, with an update on Donald Trump\u2019s illegal, pointless, disastrous, and expanding war in Iran. Our idiot president has, for decades, wanted to \u201cgo in and take\u201d Kharg Island and seize Iran\u2019s oil infrastructure \u2013 and because he\u2019s surrounded himself with cultists and sycophants in his second term, he\u2019ll get to carry out his fantasy, if that\u2019s what he chooses.</p>\n<p>The only problem? Well, many Americans would likely die pointlessly.</p>\n<p>In today\u2019s \u2018First Draft,\u2019 the Trump administration knows many Americans will die if he invades Kharg Island, Trump and Iran exchange dire threats to life-sustaining infrastructure, and ICE is heading to America\u2019s airports.</p>\n<h3>A \u2018Considerable\u2019 Body Count</h3>\n<p>Senior Trump administration officials have been briefed on US casualty estimates \u2013 prepared by military and intelligence personnel \u2013 for a variety of possible ground invasion scenarios in their illegal Iran war, two sources familiar with the situation and another person briefed on it tell us.</p>\n<p>In multiple scenarios, if Donald Trump were to invade and try to occupy Kharg Island for an extended period of time, American casualties would very likely be \u201cconsiderable,\u201d one of the people familiar with the matter says. Some estimates, the first two sources tell us, are easily in the dozens for an initial phase of occupation, with numbers likely to rise sharply if President Trump wished to hold the island for an extended duration.</p>\n<p>Some of the internal Kharg analysis has been shared directly with Trump in recent weeks, sources stress.</p>\n<p>Trump has long been fascinated with Kharg Island, which holds the bulk of Iran\u2019s oil exports. During his Art of the Deal book tour in 1988, Trump said he would \u201cgo in and take it.\u201d</p>\n<p>Harrison Mann, a former US intelligence analyst, has written forZeteo about why a Kharg Island invasion is a bad idea. He writes further for the Quincy Institute\u2019s Responsible Statecraft blog: \u201cFor the troops unlucky enough to receive orders to take Kharg, the operation would land somewhere between a suicide mission and a self-imposed hostage crisis.\u201d</p>\n<p>As he explains, it\u2019s not clear what the point of the Kharg mission would be, because securing Iran\u2019s oil infrastructure might not necessarily create much leverage for Trump. \u201cThe opportunity to inflict a mass casualty event that could sap limited US public support for the war, or to hold entire battalions as de facto hostages, may well appear more valuable to Tehran than oil revenue,\u201d Mann adds.</p>\n<p>Joe Kent, Trump\u2019s former director of counterterrorism, who just resigned over Trump\u2019s Iran war, told the Washington Post that a Kharg invasion \u201cwould be a disaster.\u201d</p>\n<p>\u201cIt would essentially be giving Iran a bunch of hostages on an island that they could barrage with drones and missiles,\u201d he said.</p>\n<p>One thing was obvious to us lately: A good number of Zeteo\u2019s well-placed sources, in and close to the US government, are leaking things like this to us (and, we\u2019re sure, others in the media and elsewhere) because they do not want the president to pull the trigger on this. They say they think a ground invasion, whether protracted or not, would be an inevitable bloodbath and political disaster for the American side.</p>\n<p>We will be straight with you: We do not think their efforts to spook President Trump out of this are going to work. We really hope we are wrong.</p>\n<p>The president has moved roughly 9,000 troops and Marines to the Middle East, and is only threatening to escalate further. On Saturday, Trump said that if Iran \u201cdoesn\u2019t FULLY OPEN, WITHOUT THREAT, the Strait of Hormuz,\u201d where Iran is blocking much of the world\u2019s oil supply, by Monday, \u201cthe United States of America will hit and obliterate their various POWER PLANTS, STARTING WITH THE BIGGEST ONE FIRST!\u201d</p>\n<p>Early Monday, Trump said on his social media site that he had postponed any military strikes on Iran\u2019s power plants and energy infrastructure for five days, claiming the US and Iran have had \u201cVERY GOOD AND PRODUCTIVE CONVERSATIONS\u201d over the last two days \u201cREGARDING A COMPLETE AND TOTAL RESOLUTION OF OUR HOSTILITIES IN THE MIDDLE EAST.\u201d He did not elaborate.</p>\n<p>Iran has threatened to respond to any attacks on its power plants with even bigger attacks on all kinds of infrastructure around the Gulf.</p>\n<p>By many indications, Trump\u2019s illegal war in Iran \u2013 a baseless war of choice never authorized by Congress \u2013 will expand. Its threat to people\u2019s lives and livelihoods is growing.</p>\n<p>An array of Trump advisers and other sources with intimate knowledge of the situation say that while the president could vacillate on this rapidly (as he does with plenty of things), at this time, the chances of a US invasion of Iran in the near future remain dangerously, stubbornly high.</p>\n<p>\u201cThis is already an unpopular war being led by an unpopular president,\u201d says Matt Duss, a former top foreign policy adviser to Bernie Sanders. \u201cA US ground invasion, and the resulting US casualties, will make it even more unpopular, in addition to a strategic disaster. The fact that Trump seems to think he can escalate his way out of this mess is astonishing. He needs to pull the plug on this catastrophe now.\u201d</p>\n<p>Right now, you shouldn\u2019t hold your breath.</p>\n<p>But at least Fox host Sean Hannity and Senator Lindsey Graham are happy.</p>\n<p>Graham, the South Carolina Republican senator who helped quarterback Trump into this war, is giddy about the Kharg Island idea.</p>\n<p>Speaking on \u2018Fox News Sunday,\u2019 he compared it to the World War II battle with Japan over Iwo Jima \u2013 a fight in which 6,900 US soldiers were killed, and 19,000 were injured.</p>\n<p>\u201cI trust DOD. We have two Marine Expeditionary Units sailing to this island. We did Iwo Jima \u2013 we can do this,\u201d Graham said.</p>\n<p>He added, \u201cI don\u2019t know if you take it or block it, but I know this: The day we control that island, this terrorist regime has been weakened, it will die on a vine.\u201d</p>\n<p>We will all see what happens. But as it stands: President Trump is THIS CLOSE to deploying ground troops in yet another war in the Middle East, with absolutely no clear mission, and potentially no end in sight. And he\u2019s weighing doing this with all the care and respect for human life that a toddler would apply to throwing dad\u2019s car keys down the toilet.</p>\n<p>Any American \u2013 or anyone anywhere else on the planet \u2013 should be horrified. We\u2019ll stay on this story every day of the week here at Zeteo.</p>\n<h3>\ud83c\uddee\ud83c\uddf7 Iran War Updates</h3>\n<p>Death tolls:</p>\n<p>Iran: Iran\u2019s state broadcaster said late Saturday more than 1,500 people had been killed, citing the Health Ministry. Iranian officials said earlier this month that nearly 20,000 people had been injured in US-Israeli strikes. The US-based Human Rights Activists News Agency put the death toll at more than 3,000, including 1,407 civilian deaths.</p>\n<p>Lebanon: Israel has killed at least 1,029 people, including more than 115 children, in Lebanon, according tofigures from the country\u2019s Health Ministry.</p>\n<p>US troops: At least 13 US troops have died in incidents related to the war.</p>\n<p>Israel: At least 17, including two soldiers, have been killed and thousands injured in Iranian and Hezbollah attacks in Israel. An Israeli man was killed Sunday in what Israel eventually admitted was a friendly fire incident in the northern part of the country.</p>\n<p>Occupied West Bank: Four Palestinian women were killed in an Iranian missile attack in the West Bank.</p>\n<p>Elsewhere in the region: Dozens of others have been killed across the region.</p>\n<h3>And in more Iran war news\u2026</h3>\n<p>Iran\u2019s warning: Tehran said power plant strikes would lead to the complete closure of the Strait of Hormuz and strikes to \u201cirreversibly destroy\u201d Middle East infrastructure, including energy and desalination plants. The country\u2019s National Defence Council later warned \u201call communication lines in the Persian Gulf\u201d would be mined if a land invasion takes place.</p>\n<p>Nuclear fears: On Saturday, after Israel hit Iran\u2019s main nuclear enrichment site at Natanz, Iran struck Dimona and Arad, close to nuclear research facilities in Israel\u2019s south, injuring around 200. Iran also unsuccessfully attacked the US-UK base at Diego Garcia in the Chagos Islands, beyond what was thought to be its maximum missile range.</p>\n<p>Internet blackout among \u2018most severe\u2019 ever: Iran\u2019s near-total internet blackout is now in its 24th day, internet advocacy group Netblocks said today, calling it one of \u201cthe most severe registered in any country.\u201d</p>\n<p>Lebanon bridge blast: Defense Minister Israel Katz said he had ordered more destruction of bridges and houses in the south of Lebanon, as part of Israel\u2019s war against Hezbollah. Israel then bombed a bridge near Tyre, prompting Lebanese President Joseph Aoun to warn of a \u201cprelude to ground invasion.\u201d The bombing of bridges will have significant consequences for getting humanitarian aid to the southern part of the country.</p>\n<p>Worse than 1970s oil shocks combined: The head of the International Energy Agency warned today that the oil crisis caused by the US-Israeli war on Iran was worse than the 1973 and 1979 oil shocks combined. The global economy faces a \u201cmajor, major threat\u201d and \u201cno country will be immune to the effects of this crisis if it continues to go in this direction,\u201d Fatih Birol said at Australia\u2019s National Press Club today.</p>\n<h3>\ud83d\uddde\ufe0f What You Need to Know</h3>\n<p>Yes men: Right-wing media baron Rupert Murdoch and Israeli Prime Minister Benjamin Netanyahu were the key voices in driving Donald Trump to strike Iran, sources told Bloomberg. Where were close advisers like Vice President JD Vance or Secretary of State Marco Rubio? They were silent, afraid of stepping in Trump\u2019s way.</p>\n<p>DHS vs. Abrego Garcia: The Trump administration is continuing its push to deport Kilmar Abrego Garcia, with the Department of Homeland Security asking a federal judge to remove an order blocking his deportation. The agency says it is gearing up to remove Abrego Garcia in an \u201cextremely expeditious manner\u201d and send him to Liberia, to which he has no connection.</p>\n<p>ICE at the airport: Border czar Tom Homan says ICE agents will be deployed to airports starting today, to assist TSA workers with security lines as the partial government shutdown continues. Trump announced the move over the weekend, in an effort to put pressure on Democrats to fund ICE along with the rest of the Department of Homeland Security.</p>\n<p>Pete\u2019s (failed) attack on the press: In a win for press freedom, a federal judge ruled against the Pentagon policy restricting press access for news outlets producing coverage the department dislikes. Judge Paul Friedman called out the agency for seeking \u201conly stories that are favorable to or spoon-fed by department leadership,\u201d and to \u201cweed out disfavored journalists\u201d.</p>\n<p>Noem\u2019s successor: Senator Markwayne Mullin is on course to lead the Department of Homeland Security, after his Senate colleagues voted 54-37 to advance his nomination to a final vote, perhaps as early as today. Two Democratic senators voted for him \u2013 John Fetterman of Pennsylvania (OF COURSE!) and Martin Heinrich of New Mexico.</p>\n<p>\ud83e\udde0 Pop Quiz!</p>\n<p>In 2014, Senator Martin Heinrich spent six days on a desert island with a GOP senator for Rival Survival, a Discovery Channel special, emerging \u201csunburned, bug-bitten, banged up, and a few pounds lighter \u2013 but alive.\u201d Who was the Republican?</p>\n<p>Keep your eyes out for the answer below!</p>\n<h3>\ud83d\udcac Quote Unquote</h3>\n<p>\u201cIn essence, we are Jiu-Jitsu-ing the Iranians. We are using their own oil against them.\u201d</p>\n<p>That\u2019s Treasury Secretary Scott Bessent, in response to being asked why the US lifted sanctions on Iranian oil, thereby essentially helping fund a country it\u2019s at war with. Yeah, nice try Scott!</p>\n<h3>\ud83c\udf0f Anywhere But America</h3>\n<p>\ud83c\uddf5\ud83c\uddf8 Don\u2019t forget Gaza: In its latest violations of the so-called \u201cceasefire,\u201d Israel killed four people on Sunday, Palestinian officials said, including three police officers killed at Nuseirat refugee camp and a senior figure of an armed group killed in Sheikh Radwan.</p>\n<p>\ud83c\uddf5\ud83c\uddf8 Another night of settler violence: Israeli settlers rampaged through Palestinian villages and communities in the occupied West Bank for a second night on Sunday, injuring at least nine Palestinians and torching homes and cars, local media reported.</p>\n<p>\ud83c\uddec\ud83c\udde7 London Jewish community ambulances set on fire: Authorities in London said four ambulances belonging to a Jewish community organization were set on fire overnight in what investigators are treating as an antisemitic hate crime. No injuries were reported.</p>\n<p>\ud83c\uddf0\ud83c\uddea Kenya amnesty: Kenyans enlisted to fight for Russia against Ukraine will be granted amnesty upon returning home, Prime Cabinet Secretary Musalia Mudavadi said after visiting Moscow for talks. According to Ukrainian intelligence, more than 1,700 Africans have been lured to Russia with promises of lucrative employment, then sent to fight.</p>\n<p>\ud83c\uddeb\ud83c\uddf7 Paris elects socialist: Emmanuel Gr\u00e9goire was elected mayor of the French capital, defeating the conservative Rachida Dati. A far-right candidate became mayor of Nice, France\u2019s fifth-largest city, but Marine Le Pen\u2019s National Rally party was defeated in many other major cities.</p>\n<p>\ud83c\uddf8\ud83c\udde9 Sudan strike: At least 64 people, including 13 children, were killed in a  strike on a hospital in western Darfur, the World Health Organization said over the weekend. Officials with the Sudanese military, which has been fighting the Rapid Support Forces paramilitary group since 2023, reportedly claimed the strike was meant to hit a nearby police station.</p>\n<h3>\ud83d\udcca Chart of the Day</h3>\n<p>Make no mistake.</p>\n<p>While this war is wildly unpopular, and some would argue it\u2019s splitting the MAGA movement, the president has still managed to maintain the vast majority of his pro-Trump cult, who\u2019ll support just about anything he does \u2013 regardless of what Tucker Carlson or Candace Owens might say!</p>\n<p>\ud83e\udde0 Trivia answer: Senator Jeff Flake of Arizona.</p>\n<h3>\ud83d\udcfa Sunday Show Roundup</h3>\n<p>For whatever reason, NATO Secretary General Mark Rutte seems to be kissing up to Trump, telling Fox he thinks the war on Iran is \u201cnecessary\u201d and praising the \u201cpresident\u2019s leadership\u201d on the issue of Iran\u2019s nuclear capabilities.</p>\n<p>Transportation Secretary Sean Duffy is openly admitting that the real reason ICE is being deployed to airports is to force Democrats to concede on the issue of funding the whole DHS. Duffy told ABC\u2019s Jonathan Karl he believes Trump is seeking to take \u201cleverage\u201d away from Democrats, and said ICE agents know how to perform TSA job responsibilities, even when reports show they are barely trained.</p>\n<p>Confronted with Trump\u2019s shameless response to the death of Robert Mueller, Treasury Secretary Scott Bessent tried to make Trump the victim. \u201cGiven what has been done to President Trump and his family, it is impossible for either of us to understand what he\u2019s been through,\u201d Bessent told NBC, when asked if it was appropriate for a president to celebrate the death of any American citizen.</p>\n<p>Asked on NBC if Trump was \u201cwinding down this war\u201d with Iran or escalating it, Bessent went full \u2018Veep\u2019 (or was it \u2018In the Loop\u2019?) when he said: \u201cAgain, they\u2019re not mutually exclusive. Sometimes you have to escalate to de-escalate.\u201d The world awaits a formal response from Armando Iannucci \u2013 or Simon Foster MP.</p>\n<p>GOP senator Thom Tillis, a vocal critic of the Trump administration, stood by his comments calling out Kristi Noem\u2019s lack of qualifications to be Homeland Security Secretary, but stopped short of blaming Trump himself for her appointment. Speaking to ABC, Tillis said he didn\u2019t expect the president to have an \u201cencyclopedic\u201d knowledge of all his Cabinet picks, but has questions around how Noem came to be nominated.</p>\n<h3>\ud83d\uddd3\ufe0fMark Your Calendars</h3>\n<p>Monday, March 23: The Supreme Court is set to hear arguments in Watson v. RNC, a case challenging a Mississippi law that allows mail-in ballots sent by Election Day to count, even if they arrive later.</p>\n<p>Tuesday, March 24: A US District Court judge is set to weigh Anthropic\u2019s bid to undo Pentagon blacklisting.</p>\n<p>Wednesday, March 25: The three-day 2026 CPAC summit is set to begin in Dallas.</p>\n<p>Thursday, March 26: Venezuela\u2019s abducted President Nicol\u00e1s Maduro is due back in court in his US narco-terrorism case.</p>\n<p>Saturday, March 28: The third national \u2018No Kings\u2019 protest is set to take place across the country.</p>\n<h3>ICYMI From Zeteo</h3>\n<p>Zeteo\u2019s Martin Pengelly, Akshay Gokul, and Alexa Cohen contributed to this newsletter.</p>\n<p>Still want to get Zeteo content, but not this newsletter? You can unsubscribe directly from \u2018First Draft\u2019 by going to \u2018manage subscription\u2019 in Substack, scrolling down, and toggling the button for \u2018First Draft\u2019 off.</p>",
         "description": "On this day in 2022, US Secretary of State Antony Blinken formally declared that members of Russia\u2019s armed forces had committed war crimes in Ukraine. Four years on, Donald Trump initially said Iran had until Monday evening to reopen the Strait of Hormuz, or he would \u201cobliterate\u201d power plants \u2013 an\u2026",
         "guid": "https://zeteo.com/p/the-kharg-island-bloodbath"
-      },
-      {
-        "gmail_id": "19d1a8fb8fbccc0e",
-        "title": "\ud83c\uddee\ud83c\uddf7 The Kharg Island Bloodbath?",
-        "url": "https://zeteo.com/p/the-kharg-island-bloodbath",
-        "pub_date": "2026-03-23T11:52:41+00:00",
-        "author": "First Draft | Zeteo",
-        "post_type": "newsletter",
-        "content": "<p>On this day in 2022, US Secretary of State Antony Blinken formally declared that members of Russia\u2019s armed forces had committed war crimes in Ukraine. Four years on, Donald Trump initially said Iran had until Monday evening to reopen the Strait of Hormuz, or he would \u201cobliterate\u201d power plants \u2013 an act generally considered a war crime itself. He said this morning he was postponing any strikes on Iran\u2019s power plants for five days.</p>\n<p>Good morning! Swin and Andrew here, with an update on Donald Trump\u2019s illegal, pointless, disastrous, and expanding war in Iran. Our idiot president has, for decades, wanted to \u201cgo in and take\u201d Kharg Island and seize Iran\u2019s oil infrastructure \u2013 and because he\u2019s surrounded himself with cultists and sycophants in his second term, he\u2019ll get to carry out his fantasy, if that\u2019s what he chooses.</p>\n<p>The only problem? Well, many Americans would likely die pointlessly.</p>\n<p>In today\u2019s \u2018First Draft,\u2019 the Trump administration knows many Americans will die if he invades Kharg Island, Trump and Iran exchange dire threats to life-sustaining infrastructure, and ICE is heading to America\u2019s airports.</p>\n<h3>A \u2018Considerable\u2019 Body Count</h3>\n<p>Senior Trump administration officials have been briefed on US casualty estimates \u2013 prepared by military and intelligence personnel \u2013 for a variety of possible ground invasion scenarios in their illegal Iran war, two sources familiar with the situation and another person briefed on it tell us.</p>\n<p>In multiple scenarios, if Donald Trump were to invade and try to occupy Kharg Island for an extended period of time, American casualties would very likely be \u201cconsiderable,\u201d one of the people familiar with the matter says. Some estimates, the first two sources tell us, are easily in the dozens for an initial phase of occupation, with numbers likely to rise sharply if President Trump wished to hold the island for an extended duration.</p>\n<p>Some of the internal Kharg analysis has been shared directly with Trump in recent weeks, sources stress.</p>\n<p>Trump has long been fascinated with Kharg Island, which holds the bulk of Iran\u2019s oil exports. During his Art of the Deal book tour in 1988, Trump said he would \u201cgo in and take it.\u201d</p>\n<p>Harrison Mann, a former US intelligence analyst, has written forZeteo about why a Kharg Island invasion is a bad idea. He writes further for the Quincy Institute\u2019s Responsible Statecraft blog: \u201cFor the troops unlucky enough to receive orders to take Kharg, the operation would land somewhere between a suicide mission and a self-imposed hostage crisis.\u201d</p>\n<p>As he explains, it\u2019s not clear what the point of the Kharg mission would be, because securing Iran\u2019s oil infrastructure might not necessarily create much leverage for Trump. \u201cThe opportunity to inflict a mass casualty event that could sap limited US public support for the war, or to hold entire battalions as de facto hostages, may well appear more valuable to Tehran than oil revenue,\u201d Mann adds.</p>\n<p>Joe Kent, Trump\u2019s former director of counterterrorism, who just resigned over Trump\u2019s Iran war, told the Washington Post that a Kharg invasion \u201cwould be a disaster.\u201d</p>\n<p>\u201cIt would essentially be giving Iran a bunch of hostages on an island that they could barrage with drones and missiles,\u201d he said.</p>\n<p>One thing was obvious to us lately: A good number of Zeteo\u2019s well-placed sources, in and close to the US government, are leaking things like this to us (and, we\u2019re sure, others in the media and elsewhere) because they do not want the president to pull the trigger on this. They say they think a ground invasion, whether protracted or not, would be an inevitable bloodbath and political disaster for the American side.</p>\n<p>We will be straight with you: We do not think their efforts to spook President Trump out of this are going to work. We really hope we are wrong.</p>\n<p>The president has moved roughly 9,000 troops and Marines to the Middle East, and is only threatening to escalate further. On Saturday, Trump said that if Iran \u201cdoesn\u2019t FULLY OPEN, WITHOUT THREAT, the Strait of Hormuz,\u201d where Iran is blocking much of the world\u2019s oil supply, by Monday, \u201cthe United States of America will hit and obliterate their various POWER PLANTS, STARTING WITH THE BIGGEST ONE FIRST!\u201d</p>\n<p>Early Monday, Trump said on his social media site that he had postponed any military strikes on Iran\u2019s power plants and energy infrastructure for five days, claiming the US and Iran have had \u201cVERY GOOD AND PRODUCTIVE CONVERSATIONS\u201d over the last two days \u201cREGARDING A COMPLETE AND TOTAL RESOLUTION OF OUR HOSTILITIES IN THE MIDDLE EAST.\u201d He did not elaborate.</p>\n<p>Iran has threatened to respond to any attacks on its power plants with even bigger attacks on all kinds of infrastructure around the Gulf.</p>\n<p>By many indications, Trump\u2019s illegal war in Iran \u2013 a baseless war of choice never authorized by Congress \u2013 will expand. Its threat to people\u2019s lives and livelihoods is growing.</p>\n<p>An array of Trump advisers and other sources with intimate knowledge of the situation say that while the president could vacillate on this rapidly (as he does with plenty of things), at this time, the chances of a US invasion of Iran in the near future remain dangerously, stubbornly high.</p>\n<p>\u201cThis is already an unpopular war being led by an unpopular president,\u201d says Matt Duss, a former top foreign policy adviser to Bernie Sanders. \u201cA US ground invasion, and the resulting US casualties, will make it even more unpopular, in addition to a strategic disaster. The fact that Trump seems to think he can escalate his way out of this mess is astonishing. He needs to pull the plug on this catastrophe now.\u201d</p>\n<p>Right now, you shouldn\u2019t hold your breath.</p>\n<p>But at least Fox host Sean Hannity and Senator Lindsey Graham are happy.</p>\n<p>Graham, the South Carolina Republican senator who helped quarterback Trump into this war, is giddy about the Kharg Island idea.</p>\n<p>Speaking on \u2018Fox News Sunday,\u2019 he compared it to the World War II battle with Japan over Iwo Jima \u2013 a fight in which 6,900 US soldiers were killed, and 19,000 were injured.</p>\n<p>\u201cI trust DOD. We have two Marine Expeditionary Units sailing to this island. We did Iwo Jima \u2013 we can do this,\u201d Graham said.</p>\n<p>He added, \u201cI don\u2019t know if you take it or block it, but I know this: The day we control that island, this terrorist regime has been weakened, it will die on a vine.\u201d</p>\n<p>We will all see what happens. But as it stands: President Trump is THIS CLOSE to deploying ground troops in yet another war in the Middle East, with absolutely no clear mission, and potentially no end in sight. And he\u2019s weighing doing this with all the care and respect for human life that a toddler would apply to throwing dad\u2019s car keys down the toilet.</p>\n<p>Any American \u2013 or anyone anywhere else on the planet \u2013 should be horrified. We\u2019ll stay on this story every day of the week here at Zeteo.</p>\n<h3>\ud83c\uddee\ud83c\uddf7 Iran War Updates</h3>\n<p>Death tolls:</p>\n<p>Iran: Iran\u2019s state broadcaster said late Saturday more than 1,500 people had been killed, citing the Health Ministry. Iranian officials said earlier this month that nearly 20,000 people had been injured in US-Israeli strikes. The US-based Human Rights Activists News Agency put the death toll at more than 3,000, including 1,407 civilian deaths.</p>\n<p>Lebanon: Israel has killed at least 1,029 people, including more than 115 children, in Lebanon, according tofigures from the country\u2019s Health Ministry.</p>\n<p>US troops: At least 13 US troops have died in incidents related to the war.</p>\n<p>Israel: At least 17, including two soldiers, have been killed and thousands injured in Iranian and Hezbollah attacks in Israel. An Israeli man was killed Sunday in what Israel eventually admitted was a friendly fire incident in the northern part of the country.</p>\n<p>Occupied West Bank: Four Palestinian women were killed in an Iranian missile attack in the West Bank.</p>\n<p>Elsewhere in the region: Dozens of others have been killed across the region.</p>\n<h3>And in more Iran war news\u2026</h3>\n<p>Iran\u2019s warning: Tehran said power plant strikes would lead to the complete closure of the Strait of Hormuz and strikes to \u201cirreversibly destroy\u201d Middle East infrastructure, including energy and desalination plants. The country\u2019s National Defence Council later warned \u201call communication lines in the Persian Gulf\u201d would be mined if a land invasion takes place.</p>\n<p>Nuclear fears: On Saturday, after Israel hit Iran\u2019s main nuclear enrichment site at Natanz, Iran struck Dimona and Arad, close to nuclear research facilities in Israel\u2019s south, injuring around 200. Iran also unsuccessfully attacked the US-UK base at Diego Garcia in the Chagos Islands, beyond what was thought to be its maximum missile range.</p>\n<p>Internet blackout among \u2018most severe\u2019 ever: Iran\u2019s near-total internet blackout is now in its 24th day, internet advocacy group Netblocks said today, calling it one of \u201cthe most severe registered in any country.\u201d</p>\n<p>Lebanon bridge blast: Defense Minister Israel Katz said he had ordered more destruction of bridges and houses in the south of Lebanon, as part of Israel\u2019s war against Hezbollah. Israel then bombed a bridge near Tyre, prompting Lebanese President Joseph Aoun to warn of a \u201cprelude to ground invasion.\u201d The bombing of bridges will have significant consequences for getting humanitarian aid to the southern part of the country.</p>\n<p>Worse than 1970s oil shocks combined: The head of the International Energy Agency warned today that the oil crisis caused by the US-Israeli war on Iran was worse than the 1973 and 1979 oil shocks combined. The global economy faces a \u201cmajor, major threat\u201d and \u201cno country will be immune to the effects of this crisis if it continues to go in this direction,\u201d Fatih Birol said at Australia\u2019s National Press Club today.</p>\n<h3>\ud83d\uddde\ufe0f What You Need to Know</h3>\n<p>Yes men: Right-wing media baron Rupert Murdoch and Israeli Prime Minister Benjamin Netanyahu were the key voices in driving Donald Trump to strike Iran, sources told Bloomberg. Where were close advisers like Vice President JD Vance or Secretary of State Marco Rubio? They were silent, afraid of stepping in Trump\u2019s way.</p>\n<p>DHS vs. Abrego Garcia: The Trump administration is continuing its push to deport Kilmar Abrego Garcia, with the Department of Homeland Security asking a federal judge to remove an order blocking his deportation. The agency says it is gearing up to remove Abrego Garcia in an \u201cextremely expeditious manner\u201d and send him to Liberia, to which he has no connection.</p>\n<p>ICE at the airport: Border czar Tom Homan says ICE agents will be deployed to airports starting today, to assist TSA workers with security lines as the partial government shutdown continues. Trump announced the move over the weekend, in an effort to put pressure on Democrats to fund ICE along with the rest of the Department of Homeland Security.</p>\n<p>Pete\u2019s (failed) attack on the press: In a win for press freedom, a federal judge ruled against the Pentagon policy restricting press access for news outlets producing coverage the department dislikes. Judge Paul Friedman called out the agency for seeking \u201conly stories that are favorable to or spoon-fed by department leadership,\u201d and to \u201cweed out disfavored journalists\u201d.</p>\n<p>Noem\u2019s successor: Senator Markwayne Mullin is on course to lead the Department of Homeland Security, after his Senate colleagues voted 54-37 to advance his nomination to a final vote, perhaps as early as today. Two Democratic senators voted for him \u2013 John Fetterman of Pennsylvania (OF COURSE!) and Martin Heinrich of New Mexico.</p>\n<p>\ud83e\udde0 Pop Quiz!</p>\n<p>In 2014, Senator Martin Heinrich spent six days on a desert island with a GOP senator for Rival Survival, a Discovery Channel special, emerging \u201csunburned, bug-bitten, banged up, and a few pounds lighter \u2013 but alive.\u201d Who was the Republican?</p>\n<p>Keep your eyes out for the answer below!</p>\n<h3>\ud83d\udcac Quote Unquote</h3>\n<p>\u201cIn essence, we are Jiu-Jitsu-ing the Iranians. We are using their own oil against them.\u201d</p>\n<p>That\u2019s Treasury Secretary Scott Bessent, in response to being asked why the US lifted sanctions on Iranian oil, thereby essentially helping fund a country it\u2019s at war with. Yeah, nice try Scott!</p>\n<h3>\ud83c\udf0f Anywhere But America</h3>\n<p>\ud83c\uddf5\ud83c\uddf8 Don\u2019t forget Gaza: In its latest violations of the so-called \u201cceasefire,\u201d Israel killed four people on Sunday, Palestinian officials said, including three police officers killed at Nuseirat refugee camp and a senior figure of an armed group killed in Sheikh Radwan.</p>\n<p>\ud83c\uddf5\ud83c\uddf8 Another night of settler violence: Israeli settlers rampaged through Palestinian villages and communities in the occupied West Bank for a second night on Sunday, injuring at least nine Palestinians and torching homes and cars, local media reported.</p>\n<p>\ud83c\uddec\ud83c\udde7 London Jewish community ambulances set on fire: Authorities in London said four ambulances belonging to a Jewish community organization were set on fire overnight in what investigators are treating as an antisemitic hate crime. No injuries were reported.</p>\n<p>\ud83c\uddf0\ud83c\uddea Kenya amnesty: Kenyans enlisted to fight for Russia against Ukraine will be granted amnesty upon returning home, Prime Cabinet Secretary Musalia Mudavadi said after visiting Moscow for talks. According to Ukrainian intelligence, more than 1,700 Africans have been lured to Russia with promises of lucrative employment, then sent to fight.</p>\n<p>\ud83c\uddeb\ud83c\uddf7 Paris elects socialist: Emmanuel Gr\u00e9goire was elected mayor of the French capital, defeating the conservative Rachida Dati. A far-right candidate became mayor of Nice, France\u2019s fifth-largest city, but Marine Le Pen\u2019s National Rally party was defeated in many other major cities.</p>\n<p>\ud83c\uddf8\ud83c\udde9 Sudan strike: At least 64 people, including 13 children, were killed in a  strike on a hospital in western Darfur, the World Health Organization said over the weekend. Officials with the Sudanese military, which has been fighting the Rapid Support Forces paramilitary group since 2023, reportedly claimed the strike was meant to hit a nearby police station.</p>\n<h3>\ud83d\udcca Chart of the Day</h3>\n<p>Make no mistake.</p>\n<p>While this war is wildly unpopular, and some would argue it\u2019s splitting the MAGA movement, the president has still managed to maintain the vast majority of his pro-Trump cult, who\u2019ll support just about anything he does \u2013 regardless of what Tucker Carlson or Candace Owens might say!</p>\n<p>\ud83e\udde0 Trivia answer: Senator Jeff Flake of Arizona.</p>\n<h3>\ud83d\udcfa Sunday Show Roundup</h3>\n<p>For whatever reason, NATO Secretary General Mark Rutte seems to be kissing up to Trump, telling Fox he thinks the war on Iran is \u201cnecessary\u201d and praising the \u201cpresident\u2019s leadership\u201d on the issue of Iran\u2019s nuclear capabilities.</p>\n<p>Transportation Secretary Sean Duffy is openly admitting that the real reason ICE is being deployed to airports is to force Democrats to concede on the issue of funding the whole DHS. Duffy told ABC\u2019s Jonathan Karl he believes Trump is seeking to take \u201cleverage\u201d away from Democrats, and said ICE agents know how to perform TSA job responsibilities, even when reports show they are barely trained.</p>\n<p>Confronted with Trump\u2019s shameless response to the death of Robert Mueller, Treasury Secretary Scott Bessent tried to make Trump the victim. \u201cGiven what has been done to President Trump and his family, it is impossible for either of us to understand what he\u2019s been through,\u201d Bessent told NBC, when asked if it was appropriate for a president to celebrate the death of any American citizen.</p>\n<p>Asked on NBC if Trump was \u201cwinding down this war\u201d with Iran or escalating it, Bessent went full \u2018Veep\u2019 (or was it \u2018In the Loop\u2019?) when he said: \u201cAgain, they\u2019re not mutually exclusive. Sometimes you have to escalate to de-escalate.\u201d The world awaits a formal response from Armando Iannucci \u2013 or Simon Foster MP.</p>\n<p>GOP senator Thom Tillis, a vocal critic of the Trump administration, stood by his comments calling out Kristi Noem\u2019s lack of qualifications to be Homeland Security Secretary, but stopped short of blaming Trump himself for her appointment. Speaking to ABC, Tillis said he didn\u2019t expect the president to have an \u201cencyclopedic\u201d knowledge of all his Cabinet picks, but has questions around how Noem came to be nominated.</p>\n<h3>\ud83d\uddd3\ufe0fMark Your Calendars</h3>\n<p>Monday, March 23: The Supreme Court is set to hear arguments in Watson v. RNC, a case challenging a Mississippi law that allows mail-in ballots sent by Election Day to count, even if they arrive later.</p>\n<p>Tuesday, March 24: A US District Court judge is set to weigh Anthropic\u2019s bid to undo Pentagon blacklisting.</p>\n<p>Wednesday, March 25: The three-day 2026 CPAC summit is set to begin in Dallas.</p>\n<p>Thursday, March 26: Venezuela\u2019s abducted President Nicol\u00e1s Maduro is due back in court in his US narco-terrorism case.</p>\n<p>Saturday, March 28: The third national \u2018No Kings\u2019 protest is set to take place across the country.</p>\n<h3>ICYMI From Zeteo</h3>\n<p>Zeteo\u2019s Martin Pengelly, Akshay Gokul, and Alexa Cohen contributed to this newsletter.</p>\n<p>Still want to get Zeteo content, but not this newsletter? You can unsubscribe directly from \u2018First Draft\u2019 by going to \u2018manage subscription\u2019 in Substack, scrolling down, and toggling the button for \u2018First Draft\u2019 off.</p>",
-        "description": "On this day in 2022, US Secretary of State Antony Blinken formally declared that members of Russia\u2019s armed forces had committed war crimes in Ukraine. Four years on, Donald Trump initially said Iran had until Monday evening to reopen the Strait of Hormuz, or he would \u201cobliterate\u201d power plants \u2013 an\u2026",
-        "guid": "https://zeteo.com/p/the-kharg-island-bloodbath"
       }
     ]
   },
@@ -1008,9 +1009,9 @@
   "Original Jurisdiction": {
     "seen_ids": [
       "19d1a8e36f56b145",
+      "19d015d7c7fb65c4",
       "19d4aec7e4ddccf4",
-      "19d3c45a5e71d93c",
-      "19d015d7c7fb65c4"
+      "19d3c45a5e71d93c"
     ],
     "items": [
       {
@@ -1083,9 +1084,9 @@
   },
   "Scott's Read Later": {
     "seen_ids": [
-      "19d1ac0b34c0f50f",
+      "19d00e04344cb72f",
       "19d0388645c273fe",
-      "19d00e04344cb72f"
+      "19d1ac0b34c0f50f"
     ],
     "items": [
       {
