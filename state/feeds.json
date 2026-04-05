@@ -1,17 +1,17 @@
 {
   "The Message Box": {
     "seen_ids": [
-      "19d4e846f22009c6",
-      "19d05c32b5674f83",
+      "19d34702be549348",
+      "19cfb6b57a87ca29",
       "19cdc72df8dc7080",
-      "19d2494b198a7efc",
+      "19d1a77d55d49eba",
+      "19d4e846f22009c6",
+      "19d29d8bd6a7ee6e",
+      "19cec52c7a956a0f",
       "19d438c43320a10d",
       "19d105f08a5bc27b",
-      "19cfb6b57a87ca29",
-      "19d29d8bd6a7ee6e",
-      "19d34702be549348",
-      "19cec52c7a956a0f",
-      "19d1a77d55d49eba"
+      "19d05c32b5674f83",
+      "19d2494b198a7efc"
     ],
     "items": [
       {
@@ -136,11 +136,11 @@
   },
   "One First": {
     "seen_ids": [
+      "19d1a6f0eb422929",
       "19d3e78a766795d3",
-      "19d05d9ad5767edf",
       "19d29e4c3aabe552",
-      "19d4def7ac561e53",
-      "19d1a6f0eb422929"
+      "19d05d9ad5767edf",
+      "19d4def7ac561e53"
     ],
     "items": [
       {
@@ -202,19 +202,19 @@
   },
   "Law Dork": {
     "seen_ids": [
-      "19d1c9b76737fa71",
-      "19d0ee3de44c33c8",
-      "19d4ade73286d276",
-      "19d1e0ba13675c07",
-      "19d31dfddaeefdb2",
-      "19d2747fcc602931",
       "19d444500373b55c",
-      "19d230dcd0a9cbc1",
-      "19d517e9487793d3",
-      "19d026a9c0a11e79",
-      "19d3bb4cde7a13ab",
       "19d45c41f63b8e7c",
-      "19d12b8f4a80969a"
+      "19d230dcd0a9cbc1",
+      "19d4ade73286d276",
+      "19d026a9c0a11e79",
+      "19d517e9487793d3",
+      "19d12b8f4a80969a",
+      "19d31dfddaeefdb2",
+      "19d1e0ba13675c07",
+      "19d1c9b76737fa71",
+      "19d3bb4cde7a13ab",
+      "19d2747fcc602931",
+      "19d0ee3de44c33c8"
     ],
     "items": [
       {
@@ -364,67 +364,79 @@
   },
   "Zeteo": {
     "seen_ids": [
-      "19d4a4f13278a907",
-      "19d227ce438bd05f",
-      "19d05ed9379b6a20",
-      "19d2c9efb640c87e",
-      "19d39fe366552ca0",
-      "19d0d5181cc1057e",
-      "19d48c4544d599a0",
-      "19d3765726a4172a",
-      "19d4b69313a94007",
-      "19d25f6b0c364e01",
-      "19d2bc21c95acf47",
-      "19d3050f32267f1a",
-      "19cfd6ce4b7365a3",
-      "19d53e2cef327e9e",
-      "19d1799ef8fa7d28",
-      "19d077e0a1d5dfa1",
-      "19d208dd9c3d3ecd",
-      "19cfdf13253a85c0",
-      "19d4022264c62310",
-      "19d2fa7594673900",
-      "19d3b3526ede41d6",
-      "19d3e8299f2ad8ca",
-      "19d4075fba1d1bf1",
-      "19d2a84caf9cb676",
-      "19d3c41de05ebb31",
-      "19d25d638596823d",
-      "19d597a398cc162b",
-      "19d53209e0e66ffd",
-      "19d29e68798a2fa1",
-      "19d24bf5e1961e34",
-      "19d496473faf8047",
-      "19d108600db2bb05",
-      "19d50eeecb12ad3d",
-      "19d0b135c4497e53",
-      "19d4ddbbf11500a4",
-      "19d4f68f29652f7a",
-      "19d35379c9041892",
-      "19d4694a840dd5d1",
-      "19d1c6cc02638148",
+      "19d4e89ccd964a3d",
       "19d58f1082718adb",
-      "19d00c1413bcf4fa",
-      "19d315897ffb65e1",
-      "19d02327ec8b2605",
-      "19d1d2a60fd08df0",
-      "19d27b062a28af0a",
-      "19d21dd98140f5f0",
-      "19cfe9e4b9d763bd",
-      "19d1a8fb8fbccc0e",
-      "19d5010e2f2843ee",
+      "19d05ed9379b6a20",
+      "19d4075fba1d1bf1",
+      "19d0b135c4497e53",
+      "19d4694a840dd5d1",
       "19d03bdf6061b863",
       "19d2f03ab5e8c9ca",
-      "19d1fa4b15ade5d9",
-      "19d45ab2d4f73973",
-      "19d11cbd889a4077",
-      "19d4e89ccd964a3d",
-      "19d3a74bb3eeb021",
-      "19d26c23dca0be46",
+      "19d5e55eb5a5d80a",
+      "19d108600db2bb05",
       "19d16585951b289e",
-      "19d43b900e9471e1"
+      "19d496473faf8047",
+      "19d5010e2f2843ee",
+      "19d2fa7594673900",
+      "19d02327ec8b2605",
+      "19d39fe366552ca0",
+      "19d35379c9041892",
+      "19d3b3526ede41d6",
+      "19d29e68798a2fa1",
+      "19d4a4f13278a907",
+      "19d0d5181cc1057e",
+      "19d3050f32267f1a",
+      "19d53209e0e66ffd",
+      "19d26c23dca0be46",
+      "19d1d2a60fd08df0",
+      "19d21dd98140f5f0",
+      "19d1a8fb8fbccc0e",
+      "19cfdf13253a85c0",
+      "19d4022264c62310",
+      "19d2bc21c95acf47",
+      "19d227ce438bd05f",
+      "19cfd6ce4b7365a3",
+      "19d315897ffb65e1",
+      "19d27b062a28af0a",
+      "19d45ab2d4f73973",
+      "19d3765726a4172a",
+      "19d25f6b0c364e01",
+      "19d4f68f29652f7a",
+      "19d2c9efb640c87e",
+      "19d2a84caf9cb676",
+      "19d3c41de05ebb31",
+      "19d077e0a1d5dfa1",
+      "19d4b69313a94007",
+      "19d1799ef8fa7d28",
+      "19d3e8299f2ad8ca",
+      "19d25d638596823d",
+      "19d43b900e9471e1",
+      "19d208dd9c3d3ecd",
+      "19d50eeecb12ad3d",
+      "19d11cbd889a4077",
+      "19d00c1413bcf4fa",
+      "19d48c4544d599a0",
+      "19cfe9e4b9d763bd",
+      "19d1fa4b15ade5d9",
+      "19d1c6cc02638148",
+      "19d24bf5e1961e34",
+      "19d4ddbbf11500a4",
+      "19d53e2cef327e9e",
+      "19d3a74bb3eeb021",
+      "19d597a398cc162b"
     ],
     "items": [
+      {
+        "gmail_id": "19d5e55eb5a5d80a",
+        "title": "Trump Threatens War Crimes, Bizarrely Praises \u2018Allah\u2019 on Easter Sunday",
+        "url": "https://zeteo.com/p/trump-easter-iran-war-crimes",
+        "pub_date": "2026-04-05T15:42:24+00:00",
+        "author": "\"Zeteo | U.S. Politics\"",
+        "post_type": "newsletter",
+        "content": "<p>US President Donald Trump kicked off Easter Sunday by dropping an F-bomb and rage-posting on social media, threatening apocalyptic war crimes in Iran as part of the illegal war he started \u2013 while bizarrely praising \u201cAllah.\u201d</p>\n<p>\u201cTuesday will be Power Plant Day, and Bridge Day, all wrapped up in one, in Iran,\u201d Trump posted on Truth Social. \u201cThere will be nothing like it!!! Open the Fuckin\u2019 Strait, you crazy bastards, or you\u2019ll be living in Hell \u2013 JUST WATCH! Praise be to Allah.\u201d</p>\n<p>For those keeping track, in his primetime address to the nation last week, Trump insisted that reopening the Strait of Hormuz \u2013 which Iran has effectively closed since the start of the war, blocking the flow of oil \u2013 should be other nations\u2019 responsibility. Now, he\u2019s threatening to carry out war crimes and destroy Iran\u2019s civilian infrastructure if its regime doesn\u2019t reopen the strait.</p>\n<p>Sunday\u2019s disturbing insanity is unfortunately what we have grown to expect from the sitting president of the United States, who the entirety of the Republican Party elite insists is well.</p>\n<p>White House officials did not immediately reply to Zeteo\u2019s query about whether this was an appropriate Easter Sunday message to the nation. Other current and former Trump administration officials had initial reactions ranging from \u201cLMAO\u201d to casual exasperation.</p>\n<p>Early on in the conflict, Zeteo dubbed this the worst-run war in US history. As evidenced on this Easter Sunday, President Trump and his party keep reinforcing and inflaming that diagnosis.</p>\n<p>The Iranian embassy in Thailand responded to Trump\u2019s message on Twitter, referencing the president\u2019s pledge to bomb Iran to the Stone Age: \u201cJudging by how POTUS swears like a teenager, it seems the US has reached the Stone Age sooner than expected.\u201d</p>\n<p>A half hour before Trump issued his latest threat, Pope Leo XIV posted his own (much more appropriate) Easter message \u2013 a plea for peace.</p>\n<p>\u201cIn the light of #Easter, let us allow ourselves to be amazed by Christ!\u201d the Pope wrote on Twitter. \u201cLet us allow our hearts to be transformed by his immense love for us! Let those who have weapons lay them down! Let those who have the power to unleash wars choose peace! Not a peace imposed by force, but through dialogue! Not with the desire to dominate others, but to encounter them!\u201d</p>\n<p>If only Trump was listening.</p>\n<p>Later Sunday morning, Trump told Fox: \u201cIf they don&#x27;t make a deal and fast, I&#x27;m considering blowing everything up and taking over the oil.\u201d</p>\n<h3>Check out more from Zeteo:</h3>",
+        "description": "US President Donald Trump kicked off Easter Sunday by dropping an F-bomb and rage-posting on social media, threatening apocalyptic war crimes in Iran as part of the illegal war he started \u2013 while bizarrely praising \u201cAllah.\u201d \u201cTuesday will be Power Plant Day, and Bridge Day, all wrapped up in one, in\u2026",
+        "guid": "https://zeteo.com/p/trump-easter-iran-war-crimes"
+      },
       {
         "gmail_id": "19d597a398cc162b",
         "title": "This Week in Palestine: Israeli Lawmakers Cheer the Death Penalty for Palestinians and ICE Abducts Palestinian Gre\u2026",
@@ -963,17 +975,6 @@
         "content": "<p>On this day in 1942, the US government began moving Americans of Japanese ancestry into internment camps. Some 84 years later, the Department of Homeland Security is keeping thousands of people in disturbingly parallel conditions, despite increasing public disgust.</p>\n<p>Good morning! Prem here. Thinking about contingency. Would the Iraq War have unfolded how it did if the chads weren\u2019t hanging in Florida in 2000? Where would we be if Kamala Harris had said literally anything other than \u201cnot a thing comes to mind\u201d when asked if she\u2019d do anything differently than Joe Biden? What would the world look like if someone had given Donald Trump a reality show he stuck with, instead of a political Napoleon complex? And what coin-flips will we look back on with horror, if we don\u2019t see them now?</p>\n<p>In today\u2019s \u2018First Draft\u2019, I pose to you: are Israeli and US forces using human shields? Plus, Trump is sending ICE agents to airports to \u201chelp\u201d the TSA agents he is refusing to pay (a dry run of sending them to the polls in seven months) \u2013and speaking of, the Supreme Court is considering a decision that would stop certain mail-in ballots from being counted.</p>\n<h3>Here we go\u2026</h3>\n<h3>Human Shield of Lies</h3>\n<p>For two and a half years, the US and Israeli governments and their media allies all justified the Israeli military\u2019s horrific bombing of hospitals, schools, and homes in Gaza on the grounds that Hamas was hiding its fighters and military infrastructure in civilian areas and, therefore, using Palestinians as \u201chuman shields.\u201d</p>\n<p>Now, as the US and Israel continue their illegal war on Iran, one could question who is actually using \u201chuman shields.\u201d</p>\n<p>Months before the war, the US evacuated hundreds of troops from Al Udeid Air Base in Qatar, moving some to hotels in the region. A US official and another source familiar told NBC News this was in order to keep them out of harm\u2019s way. If Palestinian fighters or Iranian soldiers had been moved in such a fashion, you could imagine the US or Israel contending that civilians had actually been put in harm\u2019s way.</p>\n<p>In the days leading up to the war, the US was placing refueling tanker airplanes at Israel\u2019s Ben Gurion Airport \u2013 the country\u2019s busiest, serving thousands of civilians every day. During the war, it has been used for refueling.</p>\n<p>Iranian airstrikes have killed US service members in a \u201cmakeshift operations center\u201d at a civilian port in Kuwait and injured US personnel at a hotel in Bahrain. Inside Israel, apartment buildings were destroyed when Iran targeted an Israeli nuclear research center in retaliation for Israeli attacks on Iranian nuclear sites.</p>\n<p>It\u2019s unclear why Israeli officials placed nuclear infrastructure near residential homes, or why US officials have positioned US military assets in and around civilian infrastructure.</p>\n<p>\u201cWe started by attacking their military bases. They have evacuated their military bases and gone to the hotels and made human shields for themselves,\u201d Iranian Foreign Minister Abbas Aragchi said, shortly after the US and Israel began the war.</p>\n<p>In Israel\u2019s case, it\u2019s structural. As CNN\u2019s Jim Sciutto described two years ago, the headquarters of Mossad, Israel\u2019s international intelligence agency, is in \u201ca densely-populated area\u201d within Tel Aviv, \u201cwith civilians around it.\u201d</p>\n<p>One could also question whether the spread of US military bases in the region causes unwitting civilians to function as de facto human shields. As Iran has retaliated against US and Israeli attacks, their targets have included US bases, leaving civilians in nations like Qatar and the UAE at risk.</p>\n<p>The asymmetry of \u201chuman shields\u201d logic reveals how the US and Israel view war. Attacks on Palestinian or Iranian civilian locations are \u201cmistakes\u201d or consequences of their adversaries\u2019 use of human shields. Attacks on US or Israeli civilian locations are definitively \u201cacts of terror.\u201d</p>\n<p>Asked about the US bombing of an Iranian girls\u2019 school, Secretary of State Marco Rubio said, \u201cWell, clearly, the United States would not deliberately target a school.\u201d</p>\n<p>He continued: \u201cThe Iranians are, on the other hand, targeting civilian infrastructure \u2026 because you know why? They are a terroristic regime. They sponsor terrorism, and they participate in terrorism.\u201d</p>\n<p>In international law, \u201chuman shielding\u201d doesn\u2019t mean operating in a civilian area \u2013 it requires intent to actively use civiliansagainst their will to deter an attack. The US and Israel have repeatedly failed to provide hard evidence of Hamas doing that. But according to the US-Israeli definition of human shields \u2013 putting your fighters inside a civilian building or area \u2013 then they themselves are undeniably guilty of using human shields too.</p>\n<p>Then again, forget equivalence: a stream of reporting has shown that Israeli forces have literallyusedPalestinians as human shields, in the most brutal of manners. (Remember the wounded Palestinian man that the Israelis strapped to the hood of a military vehicle during a raid in the occupied West Bank city of Jenin in 2024?)</p>\n<p>So, to conclude: the US and Israel lied about the definition of human shields to justify Israel\u2019s assault on civilians in Gaza; they then deployed their own soldiers as human shields against Iranian attacks, according to their own definition; and all the while, Israel used actual human shields in both Gaza and the West Bank.</p>\n<p>Hypocrisy, thy name is the US and Israel.</p>\n<h3>\ud83c\uddee\ud83c\uddf7 Iran War Updates</h3>\n<h3>Death tolls:</h3>\n<p>Iran: Iran\u2019s state broadcaster said late Saturday more than 1,500 people had been killed, citing the Health Ministry. Iranian officials said earlier this month that nearly 20,000 people had been injured in US-Israeli strikes.</p>\n<p>Lebanon: Israel has killed at least 1,039 people, including 118 children, in Lebanon, according toyesterday\u2019s figures from the country\u2019s Health Ministry.</p>\n<h3>US troops: At least 13 US troops have died in incidents related to the war.</h3>\n<p>Israel: At least 17, including two Israeli soldiers, have been killed and thousands injured in Iranian and Hezbollah attacks in Israel.</p>\n<p>Elsewhere in the region: Dozens of others have been killed across the region, including four Palestinians in the occupied West Bank.</p>\n<h3>And in more Iran war news\u2026</h3>\n<p>Iran names Larijani replacement: Iran named Mohammad Bagher Zolghadr as the new secretary of the Supreme National Security Council after the previous head, Ali Larijani, was assassinated last week, Iranian state media reported.</p>\n<p>Lebanon latest: Israeli Defense Minister Israel Katz said today that Israeli forces will control all remaining bridges (meaning those Israel didn\u2019t already blow up) over the Litani River and a \u201csecurity zone\u201d up to the river. The hundreds of thousands of Lebanese people who fled north of the river will not be allowed to return to their homes \u201cuntil security for the residents of the north is ensured,\u201d Katz said.</p>\n<p>US mulling deploying US combat troops: A combat brigade from the US Army\u2019s 82nd Airborne Division could be deployed to support operations in Iran, defense officials told theNew York Times, which said the \u201cImmediate Response Force\u201d troops could be used to seize Kharg Island, Iran\u2019s main oil export hub.</p>\n<p>War aims doubt: Both the US and Israel now see overthrowing the Iranian regime and ending its pursuit of a nuclear weapon as out of reach, according to officials quoted in the Washington Post.</p>\n<p>Bet on it: Half a billion dollars\u2019 worth of bets were placed by traders in the oil market about 15 minutes before Donald Trump posted on Monday about \u201cproductive\u201d talks with Iran, sending prices tumbling, the FT reported.</p>\n<p>\u2018Hot option\u2019: News that the US had proposed talks between Vice President JD Vance and Mohammad Bagher Ghalibaf, speaker of the Iranian parliament, prompted one expert to describe \u201cdeep-seated Iranian distrust\u201d of Trump peace envoy Steve Witkoff. Politico reported that in the White House, Ghalibaf is seen as \u201ca hot option\u201d to lead Iran.</p>\n<h3>\ud83d\udcca Chart of the Day</h3>\n<p>To date, this administration has deported the parents of around 11,000 American citizen children. Check our ProPublica\u2019s full report here.</p>\n<h3>\ud83d\uddde\ufe0f What You Need to Know</h3>\n<p>Voting rights in peril: The Supreme Court appeared skeptical about a Mississippi law that allows mail-in ballots to be counted up to five days after election day, as long as they\u2019re postmarked by that date.</p>\n<p>ICE at airports: Donald Trump deployed ICE agents to major US airports, purportedly to \u201chelp\u201d the TSA agents he has refused to pay for more than a month. Trump reportedly rejected a GOP-led deal to fund the Department of Homeland Security without ICE on Sunday.</p>\n<p>Mullin confirmed: Markwayne Mullin was confirmed as the new DHS secretary, replacing Kristi Noem. GOP Senator Rand Paul, who has accused Mullin of \u201canger issues,\u201d voted against the confirmation, while two Democrats \u2013 Senators John Fetterman and Martin Heinrich \u2013 broke with their party to support Mullin\u2019s confirmation.</p>\n<p>Voice of Trump: Voice of America journalists are suing Kari Lake \u2013 Trump\u2019s pick to lead the US Agency for Global Media (USAGM), which oversees VOA \u2013 arguing that she is working to make the network a Pro-Trump propaganda machine.</p>\n<p>Fossil fuel funds: The Trump administration has agreed to pay French energy company TotalEnergies nearly $1 billion to ditch plans to produce wind power and instead invest that money in oil and gas.</p>\n<p>Mills chilled: Maine Democratic voters are frustrated with Governor Janet Mills for her attack ad against Senate primary rival Graham Platner, over old online comments about victims of rape. In a meeting with Hancock Democrats, one attendee told Mills, \u201cI\u2019m a member of the #MeToo generation, and I was offended by your ad. I\u2019d very much like you to run a clean campaign.\u201d Platner leads most polls.</p>\n<p>\ud83e\udde0 Pop Quiz!</p>\n<p>Voice of America wrecker and former Arizona GOP gubernatorial candidate Kari Lake is one of Donald Trump\u2019s most ardent acolytes. But which candidate for high office did she donate to and campaign for in her home state, Arizona, in 2008?</p>\n<p>Keep your eyes out for the answer below!</p>\n<h3>\ud83c\udf0f Anywhere But America</h3>\n<p>\ud83c\uddf5\ud83c\uddf8 Don\u2019t forget Gaza: Israel\u2019s systematic torture of Palestinians in Israeli prisons and beyond is \u201cstate doctrine,\u201d UN Special Rapporteur Francesca Albanese said in a new report. She added: \u201cSince the onset of the genocide, the Israeli prison system has degenerated into a laboratory of calculated cruelty.\u201d</p>\n<p>\ud83c\udded\ud83c\uddfa Trump ally \u2018treason\u2019: After the Washington Post reported that PM Viktor Orb\u00e1n\u2019s far-right Hungarian government has for years provided Russia with information about EU Council meetings, opposition leader P\u00e9ter Magyar, who is leading in the polls three weeks before election day, said: \u201cIf confirmed, this would amount to treason, which carries a potential life sentence.\u201d</p>\n<p>\ud83c\uddee\ud83c\uddf9 Trump ally beaten: Italy PM Giorgia Meloni suffered a rare electoral defeat in a referendum on controversial justice system reforms, the public rejecting the far-right leader\u2019s proposal by around 54%-46%. Meloni has said she won\u2019t resign over the result, but analysts said it could leave her significantly weakened.</p>\n<p>\ud83c\uddf0\ud83c\uddf5 North Korea vow: Leader Kim Jong Un said his country\u2019s nuclear-armed status was \u201cirreversible,\u201d adding that Pyongyang would \u201cexpand and advance our self-defensive nuclear deterrent.\u201d</p>\n<p>\ud83c\udde8\ud83c\uddf4 Colombia crash: A military transport plane with 128 people on board came down shortly after take-off in a remote Amazonian part of the southwest of the country, authorities said, killing at least 66 dead and injuring dozens of others.</p>\n<h3>\ud83e\udde0 Trivia answer: Barack Obama.</h3>\n<h3>ICYMI From Zeteo</h3>\n<p>Zeteo\u2019s Martin Pengelly and Akshay Gokul contributed to this newsletter.</p>\n<p>Still want to get Zeteo content, but not this newsletter? You can unsubscribe directly from \u2018First Draft\u2019 by going to \u2018manage subscription\u2019 in Substack, scrolling down, and toggling the button for \u2018First Draft\u2019 off.</p>",
         "description": "On this day in 1942, the US government began moving Americans of Japanese ancestry into internment camps. Some 84 years later, the Department of Homeland Security is keeping thousands of people in disturbingly parallel conditions, despite increasing public disgust. Good morning! Prem here. Thinking\u2026",
         "guid": "https://zeteo.com/p/israel-us-human-shields-iran-first-draft"
-      },
-      {
-        "gmail_id": "19d1d2a60fd08df0",
-        "title": "Less Than 1% of Public Bomb Shelters in Israel Are in Palestinian Communities",
-        "url": "https://zeteo.com/p/less-than-1-of-public-bomb-shelters",
-        "pub_date": "2026-03-24T00:01:07+00:00",
-        "author": "Zeteo",
-        "post_type": "newsletter",
-        "content": "<p>In response to Israel\u2019s (now usual) bombing of foreign countries like Lebanon and Iran, there is usually some sort of (expected and natural) response. Two questions are immediately posed inside Israel: 1) Do you support Israel\u2019s bombing of Country X or Y, and 2) Do you feel \u201csafe\u201d? It is in response to these two questions that you can see just how different Israeli and Palestinian lives are, as well as their perceptions of the world.</p>\n<p>For Jewish Israelis, an overwhelming (and by overwhelming, I mean overwhelming) majority support Israel\u2019s latest strikes on Iran, just as they support every Israeli attack on every country and on Palestinians, always. In a survey by the Israel Democracy Institute, a whopping 92.5% of Jewish Israelis support the attack on Iran, including 68% of those who self-identify as \u201cleft wing\u201d in Israel. By contrast, Palestinian citizens of Israel largely do not support this or any other Israeli military attack, with roughly 25% saying they support Israel\u2019s strikes on Iran. This same survey asked whether people in Israel feel protected from Iranian attacks: 79% of Jewish Israelis surveyed feel protected compared to 15% of Palestinian citizens of Israel.</p>\n<p>Why the differences? Simple. Because Palestinians in Israel have never been part of Israeli society, yet we pay the price for Israel\u2019s wars. (Incidentally, no one ever bothers to poll Palestinians in the occupied West Bank \u2013 including Jerusalem \u2013 or in the Gaza Strip, and they too pay a price for Israel\u2019s assaults.)</p>\n<h3>Only 37 Shelters</h3>\n<h3>Let\u2019s begin by looking at the issue of \u201csafety\u201d and feeling \u201cprotected.\u201d</h3>\n<p>Of the 11,775 public shelters in Israel, only 37 \u2013 yes 37 (!) \u2013 are based in Palestinian-majority towns, according to a recent government study. That means only 0.3% of Israel\u2019s public shelters are allocated to 20% of the citizens of the state. Even after last year\u2019s June attack on Iran, Israel did nothing to rectify this gross inequality.</p>\n<p>In my own city, Haifa, often described (by non-Palestinians, of course) as a model of \u201ccoexistence,\u201d we see the same picture. During the Nakba, Israel ethnically cleansed 95% of Haifa\u2019s 75,000 Palestinian residents, with only 3,000 remaining. Those who remained were forced into the Wadi Nisnas neighborhood. Today, this neighborhood is home to about 9,000 Palestinians, yet their own public shelter is a single school gym.</p>\n<p>The city of Nof HaGalil was built on the land stolen from Nazareth\u2019s residents. It has 24 public shelters for its 45,000 residents, whereas Nazareth, the largest Palestinian city in Israel, with its 80,000 residents, has none. I think about my own family in Nazareth and the elderly in Haifa, wondering how they \u201cstay safe\u201d as we are always told to do.</p>\n<p>And remember, there are no shelters at all in Gaza or in the West Bank. Fragments of an Iranian missile killed four Palestinian women, including a teenager and two pregnant women, who were at a hair salon preparing for Eid near Hebron. They had no warning; no shelter to go to.</p>\n<h3>Israel Will Massacre at Will</h3>\n<p>The way in which Palestinians view the war versus Israelis isn\u2019t just an issue of shelters; it\u2019s an issue of ideology. Palestinians do not support Israel\u2019s wars because we know how Israel was founded: by ethnic cleansing, by massacres, and by theft. How else can someone have the audacity to live in the home of another (literally), sleep in their bed, eat off their plates, and pretend that it is just? That\u2019s what happened in 1948. Fast forward to 2026, and how can they continue to live in our houses or on our stolen land while also perpetrating genocide? The answer is that it can only be done through a very deep process of dehumanization. And we, Palestinians, have been on the receiving end of that dehumanization for as long as Israel has been around. To be a Palestinian in Israel is to largely live among Nakba perpetrators, apologists, and/or advocates. Today, it also means to largely live among genocide perpetrators, apologists, and/or advocates. We do not want to see Israel do to Lebanon or Iran what it did (and continues to do) to us. And, unlike many Western leaders who downplay the biblical references to mass killings and land grabs uttered by Israeli leaders and ministers, we Palestinians believe them. Because they are true. Israel will massacre at will \u2013 as it always has; and steal more land \u2013 as it always has.</p>\n<p>For example, in the aftermath of Israel\u2019s bombing campaign in Lebanon in 2006, the Israelis began using the phrase the \u201cDahiyeh doctrine,\u201d named after the Dahiyeh suburb of Beirut that was massively bombed by Israel, which hit residential buildings, without regard for civilians, and targeted power plants, buildings, and other infrastructure to collectively punish Lebanon (it continues to strike Dahiyeh today). This, of course, is illegal. Today, Israel no longer refers to the Dahiyeh doctrine because it has amped up its crimes; there is a new standard. Israel\u2019s Finance Minister, Bezalel Smotrich, has promised that Beirut will look like Khan Younis, while Israeli \u201cDefense\u201d Minister Israel Katz has promised that it will look like Rafah and Beit Hanoun. It should be remembered that Rafah and Beit Hanoun have been completely destroyed \u2013 not a fully intact building remains \u2013 while more than 80% of Khan Younis has been destroyed. It is also the site of a mass grave. So the Dahiyeh doctrine is replaced by the Rafah doctrine. This is Israel\u2019s new standard.</p>\n<p>And so we are opposed to the endless wars.  But should we dare raise our voices in opposition, the racist, fascist (masked as \u201cdemocratic\u201d) state comes in to put us in place. Since the start of Israel\u2019s attack, Palestinians have been arrested for social media posts, for allegedly spray-painting a Palestinian flag on government buildings (Israel\u2019s chief inciter and National Security Minister Itamar Ben-Gvir personally attended the arrest of one man in an obviously made-for-TV moment), and for having a Palestinian flag in their homes. Incidentally, with Zionist aggression comes Zionist fragility. To be a Palestinian living in any part of Palestine is not only about navigating how to simply survive, but also navigating Zionist violence and Zionist attempts to always show their strength, while instead showing that they can and will commit war crimes. This Zionist violence is not just during times of war but on a daily basis \u2013 because that is what Zionism is \u2013 violent \u2013 and we are its first victims, though there will be many, many more. So, no, we are not \u201csafe\u201d and do not and will not ever be duped into the belief that perpetrating wars and war crimes will make anyone safer.</p>\n<p>Diana Buttu is a Haifa-based lawyer and analyst who was a legal adviser to the Palestinian negotiating team in the early 2000s and is a frequent commentator and writer on Palestinian and Israeli issues. She is also a practitioner in residence at Georgetown University in Qatar. She writes Zeteo\u2019s \u2018A Diary from a Palestinian in Israel.\u2019</p>\n<p>The views expressed in this article are the author\u2019s own and do not necessarily reflect those of Zeteo.</p>\n<h3>Check out more from Zeteo:</h3>",
-        "description": "In response to Israel\u2019s (now usual) bombing of foreign countries like Lebanon and Iran, there is usually some sort of (expected and natural) response. Two questions are immediately posed inside Israel: 1) Do you support Israel\u2019s bombing of Country X or Y, and 2) Do you feel \u201csafe\u201d? It is in\u2026",
-        "guid": "https://zeteo.com/p/less-than-1-of-public-bomb-shelters"
       }
     ]
   },
@@ -1009,9 +1010,9 @@
   },
   "Original Jurisdiction": {
     "seen_ids": [
-      "19d015d7c7fb65c4",
       "19d4aec7e4ddccf4",
       "19d3c45a5e71d93c",
+      "19d015d7c7fb65c4",
       "19d1a8e36f56b145"
     ],
     "items": [
@@ -1085,9 +1086,9 @@
   },
   "Scott's Read Later": {
     "seen_ids": [
-      "19d1ac0b34c0f50f",
+      "19d0388645c273fe",
       "19d00e04344cb72f",
-      "19d0388645c273fe"
+      "19d1ac0b34c0f50f"
     ],
     "items": [
       {
