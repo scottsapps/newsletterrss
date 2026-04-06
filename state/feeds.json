@@ -1,17 +1,17 @@
 {
   "The Message Box": {
     "seen_ids": [
-      "19d05c32b5674f83",
-      "19cec52c7a956a0f",
-      "19d34702be549348",
       "19d438c43320a10d",
-      "19d105f08a5bc27b",
       "19cdc72df8dc7080",
-      "19cfb6b57a87ca29",
+      "19d105f08a5bc27b",
+      "19d05c32b5674f83",
+      "19d2494b198a7efc",
+      "19cec52c7a956a0f",
+      "19d4e846f22009c6",
+      "19d34702be549348",
       "19d1a77d55d49eba",
       "19d29d8bd6a7ee6e",
-      "19d4e846f22009c6",
-      "19d2494b198a7efc"
+      "19cfb6b57a87ca29"
     ],
     "items": [
       {
@@ -136,12 +136,12 @@
   },
   "One First": {
     "seen_ids": [
-      "19d628c2b41cd1d1",
       "19d3e78a766795d3",
-      "19d29e4c3aabe552",
+      "19d628c2b41cd1d1",
+      "19d1a6f0eb422929",
       "19d05d9ad5767edf",
-      "19d4def7ac561e53",
-      "19d1a6f0eb422929"
+      "19d29e4c3aabe552",
+      "19d4def7ac561e53"
     ],
     "items": [
       {
@@ -214,19 +214,19 @@
   },
   "Law Dork": {
     "seen_ids": [
-      "19d4ade73286d276",
-      "19d0ee3de44c33c8",
-      "19d1e0ba13675c07",
-      "19d026a9c0a11e79",
-      "19d31dfddaeefdb2",
-      "19d2747fcc602931",
-      "19d444500373b55c",
       "19d12b8f4a80969a",
-      "19d1c9b76737fa71",
-      "19d230dcd0a9cbc1",
-      "19d3bb4cde7a13ab",
       "19d45c41f63b8e7c",
-      "19d517e9487793d3"
+      "19d0ee3de44c33c8",
+      "19d444500373b55c",
+      "19d1e0ba13675c07",
+      "19d31dfddaeefdb2",
+      "19d026a9c0a11e79",
+      "19d3bb4cde7a13ab",
+      "19d517e9487793d3",
+      "19d230dcd0a9cbc1",
+      "19d2747fcc602931",
+      "19d4ade73286d276",
+      "19d1c9b76737fa71"
     ],
     "items": [
       {
@@ -376,70 +376,82 @@
   },
   "Zeteo": {
     "seen_ids": [
-      "19d2a84caf9cb676",
-      "19d58f1082718adb",
-      "19d39fe366552ca0",
-      "19d4694a840dd5d1",
-      "19d2bc21c95acf47",
-      "19cfdf13253a85c0",
-      "19d6286370cb8b5c",
-      "19d1799ef8fa7d28",
-      "19d25f6b0c364e01",
-      "19d3765726a4172a",
-      "19d05ed9379b6a20",
-      "19d3a74bb3eeb021",
-      "19d50eeecb12ad3d",
-      "19d16585951b289e",
-      "19d2c9efb640c87e",
-      "19d227ce438bd05f",
-      "19d208dd9c3d3ecd",
-      "19d1d2a60fd08df0",
-      "19d3c41de05ebb31",
-      "19d1fa4b15ade5d9",
-      "19d03bdf6061b863",
-      "19d108600db2bb05",
-      "19d0b135c4497e53",
-      "19d4a4f13278a907",
-      "19d45ab2d4f73973",
-      "19d3b3526ede41d6",
-      "19d4022264c62310",
-      "19d3e8299f2ad8ca",
-      "19d48c4544d599a0",
-      "19d496473faf8047",
-      "19d00c1413bcf4fa",
-      "19d24bf5e1961e34",
-      "19cfd6ce4b7365a3",
-      "19d02327ec8b2605",
-      "19d1c6cc02638148",
-      "19d27b062a28af0a",
-      "19d4ddbbf11500a4",
-      "19d53e2cef327e9e",
-      "19d315897ffb65e1",
-      "19d3050f32267f1a",
-      "19d25d638596823d",
-      "19d1a8fb8fbccc0e",
-      "19d2fa7594673900",
-      "19d077e0a1d5dfa1",
-      "19d26c23dca0be46",
-      "19d53209e0e66ffd",
-      "19d0d5181cc1057e",
       "19d597a398cc162b",
-      "19cfe9e4b9d763bd",
+      "19d0d5181cc1057e",
+      "19d6286370cb8b5c",
+      "19d63280538bc280",
+      "19d29e68798a2fa1",
+      "19d3a74bb3eeb021",
+      "19d1a8fb8fbccc0e",
       "19d606dfbbb5da9b",
-      "19d4f68f29652f7a",
-      "19d4e89ccd964a3d",
+      "19d16585951b289e",
+      "19d3e8299f2ad8ca",
+      "19d2a84caf9cb676",
+      "19d53e2cef327e9e",
+      "19d2bc21c95acf47",
+      "19d315897ffb65e1",
+      "19d45ab2d4f73973",
+      "19cfe9e4b9d763bd",
       "19d35379c9041892",
-      "19d21dd98140f5f0",
+      "19d2c9efb640c87e",
+      "19d077e0a1d5dfa1",
+      "19d4694a840dd5d1",
       "19d2f03ab5e8c9ca",
       "19d4075fba1d1bf1",
-      "19d4b69313a94007",
+      "19d4f68f29652f7a",
+      "19cfdf13253a85c0",
+      "19d25f6b0c364e01",
+      "19d1fa4b15ade5d9",
+      "19d4022264c62310",
+      "19d48c4544d599a0",
+      "19d26c23dca0be46",
+      "19d21dd98140f5f0",
       "19d11cbd889a4077",
-      "19d29e68798a2fa1",
       "19d5e55eb5a5d80a",
-      "19d5010e2f2843ee",
-      "19d43b900e9471e1"
+      "19d3b3526ede41d6",
+      "19d496473faf8047",
+      "19d05ed9379b6a20",
+      "19d27b062a28af0a",
+      "19d2fa7594673900",
+      "19d39fe366552ca0",
+      "19d0b135c4497e53",
+      "19d00c1413bcf4fa",
+      "19d4ddbbf11500a4",
+      "19d43b900e9471e1",
+      "19d4b69313a94007",
+      "19d53209e0e66ffd",
+      "19cfd6ce4b7365a3",
+      "19d1c6cc02638148",
+      "19d3765726a4172a",
+      "19d208dd9c3d3ecd",
+      "19d108600db2bb05",
+      "19d24bf5e1961e34",
+      "19d4a4f13278a907",
+      "19d25d638596823d",
+      "19d4e89ccd964a3d",
+      "19d3c41de05ebb31",
+      "19d1799ef8fa7d28",
+      "19d58f1082718adb",
+      "19d227ce438bd05f",
+      "19d03bdf6061b863",
+      "19d02327ec8b2605",
+      "19d50eeecb12ad3d",
+      "19d3050f32267f1a",
+      "19d1d2a60fd08df0",
+      "19d5010e2f2843ee"
     ],
     "items": [
+      {
+        "gmail_id": "19d63280538bc280",
+        "title": "Israel\u2019s Latest Genocide Is Against the Shias of Lebanon. Why Is the World Silent?",
+        "url": "https://zeteo.com/p/israel-latest-genocide-shia-lebanon",
+        "pub_date": "2026-04-06T14:11:26+00:00",
+        "author": "Mehdi from Zeteo",
+        "post_type": "newsletter",
+        "content": "<p>Do you want to know what total impunity actually looks like? Look at Israel. It got away with a genocide in Gaza, and now it\u2019s unleashing a similar genocidal campaign against Shia communities in southern Lebanon.</p>\n<p>Right now, hundreds of thousands of Shia civilians are being displaced, bombed, and forced to flee. Their villages are emptied. Their homes are reduced to rubble. And Israel\u2019s defense minister says they cannot return.</p>\n<p>Where is the anger in the West, or in the Global South, or even in the Muslim world? Where are the emergency summits, the outraged headlines, the moral indignation that we saw when, for example, ISIS was carrying out a genocide against the Yazidis in Iraq and Syria?</p>\n<p>Think I\u2019m being hyperbolic? First, consider the relevant sections of the 1948 Genocide Convention, which defines genocide as \u201cacts committed with intent to destroy, in whole or in part\u201d a \u201creligious group,\u201d including \u201ckilling members of the group\u201d and \u201cdeliberately inflicting on the group conditions of life calculated to bring about its physical destruction in whole or in part.\u201d</p>\n<p>Next, consider the recent reporting from both the New York Times and Drop Site News, which reveal how Israeli forces have issued evacuation orders across large swaths of southern Lebanon, explicitly targeting Shia communities who make up the majority of the local population.</p>\n<p>Wouldn\u2019t this be labeled \u201cethnic cleansing\u201d if it were any other part of the world? Here is an entire population, an entire religious group, being targeted, displaced, and massacred simply because of who they are and where they live. The current Israeli approach to the Shias of southern Lebanon is collective, indiscriminate, and chillingly familiar: a community of innocents conflated with a security threat. \u201cEvery home in southern Lebanon, the Shia homes, are command and control centers,\u201d an Israeli military spokesman told LBC radio in the UK last month, without offering a shred of evidence.</p>\n<p>But it gets even worse.</p>\n<p>The Israeli military isn\u2019t just forcing Lebanese Shias from their homes and towns in the south; it is reportedly pressuring Lebanese Christians not to provide refuge to their displaced Shia neighbors. \u201cOver the past two weeks,\u201d reports the Times, \u201cIsraeli military officials have called leaders of at least eight villages and told them to expel Shiites who had sought refuge in their communities, municipal officials and local Christian, Druse and Shiite leaders said in interviews.\u201d</p>\n<p>Let that sink in. In a fragile, multi-faith country, scarred by decades of civil strife and sectarian violence, an invading foreign military is ordering one religious group to close its doors to another.</p>\n<p>How is this not setting off alarm bells across the world? Because history offers us only dark precedents. Ethnic cleansing is hardly ever a single, discrete act; it is often a long and vicious process. Nor should we describe what is happening in southern Lebanon as only ethnic cleansing. The Israeli-American historian Omer Bartov, a leading scholar of genocide, has warned that ethnic cleansing is not always distinct from genocide and \u201ccan morph into genocide.\u201d Gregory Stanton, the founder of Genocide Watch, goes further, saying \u201cthe term \u2018ethnic cleansing\u2019 is used as a euphemism for genocide.\u201d</p>\n<p>Of course, defenders of Israeli policy will point to the security threat from Hezbollah, the Shia militant group that operates out of southern Lebanon. And yes, Hezbollah exists. Yes, it is armed. Yes, it fires rockets at Israel. But here is the question that too many in the West refuse to consider: since when does the presence of a militia group justify the collective punishment of an entire religious population?</p>\n<p>I was born and raised a Shia Muslim. My entire life, I have seen Shias occupy a peculiar place in the political imagination of both the East and the West: rendered invisible but also relentlessly demonized. In Israeli political and media discourse, in particular, Shias are portrayed not as innocent civilians or an oft-oppressed minority community but only as extensions of an expansionist Iran, as armed proxies, as violent threats. For years, Israeli leaders have sought to build a Sunni alliance against Shia actors, speaking conspiratorially of a \u2018Shia axis\u2019 or \u2018Shia crescent,\u2019 and exploiting sectarian divisions among their Muslim adversaries in a classic divide-and-rule strategy.</p>\n<p>I still remember interviewing Naftali Bennett \u2013 then-Israel\u2019s education minister, and later prime minister \u2013 almost a decade ago for Al Jazeera English, and how startled I was when he told me: \u201cIf the Arab countries, the Sunni countries, don\u2019t want to be butchered by their Shia neighbor, they ought to cooperate with us\u2026 We need to work together against the big menace.\u201d</p>\n<p>In recent years, the Israeli press has gone into anti-Shia overdrive, publishing article after article warning of the \u201cIranian regime\u2019s dream of establishing a Shi\u2019ite caliphate,\u201d Iran\u2019s \u201cgoal for Shia world domination,\u201d and even a \u201cShi\u2019ite apocalypse.\u201d Last month, after the US-Israeli war on Iran began, one of Israel\u2019s leading scholars of Islamic studies published an op-ed describing the conflict as a \u201csevere blow to Shi\u2019ite Islam\u201d and \u201cmarking the beginning of the decline of Shi\u2019ism.\u201d</p>\n<p>Nor is this anti-Shia animus and genocidal rhetoric confined only to Israel. It has been echoed and enabled here in the United States. Secretary of State Marco Rubio falsely claims Iran is run by \u201cradical Shia clerics with an apocalyptic vision of the future.\u201d Fellow Republican hawk Senator Lindsey Graham once falsely declared that \u201cthe religious doctrine of the Shias in charge compel them to kill all the Jews; it\u2019s a commandment from God.\u201d He also compared Shia Muslims to Adolf Hitler and \u201creligious Nazis.\u201d</p>\n<p>These are hardly fringe right-wing voices. These are senior US government officials not only using sectarian bigotry to justify their latest illegal war in the Middle East but also helping to launder it into mainstream discourse.</p>\n<p>Remember: When you dehumanize a group long enough, you make their pain and suffering easier to ignore and their displacement and destruction easier to justify.</p>\n<p>So when Shia families in southern Lebanon are driven from their homes, when they are denied refuge, when they are targeted and bombarded, it doesn\u2019t trigger the necessary shock or disgust. There is no Yazidi moment here, no global outcry, no talk of \u201cnever again.\u201d Just a collective shrug and then the constant and cynical recitation of \u201cIsrael\u2019s right to defend itself.\u201d</p>\n<p>History \u2013 including Jewish history \u2013 tells us what happens when entire faith groups are smeared as collectively suspect, and when their neighbors are warned against offering them refuge. We know how that story ends. And yet, here we are, watching it unfold in real time.</p>\n<p>So we cannot afford to look away. If the West truly believes in universal human rights, then those rights must apply to Shia Muslims in southern Lebanon as much as they do to Jews in Israel, Yazidis in Iraq, or Ukrainians in the Donbas. And if the Muslim world is capable of recognizing genocide in one context, it must also be willing to recognize its warning signs in another.</p>\n<p>Otherwise, our principles are not principles at all. They are merely ethnic and tribal preferences.</p>\n<p>As a Shia Muslim, I for one am tired of my faith community being ignored and erased, both by the West and the Muslim world. What\u2019s happening in southern Lebanon to the Shias is not just displacement, not just ethnic cleansing, it is the start of yet another Israeli genocide.</p>\n<h3>Check out more from Zeteo:</h3>",
+        "description": "Do you want to know what total impunity actually looks like? Look at Israel. It got away with a genocide in Gaza, and now it\u2019s unleashing a similar genocidal campaign against Shia communities in southern Lebanon. Right now, hundreds of thousands of Shia civilians are being displaced, bombed, and\u2026",
+        "guid": "https://zeteo.com/p/israel-latest-genocide-shia-lebanon"
+      },
       {
         "gmail_id": "19d6286370cb8b5c",
         "title": "\ud83c\uddfa\ud83c\uddf8 \ud83c\uddee\ud83c\uddf7 US Supreme Leader Threatens Death to Iran",
@@ -978,17 +990,6 @@
         "content": "<p>Dear Friends,</p>\n<p>At a moment when war is being sold and marketed as inevitable and unavoidable - and when much of the mainstream media is falling into familiar patterns of deference, distortion, or outright silence in the face of numerous Israeli and American war crimes, I am pleased to announce that we\u2019re expanding Zeteo\u2019s Iran coverage with voices that cut through all of the noise.</p>\n<p>We are proud to have teamed up with the Egab platform so as to be able to bring you voices from freelance journalists working inside of Iran, on the ground, as well as to announce Harrison Mann as Zeteo\u2019s newest contributor.</p>\n<p>Mann isn\u2019t just another pundit parachuting into war commentary. He spent over a decade inside the US military and intelligence system, including at the Defense Intelligence Agency, working directly on Middle East policy. He later made the rare - and consequential - decision to resign from the Biden administration in protest over US policy on Gaza, citing what he described as a profound moral and strategic failure at the highest levels of government.</p>\n<p>Since then, he has emerged as one of the clearest voices on US foreign policy and national security - particularly when it comes to this escalating war with Iran, and is currently the Associate Director for Campaigns and Policy at Win Without War. His writing cuts through official narratives to expose how wars are sold, how intelligence is shaped, and how the public is misled. Check out his viral piece for Zeteo - from earlier this month.</p>\n<p>At Zeteo, he\u2019ll be writing regularly on the war in Iran and the consequences for the wider region, breaking down military strategy, interrogating the claims coming out of Washington and Tel Aviv, and helping readers understand what\u2019s actually happening behind the scenes.</p>\n<p>And, via Egab, we hope to also amplify local Iranian voices and bring you more original reporting from the ground in Iran too.</p>\n<p>Because if there\u2019s one thing we know, truth is the first casualty of every war - and Zeteo is committed to bringing you truth, facts, the real story.</p>\n<p>So, I want to ask again for your support - if you\u2019re a free subscriber, please consider becoming a paid subscriber today.</p>\n<p>And if you\u2019re already a paid subscriber, thank you so much for your immense support. If you\u2019d like to help Zeteo even further, and have the means to do so, you can upgradeto become a Founding member and you can also donate to Zeteo.</p>\n<p>I appreciate you all. Let\u2019s keep fighting the good fight together!</p>\n<p>Best,</p>\n<h3>Mehdi</h3>\n<h3>Founder, CEO and editor-in-chief of Zeteo</h3>",
         "description": "Dear Friends, At a moment when war is being sold and marketed as inevitable and unavoidable - and when much of the mainstream media is falling into familiar patterns of deference, distortion, or outright silence in the face of numerous Israeli and American war crimes, I am pleased to announce that\u2026",
         "guid": "https://zeteo.com/p/he-worked-for-us-intelligence-now"
-      },
-      {
-        "gmail_id": "19d21dd98140f5f0",
-        "title": "The 5 Most Islamophobic Tweets From Republicans Since the Iran War Began",
-        "url": "https://zeteo.com/p/the-5-most-islamophobic-tweets-from",
-        "pub_date": "2026-03-24T21:55:25+00:00",
-        "author": "Zeteo",
-        "post_type": "newsletter",
-        "content": "<p>American wars in the Middle East have always relied on Islamophobic tropes and dehumanization to manufacture consent at home, but the vile, anti-Muslim rhetoric we\u2019re seeing coming from congressional Republicans has reached new levels since Donald Trump launched his illegal war on Iran.</p>\n<p>There are five Republicans in particular who, since the Iran war began, have somehow become even more Islamophobic and vicious than they already were. Democrats and civil rights groups have denounced many of them, but Republicans have largely remained silent.</p>\n<p>Here are five of the most Islamophobic tweets from Republicans since the Iran war began less than a month ago:</p>\n<h3>1. Tennessee Rep. Andy Ogles: \u2018Muslims don\u2019t belong in American society\u2019</h3>\n<p>This March 9 tweet from Rep. Andy Ogles was rightly condemned by Democrats and civil rights groups. Guess who refused to condemn it? House Speaker Mike Johnson.</p>\n<h3>2. Florida Rep. Randy Fine: \u2018We need more Islamophobia\u2019</h3>\n<p>Like Ogles, Rep. Randy Fine has made so many Islamophobic comments in the last three weeks (and his entire congressional career) that it was difficult to choose the worst. But bluntly calling for more Islamophobia, as he did on March 12, certainly meets the bar.</p>\n<h3>3. Texas Rep. Brandon Gill: \u2018Islam is a problem\u2019</h3>\n<p>Rep. Brandon Gill has long been an open racist, so it should come as no surprise that the Texas congressman hasn\u2019t held back in spewing hateful rhetoric toward Muslims as he did in this March 1 tweet, calling an entire faith, practiced by 2 billion people worldwide, including 4.5 million in the US, \u201ca problem\u201d \u2013 while turning \u201cGod is Great\u201d in Arabic into a violent reference.</p>\n<h3>4. Wisconsin Rep. Derrick Van Orden: \u2018Radical Muslim sleeper cells\u2019</h3>\n<p>Then there\u2019s Rep. Derrick Van Orden, who revived an old favorite dog whistle: radical Muslim sleeper cells.</p>\n<h3>5. Texas Rep. Keith Self: \u2018Radical Islam is on the offensive in America\u2019</h3>\n<p>Rep. Keith Self has focused on another one of the favorite go-to tropes for Islamophobes \u2013 creeping Sharia!</p>\n<h3>The Sharia-Free America Caucus and Its Leaders</h3>\n<p>These Republicans, of course, are not the only Islamophobic members of Congress \u2013 they\u2019re just perhaps among the worst.</p>\n<p>The rapidly growing Sharia-Free America Caucus has now reached 59 members who come from 24 states, Self, the group\u2019s co-chair, announced today. This group\u2019s mission is to \u201csave Western Civilization and fight back against the threat of Sharia.\u201d</p>\n<p>At its core, this group is pushing for a Muslim ban. \u201cOur immigration system must be prepared to confront this challenge and defend our Judeo-Christian values,\u201d said Congressman Roy.</p>\n<p>The Council on American-Islamic Relations (CAIR) designated the caucus an anti-Muslim hate group, the first time the civil rights group has made the designation for a caucus in its 32-year history.</p>\n<p>Zeteo\u2019s Ninar Taha contributed to this piece.</p>\n<h3>Check out more from Zeteo:</h3>",
-        "description": "American wars in the Middle East have always relied on Islamophobic tropes and dehumanization to manufacture consent at home, but the vile, anti-Muslim rhetoric we\u2019re seeing coming from congressional Republicans has reached new levels since Donald Trump launched his illegal war on Iran. There are\u2026",
-        "guid": "https://zeteo.com/p/the-5-most-islamophobic-tweets-from"
       }
     ]
   },
@@ -1024,11 +1025,11 @@
   },
   "Original Jurisdiction": {
     "seen_ids": [
-      "19d5ffb5c06a220d",
       "19d3c45a5e71d93c",
-      "19d4aec7e4ddccf4",
+      "19d1a8e36f56b145",
       "19d015d7c7fb65c4",
-      "19d1a8e36f56b145"
+      "19d4aec7e4ddccf4",
+      "19d5ffb5c06a220d"
     ],
     "items": [
       {
@@ -1123,9 +1124,9 @@
   },
   "Scott's Read Later": {
     "seen_ids": [
-      "19d0388645c273fe",
       "19d1ac0b34c0f50f",
-      "19d00e04344cb72f"
+      "19d00e04344cb72f",
+      "19d0388645c273fe"
     ],
     "items": [
       {
