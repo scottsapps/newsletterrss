@@ -167,6 +167,44 @@ def extract_plain_text(msg):
     return ""
 
 
+def extract_html_part(msg):
+    """Walk a MIME message and return the first text/html payload."""
+    if msg.is_multipart():
+        for part in msg.walk():
+            if part.get_content_type() == "text/html":
+                payload = part.get_payload(decode=True)
+                if payload:
+                    return payload.decode("utf-8", errors="replace")
+    else:
+        if msg.get_content_type() == "text/html":
+            payload = msg.get_payload(decode=True)
+            if payload:
+                return payload.decode("utf-8", errors="replace")
+    return ""
+
+
+def html_to_clean_content(raw_html):
+    """Use trafilatura to extract clean HTML content from a raw HTML string.
+
+    Returns cleaned HTML suitable for embedding in an RSS content:encoded field,
+    or empty string if extraction fails.
+    """
+    try:
+        result = trafilatura.extract(
+            raw_html,
+            output_format="html",
+            include_formatting=True,
+            include_links=True,
+            include_images=True,
+            no_fallback=False,
+        )
+        if result:
+            return strip_html_wrappers(result)
+        return ""
+    except Exception:
+        return ""
+
+
 def extract_url_from_list_post(header_value):
     """Extract the URL from a List-Post header like '<https://example.com/p/slug>'."""
     if not header_value:
@@ -325,6 +363,41 @@ def strip_newsletter_intro(text, patterns):
     return "\n".join(lines).strip()
 
 
+def strip_html_wrappers(html):
+    """Strip outer <html>, <head>, and <body> wrappers from extracted HTML.
+
+    Trafilatura sometimes returns a full HTML document; RSS content:encoded
+    should contain only the inner body content.
+    """
+    # Remove doctype, <html>, <head>...</head>, and <body> open/close tags
+    html = re.sub(r"<!DOCTYPE[^>]*>", "", html, flags=re.IGNORECASE)
+    html = re.sub(r"</?html[^>]*>", "", html, flags=re.IGNORECASE)
+    html = re.sub(r"<head[^>]*>.*?</head>", "", html, flags=re.IGNORECASE | re.DOTALL)
+    html = re.sub(r"</?body[^>]*>", "", html, flags=re.IGNORECASE)
+    return html.strip()
+
+
+def _linkify(text):
+    """Convert bare URLs in text to clickable <a> tags.
+
+    Handles both standalone URLs and Substack-style bracketed URLs like
+    [ https://example.com ].
+    """
+    # First, convert bracketed URLs: [ https://... ] → <a href="...">link</a>
+    text = re.sub(
+        r"\[\s*(https?://\S+?)\s*\]",
+        lambda m: f'<a href="{escape(m.group(1))}">{escape(m.group(1))}</a>',
+        text,
+    )
+    # Then, convert remaining bare URLs (not already inside an href)
+    text = re.sub(
+        r'(?<!href=")(https?://\S+)',
+        lambda m: f'<a href="{escape(m.group(1))}">{escape(m.group(1))}</a>',
+        text,
+    )
+    return text
+
+
 def text_to_html(text):
     """Convert cleaned plain text to simple HTML suitable for an RSS reader.
 
@@ -332,39 +405,74 @@ def text_to_html(text):
     - Double-newline boundaries become paragraph breaks.
     - A single-line paragraph that is short and ends without sentence-ending
       punctuation is treated as a section heading (<h3>).
-    - Inline Substack redirect links [ https://... ] are stripped.
+    - Inline URLs (including Substack bracket links) are converted to <a> tags.
+    - Lines starting with "- " or "* " are grouped into <ul> lists.
+    - Lines starting with a number and period are grouped into <ol> lists.
+    - Lines starting with "> " become <blockquote> elements.
     """
-    text = re.sub(r"\s*\[\s*https?://\S+?\s*\]", "", text)
     text = strip_invisible_chars(text)
 
-    # Split on any newline boundary (handles both single-\n newsletters like
-    # Zeteo and double-\n newsletters like Substack — empty lines are filtered).
     raw_lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
     html_parts = []
+    i = 0
 
-    for para in raw_lines:
-        para = strip_invisible_chars(para).strip()
-        if not para:
+    while i < len(raw_lines):
+        line = strip_invisible_chars(raw_lines[i]).strip()
+        if not line:
+            i += 1
             continue
 
-        joined = para
-
-        if re.match(r"^https?://\S+$", joined):
+        # Blockquote: lines starting with "> "
+        if line.startswith("> "):
+            quote_lines = []
+            while i < len(raw_lines) and raw_lines[i].strip().startswith("> "):
+                quote_lines.append(escape(raw_lines[i].strip()[2:]))
+                i += 1
+            html_parts.append(f"<blockquote><p>{'<br>'.join(quote_lines)}</p></blockquote>")
             continue
 
+        # Unordered list: lines starting with "- " or "* "
+        if re.match(r"^[-*]\s+", line):
+            list_items = []
+            while i < len(raw_lines) and re.match(r"^[-*]\s+", raw_lines[i].strip()):
+                item_text = re.sub(r"^[-*]\s+", "", raw_lines[i].strip())
+                list_items.append(f"  <li>{_linkify(escape(item_text))}</li>")
+                i += 1
+            html_parts.append("<ul>\n" + "\n".join(list_items) + "\n</ul>")
+            continue
+
+        # Ordered list: lines starting with "1. ", "2. ", etc.
+        if re.match(r"^\d+\.\s+", line):
+            list_items = []
+            while i < len(raw_lines) and re.match(r"^\d+\.\s+", raw_lines[i].strip()):
+                item_text = re.sub(r"^\d+\.\s+", "", raw_lines[i].strip())
+                list_items.append(f"  <li>{_linkify(escape(item_text))}</li>")
+                i += 1
+            html_parts.append("<ol>\n" + "\n".join(list_items) + "\n</ol>")
+            continue
+
+        # Standalone URL → clickable link paragraph
+        if re.match(r"^https?://\S+$", line):
+            html_parts.append(f'<p><a href="{escape(line)}">{escape(line)}</a></p>')
+            i += 1
+            continue
+
+        # Heading detection
         is_heading = (
-            len(joined) < 80
-            and not joined.lower().startswith("http")
+            len(line) < 80
+            and not line.lower().startswith("http")
             and (
-                joined[-1] not in ".!?,"   # short line, no sentence-final punct
-                or ":" in joined            # OR label-colon format: "Section: Content."
+                line[-1] not in ".!?,"
+                or ":" in line
             )
         )
 
         if is_heading:
-            html_parts.append(f"<h3>{escape(joined)}</h3>")
+            html_parts.append(f"<h3>{escape(line)}</h3>")
         else:
-            html_parts.append(f"<p>{escape(joined)}</p>")
+            html_parts.append(f"<p>{_linkify(escape(line))}</p>")
+
+        i += 1
 
     return "\n".join(html_parts)
 
@@ -451,11 +559,22 @@ def parse_message(service, msg_id, feed_cfg):
     plain_text = extract_plain_text(msg)
     url = extract_article_url(msg, plain_text)
     post_type = extract_post_type(msg)
-    clean_text = strip_header_footer(plain_text)
-    clean_text = strip_newsletter_intro(
-        clean_text, feed_cfg.get("strip_intro_containing", [])
-    )
-    html_content = text_to_html(clean_text)
+
+    # Try HTML first — it preserves inline images and blockquote formatting.
+    # Fall back to plain-text conversion only if HTML extraction yields nothing.
+    raw_html = extract_html_part(msg)
+    html_content = ""
+    if raw_html:
+        html_content = html_to_clean_content(raw_html)
+        if not url:
+            url = extract_article_url(msg, raw_html)
+
+    if not html_content and plain_text.strip():
+        clean_text = strip_header_footer(plain_text)
+        clean_text = strip_newsletter_intro(
+            clean_text, feed_cfg.get("strip_intro_containing", [])
+        )
+        html_content = text_to_html(clean_text)
     description = make_description(html_content)
     guid = url if url else f"gmail:{msg.get('Message-Id', msg_id)}"
 
@@ -561,13 +680,15 @@ def fetch_article(url):
         if not downloaded:
             return None, None, None
 
-        html_content = trafilatura.extract(
+        raw_content = trafilatura.extract(
             downloaded,
             output_format="html",
             include_formatting=True,
-            include_links=False,
+            include_links=True,
+            include_images=True,
             no_fallback=False,
         )
+        html_content = strip_html_wrappers(raw_content) if raw_content else None
 
         title = None
         author = None
