@@ -197,13 +197,13 @@ def html_to_clean_content(raw_html):
             include_links=True,
             include_images=True,
             no_fallback=False,
+            favor_recall=True,          # keep link-heavy paragraphs
         )
         if result:
             return strip_html_wrappers(result)
         return ""
     except Exception:
         return ""
-
 
 def extract_url_from_list_post(header_value):
     """Extract the URL from a List-Post header like '<https://example.com/p/slug>'."""
