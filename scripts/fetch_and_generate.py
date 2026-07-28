@@ -182,7 +182,6 @@ def extract_html_part(msg):
                 return payload.decode("utf-8", errors="replace")
     return ""
 
-
 def html_to_clean_content(raw_html):
     """Use trafilatura to extract clean HTML content from a raw HTML string.
 
@@ -610,11 +609,16 @@ def process_feed(service, feed_cfg, feeds_dir, repo_base_url, state, mark_read=F
     seen_ids = feed_state.get("seen_ids", [])
     existing_items = feed_state.get("items", [])
 
-    # Collect new IDs across all senders
+    # Collect new IDs across all senders. Gmail's from: search tokenizes on
+    # non-alphanumeric chars, so e.g. "from:zeteo@substack.com" also matches
+    # messages actually sent from "zeteo+first-draft@substack.com" — track
+    # ids collected so far this run so such a message isn't queued twice.
     all_new_ids = []
+    seen_so_far = set(seen_ids)
     for sender in senders:
-        new_ids = fetch_new_message_ids(service, sender, seen_ids, feed_cfg["max_items"])
+        new_ids = fetch_new_message_ids(service, sender, seen_so_far, feed_cfg["max_items"])
         all_new_ids.extend(new_ids)
+        seen_so_far.update(new_ids)
     print(f"New messages: {len(all_new_ids)}  |  Previously seen: {len(seen_ids)}")
 
     # Fetch and parse only the new ones, applying subject filters
@@ -720,9 +724,11 @@ def process_read_later_feed(service, feed_cfg, feeds_dir, repo_base_url, state,
     existing_items = feed_state.get("items", [])
 
     all_new_ids = []
+    seen_so_far = set(seen_ids)
     for sender in senders:
-        new_ids = fetch_new_message_ids(service, sender, seen_ids, feed_cfg["max_items"])
+        new_ids = fetch_new_message_ids(service, sender, seen_so_far, feed_cfg["max_items"])
         all_new_ids.extend(new_ids)
+        seen_so_far.update(new_ids)
     print(f"New messages: {len(all_new_ids)}  |  Previously seen: {len(seen_ids)}")
 
     new_items = []
